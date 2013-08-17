@@ -1,0 +1,4 @@
+<meta>
+	<script src="bankomaty_c.lua" type="client" />
+	<script src="bankomaty.lua" type="server" />
+</meta>

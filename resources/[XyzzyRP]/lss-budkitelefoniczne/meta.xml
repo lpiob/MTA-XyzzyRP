@@ -1,0 +1,5 @@
+<meta>
+	<script src="budki_c.lua" type="client" />
+	<script src="budki.lua" type="server" />
+	<file src="audio/tp-ring.ogg" type="client" />
+</meta>

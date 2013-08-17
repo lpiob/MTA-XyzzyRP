@@ -1,0 +1,10 @@
+<meta>
+	<script src="utils.lua" type="client" />
+	<script src="utils.lua" type="server" />
+	<export function="pojazdMaBagaznik" type="client" />
+	<export function="pojazdMaBagaznik" type="server" />
+
+	<script src="bagazniki.lua" type="server" />
+	<script src="bagazniki_c.lua" type="client" />
+	<export function="menu_bagaznik" type="client" />
+</meta>
