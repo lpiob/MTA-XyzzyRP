@@ -1,0 +1,8 @@
+<meta>
+	<!--map src="Obskorne_uliczki.map" /
+	<map src="Zabudowane_miejsce_1.map" />-->
+	<map src="Zabudowane_miejsce_2.map" />
+	<map src="Zabudowane_miejsce_3.map" />	
+	
+	<sync_map_element_data>false</sync_map_element_data>
+</meta>

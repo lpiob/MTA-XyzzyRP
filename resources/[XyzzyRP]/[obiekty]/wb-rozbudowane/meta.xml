@@ -1,0 +1,14 @@
+<meta>
+	<map src="Rozbudowana_reszta.map" />
+	<map src="Ronda.map" />
+	<map src="Przejscia_dla_pieszych.map" />
+	
+	<map src="Deptak.map" />
+	<!--<script src="Remonty_drog.lua" type="client" />
+	
+	<script src="pedy.lua" type="client" />-->
+    <map src="Dok.map" />
+	
+	<!--<map src="Choinka.map" />-->	
+    <sync_map_element_data>false</sync_map_element_data>
+</meta>

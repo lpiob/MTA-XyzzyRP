@@ -1,0 +1,5 @@
+<meta>
+	<map src="Na_zewnatrz.map" />	
+	<map src="dzwig.map" />	
+	<script src="dzwig.lua" type="server" />
+</meta>

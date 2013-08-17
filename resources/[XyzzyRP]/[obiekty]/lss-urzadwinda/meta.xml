@@ -1,0 +1,5 @@
+<meta>
+    <script src="winda.lua" type="server" />
+  <script src="panel1_c.lua" type="client" />
+  <script src="panel2_c.lua" type="client" />
+</meta>

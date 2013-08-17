@@ -1,0 +1,4 @@
+<meta>
+  <script src="przechowalnia.lua" type="server" />
+  <script src="przechowalnia_c.lua" type="client" />
+</meta>

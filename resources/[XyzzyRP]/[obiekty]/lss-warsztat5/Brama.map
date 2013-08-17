@@ -1,0 +1,4 @@
+<map edf:definitions="editor_main">
+    <object id="object (gate_autoL) (2)" doublesided="true" model="986" interior="0" dimension="0" posX="122.59523010254" posY="-158.82177734375" posZ="2.3273661136627" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (gate_autoR) (2)" doublesided="true" model="985" interior="0" dimension="0" posX="122.59523010254" posY="-166.80458068848" posZ="2.3273661136627" rotX="0" rotY="0" rotZ="270"></object>
+</map>

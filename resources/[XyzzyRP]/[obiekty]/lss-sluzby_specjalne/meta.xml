@@ -1,0 +1,23 @@
+<meta>
+	<script src="brama.lua" type="server" />
+	<export function="menu_brama1" type="client" />
+	<script src="brama_c.lua" type="client" />
+	<script src="brama2.lua" type="server" />
+	<export function="menu_brama4" type="client" />
+	<script src="brama2_c.lua" type="client" />
+	
+	<script src="drzwi_b.lua" type="server" />
+	<export function="menu_brama2" type="client" />
+	<script src="drzwi_c.lua" type="client" />	
+	
+	<map src="Sluzby_specjalne-ruchome.map" />
+	<script src="rozsuwane_drzwi.lua" type="server" />
+	
+    <script src="dyrektor_b.lua" type="server" />
+    <export function="menu_drzwi" type="client" />
+    <script src="dyrektor_c.lua" type="client" />
+	
+	<script src="cela_b.lua" type="server" />
+	<export function="menu_brama3" type="client" />
+	<script src="cela_c.lua" type="client" />
+</meta>

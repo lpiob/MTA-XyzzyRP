@@ -1,0 +1,17 @@
+<meta>
+    <script src="stadion_b.lua" type="server" />
+    <export function="menu_drzwi" type="client" />
+    <script src="stadion_c.lua" type="client" />
+	
+    <script src="stadion2_b.lua" type="server" />
+    <export function="menu_drzwi2" type="client" />
+    <script src="stadion2_c.lua" type="client" />
+	
+    <script src="stadion3a_b.lua" type="server" />
+    <export function="menu_drzwi3" type="client" />
+    <script src="stadion3a_c.lua" type="client" />
+	
+    <script src="stadion3b_b.lua" type="server" />
+    <export function="menu_drzwi4" type="client" />
+    <script src="stadion3b_c.lua" type="client" />
+</meta>

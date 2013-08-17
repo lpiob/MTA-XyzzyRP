@@ -1,0 +1,11 @@
+<map edf:definitions="editor_main">
+
+<!-- sad -->
+
+    <object id="sad_1" doublesided="true" model="2946" interior="1" dimension="21" posX="1383.544921875" posY="-1089.662109375" posZ="1440.5960693359" rotX="0" rotY="0" rotZ="180"
+			animtime="1800" pos2X="1383.5267333984" pos2Y="-1088.4464111328" pos2Z="1440.5960693359"></object>
+			
+    <object id="sad_2" doublesided="true" model="2946" interior="1" dimension="21" posX="1383.5302734375" posY="-1092.8486328125" posZ="1440.5960693359" rotX="0" rotY="0" rotZ="0"
+			animtime="1800" pos2X="1383.51953125" pos2Y="-1094.12890625" pos2Z="1440.5960693359"></object>	
+			
+</map>

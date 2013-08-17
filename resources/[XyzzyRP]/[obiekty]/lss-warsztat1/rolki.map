@@ -1,0 +1,11 @@
+<map edf:definitions="editor_main">
+<!-- bylo 3440 -->
+    <object id="rolka1" doublesided="false" model="3499" interior="0" dimension="0" posX="1863.9221191406" posY="-1772.5013427734" posZ="12.608707427979" rotX="90" rotY="0" rotZ="90"
+			rotX_1="0" rotY_1="0" rotZ_1="-50"
+			rotX_2="0" rotY_2="0" rotZ_2="-50"
+			rotX_3="0" rotY_3="0" rotZ_3="-50"
+			rotX_4="0" rotY_4="0" rotZ_4="-50"
+			rotX_5="0" rotY_5="0" rotZ_5="-50"
+			rotX_6="0" rotY_6="0" rotZ_6="-50"				
+		></object>
+</map>

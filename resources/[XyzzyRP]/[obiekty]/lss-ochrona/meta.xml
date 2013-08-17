@@ -1,0 +1,15 @@
+<meta>
+    <script src="ochrona.lua" type="server" />
+    <export function="menu_ochrona" type="client" />
+    <script src="ochrona_c.lua" type="client" />
+	
+    <script src="drzwi_b.lua" type="server" />
+    <export function="menu_brama" type="client" />
+    <script src="drzwi_c.lua" type="client" />
+
+    <script src="dyrektor_b.lua" type="server" />
+    <export function="menu_drzwi" type="client" />
+    <script src="dyrektor_c.lua" type="client" />
+	
+	<script src="texty.lua" type="server" />
+</meta>

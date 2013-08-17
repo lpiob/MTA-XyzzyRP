@@ -1,0 +1,22 @@
+<map edf:definitions="editor_main">
+    <object id="object (sweetsmain) (1)" doublesided="true" model="14526" interior="2" dimension="9" posX="96.693359375" posY="-151.709960938" posZ="2042.00191879" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (Gen_wardrobe) (3)" doublesided="true" model="1567" interior="2" dimension="9" posX="94.6365890503" posY="-152.863937378" posZ="2040.11426544" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (lasdkrt4) (2)" doublesided="true" model="3572" interior="2" dimension="9" posX="95.4205093384" posY="-156.912948608" posZ="2041.4969101" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (lasdkrt4) (3)" doublesided="true" model="3572" interior="2" dimension="9" posX="95.4152297974" posY="-156.923324585" posZ="2043.86516953" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (Frame_Clip_4) (1)" doublesided="true" model="2257" interior="2" dimension="9" posX="104.01159668" posY="-147.307266235" posZ="2042.43928528" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (Frame_Clip_4) (2)" doublesided="true" model="2257" interior="2" dimension="9" posX="103.998153687" posY="-149.299072266" posZ="2042.43928528" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (Frame_Clip_4) (3)" doublesided="true" model="2257" interior="2" dimension="9" posX="104.00151825" posY="-151.255050659" posZ="2042.43928528" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (kb_couch04) (1)" doublesided="true" model="1713" interior="2" dimension="9" posX="102.228713989" posY="-151.640014648" posZ="2040.14896774" rotX="0" rotY="0" rotZ="180"></object>
+    <object id="object (lasdkrt4) (4)" doublesided="true" model="3572" interior="2" dimension="9" posX="102.928092957" posY="-153.456466675" posZ="2041.4969101" rotX="0" rotY="0" rotZ="180"></object>
+    <object id="object (lasdkrt4) (5)" doublesided="true" model="3572" interior="2" dimension="9" posX="101.312026978" posY="-151.756942749" posZ="2038.83600616" rotX="270" rotY="180" rotZ="0"></object>
+    <object id="object (CJ_DF_WORKTOP_2) (1)" doublesided="true" model="936" interior="2" dimension="9" posX="95.4816741943" posY="-146.9740448" posZ="2040.62368011" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (DYN_CUPBOARD) (1)" doublesided="true" model="1417" interior="2" dimension="9" posX="97.1611785889" posY="-146.861602783" posZ="2040.14896774" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (CJ_M_FILEING2) (1)" doublesided="true" model="2066" interior="2" dimension="9" posX="103.449333191" posY="-149.496582031" posZ="2040.14896774" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (Frame_Clip_4) (4)" doublesided="true" model="2257" interior="2" dimension="9" posX="101.51171875" posY="-152.124023438" posZ="2042.04694366" rotX="0" rotY="0" rotZ="179.994506836"></object>
+    <object id="object (MED_OFFICE6_DESK_1) (1)" doublesided="true" model="2185" interior="2" dimension="9" posX="100.776611328" posY="-148.807495117" posZ="2040.14896774" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (mrk_seating1b) (1)" doublesided="true" model="1724" interior="2" dimension="9" posX="101.009521484" posY="-147.068481445" posZ="2040.14896774" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (PHOTOCOPIER_1) (1)" doublesided="true" model="2186" interior="2" dimension="9" posX="103.393409729" posY="-147.554870605" posZ="2040.14896774" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (FAN_1) (1)" doublesided="true" model="2192" interior="2" dimension="9" posX="101.387634277" posY="-148.943618774" posZ="2040.95611191" rotX="0" rotY="0" rotZ="325.25"></object>
+    <object id="object (CJ_SHOWER4) (1)" doublesided="true" model="2527" interior="2" dimension="9" posX="92.2771987915" posY="-151.397888184" posZ="2040.14896774" rotX="0" rotY="0" rotZ="180"></object>
+    <object id="object (POLICE_NB_car) (1)" doublesided="true" model="2737" interior="2" dimension="9" posX="98.8978652954" posY="-146.599349976" posZ="2041.78193283" rotX="0" rotY="0" rotZ="0"></object>
+</map>

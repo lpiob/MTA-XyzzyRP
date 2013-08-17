@@ -1,0 +1,14 @@
+<map edf:definitions="editor_main">
+    <object id="object (Gen_doorEXT12) (1)" doublesided="false" model="1533" interior="0" dimension="0" posX="243.51808166504" posY="-178.41049194336" posZ="0.5296875" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (Gen_doorEXT12) (2)" doublesided="false" model="1533" interior="0" dimension="0" posX="243.51586914063" posY="-176.91638183594" posZ="0.5296875" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (cn2_savgardr2_) (1)" doublesided="false" model="16501" interior="0" dimension="0" posX="242.8208770752" posY="-171.2113494873" posZ="6.7942838668823" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (cn2_savgardr2_) (2)" doublesided="false" model="16501" interior="0" dimension="0" posX="242.83374023438" posY="-177.97006225586" posZ="6.7942838668823" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (cn2_savgardr2_) (3)" doublesided="false" model="16501" interior="0" dimension="0" posX="242.84201049805" posY="-182.47424316406" posZ="6.7942838668823" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (cn2_savgardr2_) (4)" doublesided="false" model="16501" interior="0" dimension="0" posX="242.66134643555" posY="-182.47439575195" posZ="6.7942838668823" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (cn2_savgardr2_) (5)" doublesided="false" model="16501" interior="0" dimension="0" posX="242.6784362793" posY="-175.93949890137" posZ="6.7942838668823" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (cn2_savgardr2_) (6)" doublesided="false" model="16501" interior="0" dimension="0" posX="242.69033813477" posY="-171.21131896973" posZ="6.7942838668823" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (lasdkrt2) (1)" doublesided="false" model="3570" interior="0" dimension="0" posX="247.60369873047" posY="-177.72703552246" posZ="1.7010653018951" rotX="0" rotY="0" rotZ="180"></object>
+    <object id="object (lasdkrt2) (2)" doublesided="false" model="3570" interior="0" dimension="0" posX="247.60774230957" posY="-179.15132141113" posZ="1.7010653018951" rotX="0" rotY="0" rotZ="179.99450683594"></object>
+    <object id="object (lasdkrt2) (3)" doublesided="false" model="3570" interior="0" dimension="0" posX="247.62707519531" posY="-179.1506652832" posZ="3.2010662555695" rotX="0" rotY="0" rotZ="179.99450683594"></object>
+    <object id="object (lasdkrt2) (4)" doublesided="false" model="3570" interior="0" dimension="0" posX="247.6457824707" posY="-177.80172729492" posZ="3.2010662555695" rotX="0" rotY="0" rotZ="179.99450683594"></object>
+</map>

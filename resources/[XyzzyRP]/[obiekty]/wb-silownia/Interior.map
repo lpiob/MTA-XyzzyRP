@@ -1,0 +1,82 @@
+<map edf:definitions="editor_main">
+    <object id="object (vgsbldng01_lvs) (1)" doublesided="false" model="8419" interior="1" dimension="24" posX="2426.45800781" posY="-1671.64550781" posZ="1396.95841217" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (vgncarpark1) (1)" doublesided="false" model="7488" interior="1" dimension="24" posX="2371.93945312" posY="-1693.125" posZ="1400.38180542" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (vgncarpark1) (3)" doublesided="false" model="7488" interior="1" dimension="24" posX="2432.4576416" posY="-1645.98065186" posZ="1400.38180542" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (vgncarpark1) (4)" doublesided="false" model="7488" interior="1" dimension="24" posX="2474.21264648" posY="-1674.5690918" posZ="1400.38180542" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (vgncarpark1) (5)" doublesided="false" model="7488" interior="1" dimension="24" posX="2434.5201416" posY="-1718.1072998" posZ="1400.38180542" rotX="0" rotY="0" rotZ="179.994506836"></object>
+    <object id="object (mallcarpark_vgn01) (1)" doublesided="false" model="7419" interior="1" dimension="24" posX="2390.94726562" posY="-1677.9609375" posZ="1458.89945984" rotX="0" rotY="90" rotZ="0"></object>
+    <object id="object (mallcarpark_vgn01) (2)" doublesided="false" model="7419" interior="1" dimension="24" posX="2408.11425781" posY="-1675.42871094" posZ="1458.90106201" rotX="0" rotY="90" rotZ="0"></object>
+    <object id="object (mallcarpark_vgn01) (3)" doublesided="false" model="7419" interior="1" dimension="24" posX="2425.16601562" posY="-1677.51074219" posZ="1458.89945984" rotX="0" rotY="90" rotZ="0"></object>
+    <object id="object (vgwestbillbrd04) (1)" doublesided="false" model="7903" interior="1" dimension="24" posX="2454.07067871" posY="-1682.35491943" posZ="1413.24454498" rotX="0" rotY="0" rotZ="112.494506836"></object>
+    <object id="object (Gen_doorEXT19) (1)" doublesided="false" model="1557" interior="1" dimension="24" posX="2422.34887695" posY="-1692.25750732" posZ="1408.66671753" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (vgwestbillbrd04) (2)" doublesided="false" model="7903" interior="1" dimension="24" posX="2392.11340332" posY="-1681.63482666" posZ="1413.24254608" rotX="0" rotY="0" rotZ="292.483520508"></object>
+    <object id="object (circuslampost03) (1)" doublesided="false" model="3472" interior="1" dimension="24" posX="2430.86962891" posY="-1676.22851562" posZ="1425.31043243" rotX="0" rotY="179.994506836" rotZ="263.99597168"></object>
+    <object id="object (circuslampost03) (2)" doublesided="false" model="3472" interior="1" dimension="24" posX="2430.86962891" posY="-1686.5324707" posZ="1425.31043243" rotX="0" rotY="179.994506836" rotZ="144.491455078"></object>
+    <object id="object (circuslampost03) (3)" doublesided="false" model="3472" interior="1" dimension="24" posX="2417.21765137" posY="-1676.22851562" posZ="1425.31043243" rotX="0" rotY="179.994506836" rotZ="147.987915039"></object>
+    <object id="object (circuslampost03) (4)" doublesided="false" model="3472" interior="1" dimension="24" posX="2417.21765137" posY="-1686.5324707" posZ="1425.31043243" rotX="0" rotY="179.994506836" rotZ="66.2365722656"></object>
+    <object id="object (circuslampost03) (5)" doublesided="false" model="3472" interior="1" dimension="24" posX="2405.67480469" posY="-1686.5324707" posZ="1425.31043243" rotX="0" rotY="179.994506836" rotZ="275.979980469"></object>
+    <object id="object (circuslampost03) (6)" doublesided="false" model="3472" interior="1" dimension="24" posX="2405.67480469" posY="-1676.22851562" posZ="1425.31043243" rotX="0" rotY="179.994506836" rotZ="277.229003906"></object>
+    <object id="object (paperchase_stairs) (1)" doublesided="false" model="14596" interior="1" dimension="24" posX="2413.92822266" posY="-1767.42700195" posZ="1413.63130188" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (Gen_doorEXT19) (1)" doublesided="false" model="1557" interior="1" dimension="24" posX="2416.89794922" posY="-1762.15576172" posZ="1408.66671753" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (cuntgirldoor) (1)" doublesided="false" model="3093" interior="1" dimension="24" posX="2417.64526367" posY="-1762.09606934" posZ="1410.13891602" rotX="90" rotY="0" rotZ="90"></object>
+    <object id="object (a51_jetdoor) (1)" doublesided="false" model="3095" interior="1" dimension="24" posX="2416.69824219" posY="-1766.46936035" posZ="1409.7213974" rotX="90" rotY="0" rotZ="0"></object>
+    <object id="object (kmb_crash3door) (1)" doublesided="false" model="2924" interior="1" dimension="24" posX="2414.07946777" posY="-1773.33612061" posZ="1415.73116302" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (kmb_crash3door) (2)" doublesided="false" model="2924" interior="1" dimension="24" posX="2414.09912109" posY="-1770.5569458" posZ="1415.73116302" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (lasdkrt2) (1)" doublesided="false" model="3570" interior="1" dimension="24" posX="2415.44104004" posY="-1770.66253662" posZ="1416.30309296" rotX="0" rotY="270" rotZ="0"></object>
+    <object id="object (lasdkrt2) (2)" doublesided="false" model="3570" interior="1" dimension="24" posX="2415.44055176" posY="-1773.24334717" posZ="1416.30309296" rotX="0" rotY="270" rotZ="0"></object>
+    <object id="object (int3int_boxing30) (1)" doublesided="false" model="14782" interior="1" dimension="24" posX="2430.85766602" posY="-1690.84698486" posZ="1409.70101929" rotX="0" rotY="0" rotZ="180"></object>
+    <object id="object (in_bxing05) (1)" doublesided="false" model="14781" interior="1" dimension="24" posX="2418.75805664" posY="-1682.46575928" posZ="1409.77037048" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (ab_sfGymBits02a) (1)" doublesided="false" model="14787" interior="1" dimension="24" posX="2406.18310547" posY="-1675.83068848" posZ="1408.69764709" rotX="0" rotY="0" rotZ="0"></object>
+<!--    <object id="object (kmb_bpress) (1)" doublesided="false" model="2913" interior="1" dimension="24" posX="2433.8371582" posY="-1687.65570068" posZ="1409.63463593" rotX="0" rotY="270" rotZ="0"></object>-->
+    <object id="object (punchbagnu) (1)" doublesided="true" model="1985" interior="1" dimension="24" posX="2427.68676758" posY="-1680.03533936" posZ="1411.34416962" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (kmb_dumbbell) (1)" doublesided="false" model="2916" interior="1" dimension="24" posX="2438.53674316" posY="-1687.49395752" posZ="1408.89497375" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (gym_bike) (1)" doublesided="false" model="2630" interior="1" dimension="24" posX="2445.79528809" posY="-1675.96557617" posZ="1408.76872253" rotX="0" rotY="0" rotZ="180"></object>
+    <object id="object (gym_bench2) (1)" doublesided="false" model="2628" interior="1" dimension="24" posX="2441.22460938" posY="-1676.2880249" posZ="1408.75849152" rotX="0" rotY="0" rotZ="0"></object>
+    <!--
+
+    <object id="object (gym_bench1) (1)" doublesided="false" model="2629" interior="1" dimension="24" posX="2435.80615234" posY="-1688.25109863" posZ="1408.77599335" rotX="0" rotY="0" rotZ="0"></object>
+    -->
+    <object id="object (gym_mat1) (1)" doublesided="false" model="2631" interior="1" dimension="24" posX="2441.24133301" posY="-1676.09954834" posZ="1408.72634888" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (gym_mat02) (1)" doublesided="false" model="2632" interior="1" dimension="24" posX="2443.37792969" posY="-1689.25750732" posZ="1408.73130035" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (ab_sfGymBeams1) (1)" doublesided="true" model="14786" interior="1" dimension="24" posX="2408.19250488" posY="-1682.02862549" posZ="1412.6566925" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (ab_sfGymBeams1) (2)" doublesided="true" model="14786" interior="1" dimension="24" posX="2437.90307617" posY="-1682.07702637" posZ="1412.6566925" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (sub_roadright) (3)" doublesided="false" model="978" interior="1" dimension="24" posX="2408.67126465" posY="-1688.04925537" posZ="1408.44609833" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (sub_roadright) (4)" doublesided="false" model="978" interior="1" dimension="24" posX="2406.09570312" posY="-1688.04229736" posZ="1408.44609833" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (sub_roadright) (5)" doublesided="false" model="978" interior="1" dimension="24" posX="2401.45153809" posY="-1683.33563232" posZ="1408.44609833" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (sub_roadright) (6)" doublesided="false" model="978" interior="1" dimension="24" posX="2406.13867188" posY="-1676.16467285" posZ="1408.44609833" rotX="0" rotY="0" rotZ="180"></object>
+    <object id="object (sub_roadright) (7)" doublesided="false" model="978" interior="1" dimension="24" posX="2408.62133789" posY="-1676.17254639" posZ="1408.44609833" rotX="0" rotY="0" rotZ="179.994506836"></object>
+    <object id="object (sub_roadright) (8)" doublesided="false" model="978" interior="1" dimension="24" posX="2401.45800781" posY="-1680.78356934" posZ="1408.44609833" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (sub_roadright) (9)" doublesided="false" model="978" interior="1" dimension="24" posX="2413.29492188" posY="-1680.85992432" posZ="1408.44609833" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (sub_roadright) (10)" doublesided="false" model="978" interior="1" dimension="24" posX="2413.2902832" posY="-1683.35009766" posZ="1408.44609833" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (sub_roadright) (11)" doublesided="false" model="978" interior="1" dimension="24" posX="2413.29003906" posY="-1683.34960938" posZ="1408.44609833" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (sub_roadright) (12)" doublesided="false" model="978" interior="1" dimension="24" posX="2413.29492188" posY="-1680.859375" posZ="1408.44609833" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (sub_roadright) (13)" doublesided="false" model="978" interior="1" dimension="24" posX="2408.62109375" posY="-1676.171875" posZ="1408.44609833" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (sub_roadright) (14)" doublesided="false" model="978" interior="1" dimension="24" posX="2406.13867188" posY="-1676.1640625" posZ="1408.44609833" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (sub_roadright) (15)" doublesided="false" model="978" interior="1" dimension="24" posX="2401.45800781" posY="-1680.78320312" posZ="1408.44609833" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (sub_roadright) (16)" doublesided="false" model="978" interior="1" dimension="24" posX="2401.45117188" posY="-1683.33496094" posZ="1408.44609833" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (sub_roadright) (17)" doublesided="false" model="978" interior="1" dimension="24" posX="2406.09570312" posY="-1688.04199219" posZ="1408.44609833" rotX="0" rotY="0" rotZ="180"></object>
+    <object id="object (sub_roadright) (18)" doublesided="false" model="978" interior="1" dimension="24" posX="2408.67089844" posY="-1688.04882812" posZ="1408.44609833" rotX="0" rotY="0" rotZ="180"></object>
+    <object id="object (lasdkrt4) (1)" doublesided="false" model="3572" interior="1" dimension="24" posX="2422.16833496" posY="-1682.06408691" posZ="1405.56021881" rotX="0" rotY="90" rotZ="0"></object>
+    <object id="object (lasdkrt4) (2)" doublesided="false" model="3572" interior="1" dimension="24" posX="2416.14709473" posY="-1681.98083496" posZ="1405.56021881" rotX="0" rotY="90" rotZ="180"></object>
+    <object id="object (int3int_boxing30) (1)" doublesided="false" model="14782" interior="1" dimension="24" posX="2415.38879395" posY="-1690.78143311" posZ="1409.70101929" rotX="0" rotY="0" rotZ="179.994506836"></object>
+    <object id="object (gym_mat02) (2)" doublesided="false" model="2632" interior="1" dimension="24" posX="2443.39172363" posY="-1686.42071533" posZ="1408.73130035" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (kmb_container_red) (1)" doublesided="false" model="2934" interior="1" dimension="24" posX="2430.99084473" posY="-1673.11029053" posZ="1408.25365448" rotX="90" rotY="0" rotZ="0"></object>
+    <object id="object (gym_mat1) (3)" doublesided="false" model="2631" interior="1" dimension="24" posX="2445.81359863" posY="-1675.98553467" posZ="1408.72634888" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (gym_mat02) (3)" doublesided="false" model="2632" interior="1" dimension="24" posX="2435.81665039" posY="-1688.24926758" posZ="1408.73130035" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (gym_mat02) (4)" doublesided="false" model="2632" interior="1" dimension="24" posX="2433.38342285" posY="-1688.19049072" posZ="1408.73130035" rotX="0" rotY="0" rotZ="270"></object>
+<!--    
+    <object id="object (gym_bench1) (2)" doublesided="false" model="2629" interior="1" dimension="24" posX="2433.36816406" posY="-1688.19256592" posZ="1408.77599335" rotX="0" rotY="0" rotZ="0"></object>
+
+    <object id="object (kmb_bpress) (1)" doublesided="false" model="2913" interior="1" dimension="24" posX="2436.27575684" posY="-1687.70965576" posZ="1409.63463593" rotX="0" rotY="270" rotZ="0"></object>
+        -->
+    <object id="object (SWANK_COUCH_2) (1)" doublesided="false" model="1761" interior="1" dimension="24" posX="2414.97753906" posY="-1675.63635254" posZ="1408.68002319" rotX="0" rotY="0" rotZ="28.5"></object>
+    <object id="object (SWANK_COUCH_2) (2)" doublesided="false" model="1761" interior="1" dimension="24" posX="2418.03686523" posY="-1674.45361328" posZ="1408.68002319" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (SWANK_COUCH_2) (3)" doublesided="false" model="1761" interior="1" dimension="24" posX="2421.45800781" posY="-1674.6907959" posZ="1408.68002319" rotX="0" rotY="0" rotZ="332.994873047"></object>
+    <object id="object (gym_bike) (2)" doublesided="false" model="2630" interior="1" dimension="24" posX="2445.77844238" posY="-1681.05383301" posZ="1408.76872253" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (gym_mat1) (4)" doublesided="false" model="2631" interior="1" dimension="24" posX="2445.81274414" posY="-1681.13262939" posZ="1408.72634888" rotX="0" rotY="0" rotZ="180"></object>
+    <object id="object (gym_mat02) (5)" doublesided="false" model="2632" interior="1" dimension="24" posX="2438.24682617" posY="-1688.19714355" posZ="1408.73130035" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (kmb_dumbbell) (1)" doublesided="false" model="2916" interior="1" dimension="24" posX="2437.75292969" posY="-1687.48376465" posZ="1408.89497375" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (wdpillar01_lvs) (1)" doublesided="false" model="3498" interior="1" dimension="24" posX="2429.8515625" posY="-1679.99707031" posZ="1406.88602448" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (cn2_savgardr1_) (1)" doublesided="false" model="16500" interior="1" dimension="24" posX="2429.87670898" posY="-1679.93859863" posZ="1411.38044739" rotX="0" rotY="90" rotZ="90"></object>
+    <object id="object (punchbagnu) (1)" doublesided="true" model="1985" interior="1" dimension="24" posX="2431.85620117" posY="-1679.94458008" posZ="1411.34416962" rotX="0" rotY="0" rotZ="0"></object>
+</map>

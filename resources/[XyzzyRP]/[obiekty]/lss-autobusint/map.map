@@ -1,0 +1,82 @@
+<map edf:definitions="editor_main">
+	<meta>
+		<info author='convertFFS.com' version='1.0' name='convertFFS map file' description='Converted by convertFFS' type='map' />
+	</meta>
+	<object id="convertFFS (0)" model="2631" posX="2022.0000000" posY="2236.7000000" posZ="2102.9000000" rotX="0.0000000" rotY="0.0000000" rotZ="90.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (1)" model="2631" posX="2022.0000000" posY="2240.6000000" posZ="2102.9000000" rotX="0.0000000" rotY="0.0000000" rotZ="90.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (2)" model="2631" posX="2022.0000000" posY="2244.5000000" posZ="2102.9000000" rotX="0.0000000" rotY="0.0000000" rotZ="90.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (3)" model="2631" posX="2022.0000000" posY="2248.4000000" posZ="2102.9000000" rotX="0.0000000" rotY="0.0000000" rotZ="90.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (4)" model="16501" posX="2022.1000000" posY="2238.3000000" posZ="2102.8000000" rotX="0.0000000" rotY="90.0000000" rotZ="0.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (5)" model="16501" posX="2022.1000000" posY="2245.3000000" posZ="2102.8000000" rotX="0.0000000" rotY="90.0000000" rotZ="0.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (6)" model="16000" posX="2024.2000000" posY="2240.1000000" posZ="2101.2000000" rotX="0.0000000" rotY="0.0000000" rotZ="90.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (7)" model="16000" posX="2019.8000000" posY="2240.6000000" posZ="2101.2000000" rotX="0.0000000" rotY="0.0000000" rotZ="-90.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (8)" model="16000" posX="2022.2000000" posY="2248.7000000" posZ="2101.2000000" rotX="0.0000000" rotY="0.0000000" rotZ="180.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (9)" model="16501" posX="2021.8000000" posY="2246.5000000" posZ="2107.3000000" rotX="0.0000000" rotY="270.0000000" rotZ="90.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (10)" model="16501" posX="2022.0000000" posY="2240.8000000" posZ="2107.3000000" rotX="0.0000000" rotY="270.0000000" rotZ="0.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (11)" model="16501" posX="2022.0000000" posY="2233.7000000" posZ="2107.3000000" rotX="0.0000000" rotY="270.0000000" rotZ="0.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (12)" model="18098" posX="2024.3000000" posY="2239.6000000" posZ="2104.8000000" rotX="0.0000000" rotY="0.0000000" rotZ="90.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (13)" model="18098" posX="2024.3000000" posY="2239.7000000" posZ="2104.7000000" rotX="0.0000000" rotY="0.0000000" rotZ="450.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (14)" model="18098" posX="2020.1000000" posY="2239.6000000" posZ="2104.8000000" rotX="0.0000000" rotY="0.0000000" rotZ="90.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (15)" model="18098" posX="2020.0000000" posY="2239.6000000" posZ="2104.7000000" rotX="0.0000000" rotY="0.0000000" rotZ="90.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (16)" model="2180" posX="2023.6000000" posY="2236.1000000" posZ="2106.7000000" rotX="0.0000000" rotY="180.0000000" rotZ="90.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (17)" model="2180" posX="2023.6000000" posY="2238.1000000" posZ="2106.7000000" rotX="0.0000000" rotY="180.0000000" rotZ="90.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (18)" model="2180" posX="2023.6000000" posY="2240.1000000" posZ="2106.7000000" rotX="0.0000000" rotY="180.0000000" rotZ="90.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (19)" model="2180" posX="2023.6000000" posY="2242.1000000" posZ="2106.7000000" rotX="0.0000000" rotY="180.0000000" rotZ="90.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (20)" model="2180" posX="2023.6000000" posY="2244.1000000" posZ="2106.7000000" rotX="0.0000000" rotY="180.0000000" rotZ="90.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (21)" model="2180" posX="2023.6000000" posY="2246.1000000" posZ="2106.7000000" rotX="0.0000000" rotY="180.0000000" rotZ="90.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (22)" model="2180" posX="2023.6000000" posY="2248.1000000" posZ="2106.7000000" rotX="0.0000000" rotY="180.0000000" rotZ="90.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (23)" model="2180" posX="2020.3000000" posY="2235.1000000" posZ="2106.7000000" rotX="0.0000000" rotY="180.0000000" rotZ="270.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (24)" model="2180" posX="2020.3000000" posY="2237.1000000" posZ="2106.7000000" rotX="0.0000000" rotY="180.0000000" rotZ="270.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (25)" model="2180" posX="2020.3000000" posY="2239.1000000" posZ="2106.7000000" rotX="0.0000000" rotY="180.0000000" rotZ="270.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (26)" model="2180" posX="2020.3000000" posY="2241.1000000" posZ="2106.7000000" rotX="0.0000000" rotY="180.0000000" rotZ="270.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (27)" model="2180" posX="2020.3000000" posY="2243.1000000" posZ="2106.7000000" rotX="0.0000000" rotY="180.0000000" rotZ="270.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (28)" model="2180" posX="2020.3000000" posY="2245.1000000" posZ="2106.7000000" rotX="0.0000000" rotY="180.0000000" rotZ="270.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (29)" model="2674" posX="2023.4000000" posY="2238.3000000" posZ="2102.9000000" rotX="0.0000000" rotY="0.0000000" rotZ="600.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (30)" model="2674" posX="2020.4000000" posY="2242.3000000" posZ="2102.9000000" rotX="0.0000000" rotY="0.0000000" rotZ="600.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (31)" model="2674" posX="2023.4000000" posY="2246.3000000" posZ="2102.9000000" rotX="0.0000000" rotY="0.0000000" rotZ="600.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (32)" model="14405" posX="2022.0000000" posY="2242.1000000" posZ="2103.5000000" rotX="0.0000000" rotY="0.0000000" rotZ="540.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (33)" model="14405" posX="2022.0000000" posY="2243.6000000" posZ="2103.5000000" rotX="0.0000000" rotY="0.0000000" rotZ="180.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (34)" model="14405" posX="2022.0000000" posY="2245.1000000" posZ="2103.5000000" rotX="0.0000000" rotY="0.0000000" rotZ="180.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (35)" model="14405" posX="2022.0000000" posY="2246.6000000" posZ="2103.5000000" rotX="0.0000000" rotY="0.0000000" rotZ="180.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (36)" model="14405" posX="2022.0000000" posY="2248.1000000" posZ="2103.5000000" rotX="0.0000000" rotY="0.0000000" rotZ="180.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (37)" model="14405" posX="2022.0000000" posY="2249.6000000" posZ="2103.5000000" rotX="0.0000000" rotY="0.0000000" rotZ="180.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (38)" model="14405" posX="2022.0000000" posY="2251.1000000" posZ="2103.5000000" rotX="0.0000000" rotY="0.0000000" rotZ="180.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (39)" model="14405" posX="2024.6000000" posY="2242.1000000" posZ="2103.5000000" rotX="0.0000000" rotY="0.0000000" rotZ="180.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (40)" model="14405" posX="2024.6000000" posY="2243.6000000" posZ="2103.5000000" rotX="0.0000000" rotY="0.0000000" rotZ="180.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (41)" model="14405" posX="2024.6000000" posY="2245.1000000" posZ="2103.5000000" rotX="0.0000000" rotY="0.0000000" rotZ="180.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (42)" model="14405" posX="2024.6000000" posY="2246.6000000" posZ="2103.5000000" rotX="0.0000000" rotY="0.0000000" rotZ="180.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (43)" model="14405" posX="2024.6000000" posY="2248.1000000" posZ="2103.5000000" rotX="0.0000000" rotY="0.0000000" rotZ="180.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (44)" model="14405" posX="2024.6000000" posY="2249.6000000" posZ="2103.5000000" rotX="0.0000000" rotY="0.0000000" rotZ="180.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (45)" model="14405" posX="2024.6000000" posY="2251.1000000" posZ="2103.5000000" rotX="0.0000000" rotY="0.0000000" rotZ="180.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (46)" model="14405" posX="2019.4000000" posY="2242.1000000" posZ="2103.5000000" rotX="0.0000000" rotY="0.0000000" rotZ="180.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (47)" model="14405" posX="2019.4000000" posY="2243.6000000" posZ="2103.5000000" rotX="0.0000000" rotY="0.0000000" rotZ="180.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (48)" model="14405" posX="2019.4000000" posY="2245.1000000" posZ="2103.5000000" rotX="0.0000000" rotY="0.0000000" rotZ="180.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (49)" model="14405" posX="2019.4000000" posY="2246.6000000" posZ="2103.5000000" rotX="0.0000000" rotY="0.0000000" rotZ="180.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (50)" model="14405" posX="2019.4000000" posY="2248.1000000" posZ="2103.5000000" rotX="0.0000000" rotY="0.0000000" rotZ="180.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (51)" model="14405" posX="2019.4000000" posY="2249.6000000" posZ="2103.5000000" rotX="0.0000000" rotY="0.0000000" rotZ="180.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (52)" model="14405" posX="2019.4000000" posY="2251.1000000" posZ="2103.5000000" rotX="0.0000000" rotY="0.0000000" rotZ="180.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (53)" model="14405" posX="2022.0000000" posY="2253.6000000" posZ="2104.0000000" rotX="-6.0000000" rotY="0.0000000" rotZ="180.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (54)" model="14405" posX="2021.1000000" posY="2253.6000000" posZ="2104.0000000" rotX="-6.0000000" rotY="0.0000000" rotZ="180.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (55)" model="14405" posX="2024.6000000" posY="2253.6000000" posZ="2103.5000000" rotX="0.0000000" rotY="0.0000000" rotZ="180.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (56)" model="2674" posX="2020.4000000" posY="2235.7000000" posZ="2102.9000000" rotX="0.0000000" rotY="0.0000000" rotZ="52.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (57)" model="2673" posX="2020.4000000" posY="2246.7000000" posZ="2102.9000000" rotX="0.0000000" rotY="0.0000000" rotZ="270.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (58)" model="2700" posX="2023.5000000" posY="2235.1000000" posZ="2105.5000000" rotX="180.0000000" rotY="-4.0000000" rotZ="90.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (59)" model="2700" posX="2020.4000000" posY="2235.1000000" posZ="2105.5000000" rotX="180.0000000" rotY="0.0000000" rotZ="90.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (60)" model="2700" posX="2023.5000000" posY="2242.1000000" posZ="2105.5000000" rotX="180.0000000" rotY="-4.0000000" rotZ="90.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (61)" model="2700" posX="2020.4000000" posY="2242.1000000" posZ="2105.5000000" rotX="180.0000000" rotY="0.0000000" rotZ="90.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (62)" model="1799" posX="2023.1000000" posY="2234.2000000" posZ="2105.7000000" rotX="270.0000000" rotY="0.0000000" rotZ="360.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (63)" model="1799" posX="2019.8000000" posY="2234.2000000" posZ="2105.7000000" rotX="270.0000000" rotY="0.0000000" rotZ="0.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (64)" model="1538" posX="2022.7000000" posY="2234.7000000" posZ="2102.8000000" rotX="0.0000000" rotY="0.0000000" rotZ="180.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (65)" model="1799" posX="2022.1000000" posY="2234.2000000" posZ="2106.1000000" rotX="720.0000000" rotY="90.0000000" rotZ="450.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (66)" model="1799" posX="2021.8000000" posY="2234.2000000" posZ="2105.1000000" rotX="0.0000000" rotY="270.0000000" rotZ="270.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (67)" model="1799" posX="2022.1000000" posY="2234.2000000" posZ="2107.3000000" rotX="0.0000000" rotY="90.0000000" rotZ="90.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (68)" model="1799" posX="2021.6000000" posY="2234.2000000" posZ="2106.3000000" rotX="0.0000000" rotY="270.0000000" rotZ="270.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (69)" model="1799" posX="2022.3000000" posY="2234.2000000" posZ="2104.3000000" rotX="90.0000000" rotY="0.0000000" rotZ="180.0000000" dimension="0" interior="0" />
+	<!--
+	Objects converted: 70
+	Vehicles converted: 0
+	Vehicle models found: 0
+	----------------------
+	In the time this conversion took to finish 0.01 micro-fortnights have passed!
+	-->
+</map>

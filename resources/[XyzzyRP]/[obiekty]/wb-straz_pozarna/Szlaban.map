@@ -1,0 +1,11 @@
+<map edf:definitions="editor_main">
+<!-- szlaban w bazie strazy pozarnej -->
+<object id="object (barrierturn) (1)" doublesided="false" model="968" interior="0" dimension="0" posX="923.41339111328" posY="-1224.6494140625" posZ="16.721799850464" rotX="0" rotY="0" rotZ="270"></object>
+
+<!-- bramy w garazach dla aut strazy pozarnej -->
+    <object id="object (xref_garagedoor) (1)" doublesided="false" model="2885" interior="0" dimension="0" posX="885.81146240234" posY="-1268.4152832031" posZ="20.849021911621" rotX="90" rotY="180" rotZ="270"></object>
+    <object id="object (xref_garagedoor) (2)" doublesided="false" model="2885" interior="0" dimension="0" posX="885.81146240234" posY="-1283.177734375" posZ="20.849021911621" rotX="90" rotY="180" rotZ="270"></object>
+
+<!-- szlaban w osrodku szkoleniowym dla strazakow -->
+<object id="object (barrierturn) (1)" doublesided="false" model="968" interior="0" dimension="0" posX="1409.5782470703" posY="6.7236561775208" posZ="32.43070602417" rotX="0" rotY="270" rotZ="222"></object>
+</map>

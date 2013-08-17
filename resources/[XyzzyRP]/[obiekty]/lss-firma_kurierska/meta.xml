@@ -1,0 +1,12 @@
+<meta>
+    <script src="dyrektor_b.lua" type="server" />
+    <export function="menu_drzwi" type="client" />
+    <script src="dyrektor_c.lua" type="client" />
+	
+	<script src="drzwi_b.lua" type="server" />
+	<export function="menu_drzwi2" type="client" />
+	<script src="drzwi_c.lua" type="client" />	
+	
+	<map src="Firma_kurierska-ruchome.map" />
+	<script src="rozsuwane_drzwi.lua" type="server" />
+</meta>

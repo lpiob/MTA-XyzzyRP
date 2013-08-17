@@ -1,0 +1,9 @@
+<meta>
+	<script src="Interior.lua" type="client" />
+	<script src="Na_zewnatrz.lua" type="client" />
+	
+	<sync_map_element_data>false</sync_map_element_data>
+	
+	<!--<map src="Taxi_ruchome.map" />
+	<script src="rozsuwane_drzwi.lua" type="server" />-->	
+</meta>

@@ -1,0 +1,6 @@
+<meta>
+	<file src="audio/fontanna.ogg" />
+	<script src="Podklady_muzyczne_c.lua" type="client" />	
+	
+	<script src="texty.lua" type="server" />
+</meta>

@@ -1,0 +1,10 @@
+<map edf:definitions="editor_main">
+
+<!-- Redakcja San News - klatka schodowa -->
+
+    <object id="drzwi_rc_1" doublesided="true" model="1495" interior="1" dimension="7" posX="351.85321044922" posY="-1199.9891357422" posZ="1214.4193115234" rotX="0" rotY="0" rotZ="0"
+			animtime="1800" pos2X="350.59603881836" pos2Y="-1199.9891357422" pos2Z="1214.4193115234"></object>
+    <object id="drzwi_rc_2" doublesided="true" model="1495" interior="1" dimension="7" posX="354.85977172852" posY="-1199.9891357422" posZ="1214.4193115234" rotX="0" rotY="0" rotZ="180"
+			animtime="1800" pos2X="356.12310791016" pos2Y="-1199.9891357422" pos2Z="1214.4193115234"></object>
+
+</map>

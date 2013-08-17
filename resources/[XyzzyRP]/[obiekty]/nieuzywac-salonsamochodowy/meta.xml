@@ -1,0 +1,10 @@
+<meta>
+    <include resource="lss-3dtext" />
+    <include resource="lss-core" />
+    <include resource="lss-vehicles" />
+    
+    <script src="salon.lua" type="server" />
+    <script src="salon_c.lua" type="client" />    
+    
+    <export function="menu_zakupAuta" type="client" />
+</meta>

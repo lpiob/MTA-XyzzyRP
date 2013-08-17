@@ -1,0 +1,36 @@
+<map edf:definitions="editor_main">
+
+<!-- wysypisko_smieci -->
+
+    <object id="wysypisko_brama_1_a" doublesided="true" model="969" interior="0" dimension="0" posX="690.25994873047" posY="-486.34930419922" posZ="15.484915733337" rotX="0" rotY="0" rotZ="90"
+			animtime="5000" pos2X="690.25994873047" pos2Y="-478.5231628418" pos2Z="15.484915733337"></object>
+    <object id="wysypisko_brama_1_b" doublesided="true" model="969" interior="0" dimension="0" posX="690.25994873047" posY="-486.34930419922" posZ="17.760545730591" rotX="0" rotY="0" rotZ="90"
+			animtime="5000" pos2X="690.25994873047" pos2Y="-478.5231628418" pos2Z="17.760545730591"></object>			
+			  
+    <object id="wysypisko_brama_2" doublesided="true" model="2930" interior="0" dimension="0" posX="759.68426513672" posY="-496.43048095703" posZ="17.961832046509" rotX="0" rotY="0" rotZ="112.96737670898"
+			animtime="1500" pos2X="758.33410644531" pos2Y="-497.00280761719" pos2Z="17.961832046509"></object>
+			
+
+<!-- dok -->
+
+    <object id="dok_1" interior="0" alpha="255" doublesided="true" model="2990" scale="1" dimension="0" posX="2495.1691894531" posY="-2049.1672363281" posZ="8.6349277496338" rotX="0" rotY="0" rotZ="270"
+			animtime="5000" pos2X="2495.1691894531" pos2Y="-2049.1672363281" pos2Z="3.290846824646"></object>
+    <object id="dok_2" interior="0" alpha="255" doublesided="true" model="2990" scale="1" dimension="0" posX="2629.7641601563" posY="-1618.1071777344" posZ="13.443298339844" rotX="0" rotY="0" rotZ="90"
+			animtime="5000" pos2X="2629.7641601563" pos2Y="-1618.1071777344" pos2Z="5.6537055969238"></object>
+    <object id="dok_3" interior="0" alpha="255" doublesided="true" model="2990" scale="1" dimension="0" posX="2252.5546875" posY="-2205.0546875" posZ="16.425815582275" rotX="0" rotY="0" rotZ="315"
+			animtime="5000" pos2X="2252.5546875" pos2Y="-2205.0546875" pos2Z="8.6535682678223"></object>
+    <object id="dok_4" interior="0" alpha="255" doublesided="true" model="2990" scale="1" dimension="0" posX="1618.5902099609" posY="-1723.5673828125" posZ="6.7772817611694" rotX="0" rotY="0" rotZ="180"
+			animtime="5000" pos2X="1618.5902099609" pos2Y="-1723.5673828125" pos2Z="-1.0123101472855"></object>
+    <object id="dok_5" interior="0" alpha="255" doublesided="true" model="2990" scale="1" dimension="0" posX="1374.0440673828" posY="-1673.6761474609" posZ="16.281295776367" rotX="0" rotY="0" rotZ="180"
+			animtime="5000" pos2X="1374.0440673828" pos2Y="-1673.6761474609" pos2Z="8.0559940338135"></object>
+    <object id="dok_6" interior="0" alpha="255" doublesided="true" model="988" scale="1" dimension="0" posX="1385.8059082031" posY="-1549.5775146484" posZ="13.469226837158" rotX="0" rotY="0" rotZ="345"
+			animtime="5000" pos2X="1385.8059082031" pos2Y="-1549.5775146484" pos2Z="8.3479976654053"></object>
+			
+
+<!-- port - dzwig -->
+
+    <object id="port_dzwig" interior="0" alpha="255" doublesided="true" model="2990" scale="1" dimension="0" posX="2597.6081542969" posY="-2226.7553710938" posZ="16.282035827637" rotX="0" rotY="0" rotZ="270"
+			animtime="5000" pos2X="2597.6081542969" pos2Y="-2226.7553710938" pos2Z="22.809185028076"></object>
+
+			
+</map>

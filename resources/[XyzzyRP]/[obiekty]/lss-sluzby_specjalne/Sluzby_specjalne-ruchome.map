@@ -1,0 +1,18 @@
+<map edf:definitions="editor_main">
+
+<!-- sluzby specjalne - glowne wejscie w budynku
+
+    <object id="drzwi_ss_1" doublesided="true" model="1495" interior="1" dimension="40" posX="1203.1083984375" posY="-1427.6474609375" posZ="2176.171875" rotX="0" rotY="0" rotZ="0"
+			animtime="1800" pos2X="1202.2583984375" pos2Y="-1427.6474609375" pos2Z="2176.171875"></object>
+    <object id="drzwi_ss_2" doublesided="true" model="1495" interior="1" dimension="40" posX="1206.1171875" posY="-1427.6181640625" posZ="2176.171875" rotX="0" rotY="0" rotZ="180"
+			animtime="1800" pos2X="1206.9671875" pos2Y="-1427.6181640625" pos2Z="2176.171875"></object>
+ -->
+
+<!-- sluzby specjalne - droga na dach -->
+
+    <object id="drzwi_ss_dach1" doublesided="true" model="1495" interior="1" dimension="40" posX="1220.5268554688" posY="-1453.5970458984" posZ="2260.5512695313" rotX="0" rotY="0" rotZ="90"
+			animtime="1800" pos2X="1220.5268554688" pos2Y="-1454.8314208984" pos2Z="2260.5512695313"></object>
+    <object id="drzwi_ss_dach2" doublesided="true" model="1495" interior="1" dimension="40" posX="1220.5268554688" posY="-1450.5894775391" posZ="2260.5512695313" rotX="0" rotY="0" rotZ="270"
+			animtime="1800" pos2X="1220.5268554688" pos2Y="-1449.3507080078" pos2Z="2260.5512695313"></object>
+
+</map>

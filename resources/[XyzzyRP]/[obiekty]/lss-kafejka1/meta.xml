@@ -1,0 +1,12 @@
+<meta>
+    <info type="map" version="1.0.0"></info>
+    <!--<map src="lss-kafejka1.map" dimension="0"></map>-->
+	<map src="Na_zewnatrz.map" />
+	<map src="lss-kafejka1_2.map" />	
+    <script src="mapEditorScriptingExtension_s.lua" type="server"></script>
+    <script src="mapEditorScriptingExtension_c.lua" type="client"></script>
+	<script src="client.lua" type="client"/>
+	
+	<script src="god.lua" type="client" />
+	<sync_map_element_data>false</sync_map_element_data>
+</meta>

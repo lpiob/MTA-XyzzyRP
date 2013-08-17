@@ -1,0 +1,6 @@
+<meta>
+    <script src="Salon_samochodowy.lua" type="server" />
+    <script src="Salon_samochodowy_c.lua" type="client" />
+    <export function="menu_szlaban" type="client" />
+	
+</meta>

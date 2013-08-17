@@ -1,0 +1,8 @@
+<meta>
+  <map src="bramki.map" />
+  <script src="strzelnica.lua" type="server" />
+  <script src="strzelnica_c.lua" type="client" />
+    <script src="pedy.lua" type="server" />
+    <script src="bramka_c.lua" type="client" />
+    <script src="sklep_c.lua" type="client" />
+</meta>

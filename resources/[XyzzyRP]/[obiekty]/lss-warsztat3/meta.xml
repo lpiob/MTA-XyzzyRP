@@ -1,0 +1,14 @@
+<meta>
+    <script src="warsztat_c.lua" type="client" />
+    <export function="menu_brama" type="client" />
+    <script src="warsztat_b.lua" type="server" />
+    <script src="warsztat_d.lua" type="server" />
+    <script src="warsztat_e.lua" type="client" />	
+	<!--<map src="Bramy.map" />-->
+	
+    <script src="lakiernia_c.lua" type="client" />
+    <export function="menu_brama" type="client" />
+    <script src="lakiernia_b.lua" type="server" />
+	
+	<script src="texty.lua" type="server" />
+</meta>

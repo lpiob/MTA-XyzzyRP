@@ -1,0 +1,46 @@
+<meta>
+    <include resource="lss-3dtext" />
+    <include resource="DB" />    
+    <script src="zasilki.lua" type="server" />
+    <script src="dowody.lua" type="server" />
+    <script src="dowody_c.lua" type="client" />
+    
+    <script src="rejpoj.lua" type="server" />
+    <script src="rejpoj_c.lua" type="client" />
+
+	<script src="przerejpoj.lua" type="server" />
+	<script src="przerejpoj_c.lua" type="client" />
+
+    <script src="ob.lua" type="server" />
+    <script src="ob_c.lua" type="client" />
+
+    <script src="kb.lua" type="server" />
+    <script src="kb_c.lua" type="client" />
+
+	
+    <script src="drzwi1_b.lua" type="server" />
+    <script src="drzwi1_c.lua" type="client" />
+    <script src="drzwi2_b.lua" type="server" />
+    <script src="drzwi2_c.lua" type="client" />
+    <script src="drzwi3_b.lua" type="server" />
+    <script src="drzwi3_c.lua" type="client" />
+    <script src="drzwi4_b.lua" type="server" />
+    <script src="drzwi4_c.lua" type="client" />
+    <script src="drzwi5_b.lua" type="server" />
+    <script src="drzwi5_c.lua" type="client" />
+	
+
+    <script src="urzad_miasta.lua" type="server" />
+    <script src="urzad_miasta_c.lua" type="client" />
+
+	<script src="kupdom.lua" type="server" />
+    <script src="kupdom_c.lua" type="client" />
+	
+    <export function="menu_szlaban" type="client" />
+    <export function="menu_drzwi1" type="client" />
+    <export function="menu_drzwi2" type="client" />
+    <export function="menu_drzwi3" type="client" />
+    <export function="menu_drzwi4" type="client" />
+    <export function="menu_drzwi5" type="client" />
+	<export function="isPlayerInGeodetaMarker" type="server" />
+</meta>

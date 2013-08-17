@@ -1,0 +1,7 @@
+<meta>
+  <script src="mlyn.lua" type="server" />
+  <script src="pedy.lua" type="server" />
+  <script src="skup.lua" type="server" />
+  <script src="skup_c.lua" type="client" />
+  <export function="menu_oddajZboze" type="client" />
+</meta>

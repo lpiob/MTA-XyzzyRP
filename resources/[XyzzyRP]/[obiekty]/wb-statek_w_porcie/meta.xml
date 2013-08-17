@@ -1,0 +1,14 @@
+<meta>
+	<map src="Interior.map" />	
+	<map src="Statek_w_porcie.map" />	
+	
+    <script src="import_c.lua" type="client" />
+    <export function="menu_brama" type="client" />
+    <script src="import_b.lua" type="server" />
+	
+    <script src="import2_c.lua" type="client" />
+    <export function="menu_brama2" type="client" />
+    <script src="import2_b.lua" type="server" />
+    <!--<map src="Port_ruchome.map" />
+    <script src="rozsuwane_drzwi.lua" type="server" />-->	
+</meta>

@@ -1,0 +1,114 @@
+<map edf:definitions="editor_main">
+    <object id="object (otb_glass) (3)" doublesided="true" model="14799" interior="0" dimension="0" posX="1941.8583984375" posY="-1776.642578125" posZ="11.38464641571" rotX="90" rotY="0" rotZ="0"></object>
+    <object id="object (washgaspump) (1)" doublesided="true" model="1676" interior="0" dimension="0" posX="1941.6141357422" posY="-1776.3931884766" posZ="14.128403663635" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (washgaspump) (2)" doublesided="true" model="1676" interior="0" dimension="0" posX="1941.61328125" posY="-1769.28515625" posZ="14.128403663635" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (otb_glass) (3)" doublesided="true" model="14799" interior="0" dimension="0" posX="1941.37109375" posY="-1776.65234375" posZ="11.38464641571" rotX="90" rotY="0" rotZ="0"></object>
+    <object id="object (otb_glass) (3)" doublesided="true" model="14799" interior="0" dimension="0" posX="1941.37109375" posY="-1776.1021728516" posZ="11.38464641571" rotX="90" rotY="0" rotZ="0"></object>
+    <object id="object (otb_glass) (3)" doublesided="true" model="14799" interior="0" dimension="0" posX="1941.8587646484" posY="-1776.1246337891" posZ="11.38464641571" rotX="90" rotY="0" rotZ="0"></object>
+    <object id="object (otb_glass) (3)" doublesided="true" model="14799" interior="0" dimension="0" posX="1941.8587646484" posY="-1769.5415039063" posZ="11.38464641571" rotX="90" rotY="0" rotZ="0"></object>
+    <object id="object (otb_glass) (3)" doublesided="true" model="14799" interior="0" dimension="0" posX="1941.37109375" posY="-1769.5187988281" posZ="11.38464641571" rotX="90" rotY="0" rotZ="0"></object>
+    <object id="object (otb_glass) (3)" doublesided="true" model="14799" interior="0" dimension="0" posX="1941.37109375" posY="-1768.9702148438" posZ="11.38464641571" rotX="90" rotY="0" rotZ="0"></object>
+    <object id="object (otb_glass) (3)" doublesided="true" model="14799" interior="0" dimension="0" posX="1941.8583984375" posY="-1768.943359375" posZ="11.38464641571" rotX="90" rotY="0" rotZ="0"></object>
+    <object id="object (washgaspump) (3)" doublesided="true" model="1676" interior="0" dimension="0" posX="1000.4189453125" posY="-937.3232421875" posZ="42.908992767334" rotX="0" rotY="0" rotZ="8.2452392578125"></object>
+    <object id="object (washgaspump) (4)" doublesided="true" model="1676" interior="0" dimension="0" posX="1007.473815918" posY="-936.31042480469" posZ="42.908992767334" rotX="0" rotY="0" rotZ="8.2452392578125"></object>
+    <object id="object (otb_glass) (5)" doublesided="true" model="14799" interior="0" dimension="0" posX="1000.1767578125" posY="-937.6689453125" posZ="40.258407592773" rotX="90" rotY="8.2452392578125" rotZ="90"></object>
+    <object id="object (otb_glass) (5)" doublesided="true" model="14799" interior="0" dimension="0" posX="1000.7180786133" posY="-937.57495117188" posZ="40.258407592773" rotX="90" rotY="8.2452392578125" rotZ="90"></object>
+    <object id="object (otb_glass) (5)" doublesided="true" model="14799" interior="0" dimension="0" posX="1000.6785888672" posY="-937.02789306641" posZ="40.258407592773" rotX="90" rotY="8.2452392578125" rotZ="90"></object>
+    <object id="object (otb_glass) (5)" doublesided="true" model="14799" interior="0" dimension="0" posX="1000.1347045898" posY="-937.11151123047" posZ="40.258407592773" rotX="90" rotY="8.2452392578125" rotZ="90"></object>
+    <object id="object (otb_glass) (5)" doublesided="true" model="14799" interior="0" dimension="0" posX="1007.1891479492" posY="-936.65216064453" posZ="40.258407592773" rotX="90" rotY="8.2452392578125" rotZ="90"></object>
+    <object id="object (otb_glass) (5)" doublesided="true" model="14799" interior="0" dimension="0" posX="1007.1577148438" posY="-936.10278320313" posZ="40.258407592773" rotX="90" rotY="8.2452392578125" rotZ="90"></object>
+    <object id="object (otb_glass) (5)" doublesided="true" model="14799" interior="0" dimension="0" posX="1007.7366943359" posY="-936.02624511719" posZ="40.258407592773" rotX="90" rotY="8.2452392578125" rotZ="90"></object>
+    <object id="object (otb_glass) (5)" doublesided="true" model="14799" interior="0" dimension="0" posX="1007.8004150391" posY="-936.49194335938" posZ="40.258407592773" rotX="90" rotY="8.2452392578125" rotZ="90"></object>
+    <object id="object (vgegassgn03_lvs) (1)" doublesided="true" model="9193" interior="0" dimension="0" posX="1941.7001953125" posY="-1772.9418945313" posZ="23.393068313599" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (vgegassgn03_lvs) (2)" doublesided="true" model="9193" interior="0" dimension="0" posX="1003.9029541016" posY="-936.89526367188" posZ="52.079891204834" rotX="0" rotY="0" rotZ="98.245239257813"></object>
+    <object id="object (vgegassgn03_lvs) (3)" doublesided="true" model="9193" interior="0" dimension="0" posX="2664.3505859375" posY="-1642.3427734375" posZ="20.6389503479" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (des_garwcanopy) (1)" doublesided="true" model="11505" interior="0" dimension="0" posX="2664.2041015625" posY="-1641.6591796875" posZ="13.990669250488" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (desn2_tsfuelpay) (1)" doublesided="true" model="16360" interior="0" dimension="0" posX="2679.5361328125" posY="-1635.232421875" posZ="10.724382400513" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (washgaspump) (5)" doublesided="true" model="1676" interior="0" dimension="0" posX="2664.2229003906" posY="-1646.3559570313" posZ="11.367382049561" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (washgaspump) (6)" doublesided="true" model="1676" interior="0" dimension="0" posX="2664.2199707031" posY="-1638.5946044922" posZ="11.367382049561" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (a51_jetdoor) (2)" doublesided="true" model="3095" interior="0" dimension="0" posX="2679.130859375" posY="-1634.7197265625" posZ="10.066157341003" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (a51_jetdoor) (3)" doublesided="true" model="3095" interior="0" dimension="0" posX="2679.8361816406" posY="-1634.7197265625" posZ="10.061155319214" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (a51_jetdoor) (4)" doublesided="true" model="3095" interior="0" dimension="0" posX="2678.8344726563" posY="-1635.0258789063" posZ="9.8307495117188" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (otb_glass) (7)" doublesided="true" model="14799" interior="0" dimension="0" posX="2664.521484375" posY="-1646.74609375" posZ="8.720853805542" rotX="90" rotY="90" rotZ="0"></object>
+    <object id="object (otb_glass) (7)" doublesided="true" model="14799" interior="0" dimension="0" posX="2664.5390625" posY="-1646.0396728516" posZ="8.720853805542" rotX="90" rotY="90" rotZ="0"></object>
+    <object id="object (otb_glass) (7)" doublesided="true" model="14799" interior="0" dimension="0" posX="2663.8359375" posY="-1646.0983886719" posZ="8.720853805542" rotX="90" rotY="90" rotZ="0"></object>
+    <object id="object (otb_glass) (7)" doublesided="true" model="14799" interior="0" dimension="0" posX="2663.83203125" posY="-1646.6459960938" posZ="8.720853805542" rotX="90" rotY="90" rotZ="0"></object>
+    <object id="object (otb_glass) (7)" doublesided="true" model="14799" interior="0" dimension="0" posX="2663.8505859375" posY="-1638.8037109375" posZ="8.720853805542" rotX="90" rotY="90" rotZ="0"></object>
+    <object id="object (otb_glass) (7)" doublesided="true" model="14799" interior="0" dimension="0" posX="2664.5612792969" posY="-1638.8389892578" posZ="8.720853805542" rotX="90" rotY="90" rotZ="0"></object>
+    <object id="object (otb_glass) (7)" doublesided="true" model="14799" interior="0" dimension="0" posX="2664.5356445313" posY="-1638.3686523438" posZ="8.720853805542" rotX="90" rotY="90" rotZ="0"></object>
+    <object id="object (otb_glass) (7)" doublesided="true" model="14799" interior="0" dimension="0" posX="2663.908203125" posY="-1638.3881835938" posZ="8.720853805542" rotX="90" rotY="90" rotZ="0"></object>
+    <object id="object (des_garwcanopy) (1)" doublesided="true" model="11505" interior="0" dimension="0" posX="2263.5725097656" posY="28.649959564209" posZ="29.830272674561" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (washgaspump) (1)" doublesided="true" model="1676" interior="0" dimension="0" posX="2263.35546875" posY="31.771484375" posZ="26.987644195557" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (washgaspump) (2)" doublesided="true" model="1676" interior="0" dimension="0" posX="2263.35546875" posY="23.7578125" posZ="26.987644195557" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (desn2_tsfuelpay) (1)" doublesided="true" model="16360" interior="0" dimension="0" posX="2239.7885742188" posY="22.614221572876" posZ="25.547636032104" rotX="0" rotY="0" rotZ="180"></object>
+    <object id="object (otb_glass) (1)" doublesided="true" model="14799" interior="0" dimension="0" posX="2263.6630859375" posY="32.068359375" posZ="24.234302520752" rotX="90" rotY="0" rotZ="90"></object>
+    <object id="object (otb_glass) (1)" doublesided="true" model="14799" interior="0" dimension="0" posX="2262.9643554688" posY="32.165863037109" posZ="24.234302520752" rotX="90" rotY="0" rotZ="90"></object>
+    <object id="object (otb_glass) (1)" doublesided="true" model="14799" interior="0" dimension="0" posX="2262.9484863281" posY="31.458995819092" posZ="24.234302520752" rotX="90" rotY="0" rotZ="90"></object>
+    <object id="object (otb_glass) (1)" doublesided="true" model="14799" interior="0" dimension="0" posX="2263.7319335938" posY="31.468330383301" posZ="24.234302520752" rotX="90" rotY="0" rotZ="90"></object>
+    <object id="object (otb_glass) (1)" doublesided="true" model="14799" interior="0" dimension="0" posX="2262.9565429688" posY="24.085857391357" posZ="24.234302520752" rotX="90" rotY="0" rotZ="90"></object>
+    <object id="object (otb_glass) (1)" doublesided="true" model="14799" interior="0" dimension="0" posX="2263.6613769531" posY="24.08295249939" posZ="24.234302520752" rotX="90" rotY="0" rotZ="90"></object>
+    <object id="object (otb_glass) (1)" doublesided="true" model="14799" interior="0" dimension="0" posX="2263.7177734375" posY="23.458034515381" posZ="24.234302520752" rotX="90" rotY="0" rotZ="90"></object>
+    <object id="object (otb_glass) (1)" doublesided="true" model="14799" interior="0" dimension="0" posX="2263.0124511719" posY="23.475620269775" posZ="24.234302520752" rotX="90" rotY="0" rotZ="90"></object>
+    <object id="object (otb_glass) (1)" doublesided="true" model="14799" interior="0" dimension="0" posX="1387.4559326172" posY="462.95300292969" posZ="17.600318908691" rotX="90" rotY="179.99450683594" rotZ="242.99560546875"></object>
+    <object id="object (petrolpumpnew) (1)" doublesided="true" model="1686" interior="0" dimension="0" posX="1384.259765625" posY="458.6962890625" posZ="19.337207794189" rotX="0" rotY="0" rotZ="246.74743652344"></object>
+    <object id="object (petrolpumpnew) (2)" doublesided="true" model="1686" interior="0" dimension="0" posX="1379.8720703125" posY="460.6201171875" posZ="19.337207794189" rotX="0" rotY="0" rotZ="246.74194335938"></object>
+    <object id="object (vgegassgn03_lvs) (1)" doublesided="true" model="9193" interior="0" dimension="0" posX="1383.587890625" posY="463.275390625" posZ="28.013256072998" rotX="0" rotY="0" rotZ="242.49572753906"></object>
+    <object id="object (vgegassgn03_lvs) (2)" doublesided="true" model="9193" interior="0" dimension="0" posX="2263.6359863281" posY="27.604475021362" posZ="36.54207611084" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (vgegassgn03_lvs) (3)" doublesided="true" model="9193" interior="0" dimension="0" posX="202.4755859375" posY="-145.197265625" posZ="11.580968856812" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (des_garwcanopy) (2)" doublesided="true" model="11505" interior="0" dimension="0" posX="202.44033813477" posY="-144.39682006836" posZ="4.9759826660156" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (desn2_tsfuelpay) (2)" doublesided="true" model="16360" interior="0" dimension="0" posX="198.06703186035" posY="-155.04814147949" posZ="0.4296875" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (washgaspump) (4)" doublesided="true" model="1676" interior="0" dimension="0" posX="202.38368225098" posY="-141.52392578125" posZ="2.0882892608643" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (washgaspump) (5)" doublesided="true" model="1676" interior="0" dimension="0" posX="202.41413879395" posY="-149.19755554199" posZ="2.0882892608643" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (otb_glass) (1)" doublesided="true" model="14799" interior="0" dimension="0" posX="201.88359069824" posY="-141.22009277344" posZ="-0.42560124397278" rotX="90" rotY="0" rotZ="90"></object>
+    <object id="object (otb_glass) (1)" doublesided="true" model="14799" interior="0" dimension="0" posX="202.74588012695" posY="-141.20361328125" posZ="-0.42560124397278" rotX="90" rotY="0" rotZ="90"></object>
+    <object id="object (otb_glass) (1)" doublesided="true" model="14799" interior="0" dimension="0" posX="202.77281188965" posY="-141.83108520508" posZ="-0.42560124397278" rotX="90" rotY="0" rotZ="90"></object>
+    <object id="object (otb_glass) (1)" doublesided="true" model="14799" interior="0" dimension="0" posX="202.0333404541" posY="-141.87983703613" posZ="-0.42560124397278" rotX="90" rotY="0" rotZ="90"></object>
+    <object id="object (otb_glass) (1)" doublesided="true" model="14799" interior="0" dimension="0" posX="202.06979370117" posY="-148.82011413574" posZ="-0.42560124397278" rotX="90" rotY="0" rotZ="90"></object>
+    <object id="object (otb_glass) (1)" doublesided="true" model="14799" interior="0" dimension="0" posX="202.03857421875" posY="-149.4462890625" posZ="-0.42560124397278" rotX="90" rotY="0" rotZ="90"></object>
+    <object id="object (otb_glass) (1)" doublesided="true" model="14799" interior="0" dimension="0" posX="202.83332824707" posY="-149.45791625977" posZ="-0.42560124397278" rotX="90" rotY="0" rotZ="90"></object>
+    <object id="object (otb_glass) (1)" doublesided="true" model="14799" interior="0" dimension="0" posX="202.86996459961" posY="-148.90898132324" posZ="-0.42560124397278" rotX="90" rotY="0" rotZ="90"></object>
+    <object id="object (otb_glass) (1)" doublesided="true" model="14799" interior="0" dimension="0" posX="1379.7033691406" posY="460.96951293945" posZ="17.87133026123" rotX="90" rotY="180" rotZ="246.74194335938"></object>
+    <object id="object (otb_glass) (1)" doublesided="true" model="14799" interior="0" dimension="0" posX="1380.27734375" posY="460.71435546875" posZ="17.87133026123" rotX="90" rotY="179.99450683594" rotZ="246.74194335938"></object>
+    <object id="object (otb_glass) (1)" doublesided="true" model="14799" interior="0" dimension="0" posX="1380.1015625" posY="460.27716064453" posZ="17.87133026123" rotX="90" rotY="179.99450683594" rotZ="246.74194335938"></object>
+    <object id="object (otb_glass) (1)" doublesided="true" model="14799" interior="0" dimension="0" posX="1379.5966796875" posY="460.48974609375" posZ="17.87133026123" rotX="90" rotY="179.99450683594" rotZ="246.74194335938"></object>
+    <object id="object (otb_glass) (1)" doublesided="true" model="14799" interior="0" dimension="0" posX="1384.0639648438" posY="458.96139526367" posZ="17.87133026123" rotX="90" rotY="179.99450683594" rotZ="246.74194335938"></object>
+    <object id="object (otb_glass) (1)" doublesided="true" model="14799" interior="0" dimension="0" posX="1384.5686035156" posY="458.74560546875" posZ="17.87133026123" rotX="90" rotY="179.99450683594" rotZ="246.74194335938"></object>
+    <object id="object (otb_glass) (1)" doublesided="true" model="14799" interior="0" dimension="0" posX="1384.4185791016" posY="458.38278198242" posZ="17.87133026123" rotX="90" rotY="179.99450683594" rotZ="246.74194335938"></object>
+    <object id="object (otb_glass) (1)" doublesided="true" model="14799" interior="0" dimension="0" posX="1383.9772949219" posY="458.54742431641" posZ="17.87133026123" rotX="90" rotY="179.99450683594" rotZ="246.74194335938"></object>
+    <object id="object (des_stwngas1) (1)" interior="0" alpha="255" doublesided="true" model="16477" scale="1" dimension="0" posX="1435.3018798828" posY="-2418.9365234375" posZ="12.554688453674" rotX="0" rotY="0" rotZ="270.00115966797"></object>
+    <object id="object (petrolpumpnew) (1)" interior="0" alpha="255" doublesided="true" model="1686" scale="1" dimension="0" posX="1433.1549072266" posY="-2433.7700195313" posZ="12.554686546326" rotX="0" rotY="0" rotZ="345"></object>
+    <object id="object (dockwall_LAS2) (1)" interior="0" alpha="255" doublesided="true" model="3753" scale="1" dimension="0" posX="2532.4555664063" posY="-2650.2883300781" posZ="2.9800567626953" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (wdpillar01_lvs) (1)" interior="0" alpha="255" doublesided="true" model="3498" scale="1" dimension="0" posX="2539.7709960938" posY="-2629.75" posZ="9.7124929428101" rotX="0" rotY="136.26324462891" rotZ="0"></object>
+    <object id="object (des_oldwattwr_) (1)" interior="0" alpha="255" doublesided="true" model="3252" scale="1" dimension="0" posX="2536.2385253906" posY="-2629.7290039063" posZ="1.9409942626953" rotX="0" rotY="0" rotZ="328.82040405273"></object>
+    <object id="object (petrolpump) (1)" interior="0" alpha="255" doublesided="true" model="1244" scale="1" dimension="0" posX="2536.2561035156" posY="-2629.7683105469" posZ="2.6637632846832" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (wdpillar01_lvs) (3)" interior="0" alpha="255" doublesided="true" model="3498" scale="1" dimension="0" posX="2544.8618164063" posY="-2629.7426757813" posZ="4.4046983718872" rotX="0" rotY="136.25793457031" rotZ="0"></object>
+
+
+<!--
+  -- stacje w porcie
+	{2311.91,-2290.85,13.54,0,0,0,repairing=true},
+	{2315.65,-2286.88,13.55,0,0,0,repairing=true},
+	{2319.60,-2282.22,13.55,0,0,0,repairing=true},
+	{2323.95,-2277.94,13.55,0,0,0,repairing=true},
+	{2328.70,-2273.72,13.55,0,0,0,repairing=true},
+	{2332.81,-2269.61,13.54,0,0,0,repairing=true},
+	{2337.08,-2265.14,13.54,0,0,0,repairing=true},	
+	{2341.31,-2260.95,13.54,0,0,0,repairing=true},
+	{2345.28,-2256.53,13.54,0,0,0,repairing=true},
+	{2349.70,-2252.26,13.54,0,0,0,repairing=true},
+	{2354.04,-2247.97,13.55,0,0,0,repairing=true},
+	{2357.93,-2243.70,13.55,0,0,0,repairing=true},
+	{2375.51,-2261.72,13.55,0,0,0,repairing=true},
+	{2371.21,-2266.11,13.55,0,0,0,repairing=true},
+	{2366.95,-2270.40,13.55,0,0,0,repairing=true},
+	{2362.63,-2274.47,13.55,0,0,0,repairing=true},
+	{2358.59,-2278.64,13.55,0,0,0,repairing=true},	
+	{2354.41,-2282.77,13.55,0,0,0,repairing=true},
+	{2350.31,-2287.12,13.55,0,0,0,repairing=true},
+	{2346.03,-2291.38,13.55,0,0,0,repairing=true},
+	{2341.69,-2295.71,13.55,0,0,0,repairing=true},	
+	{2337.37,-2299.74,13.55,0,0,0,repairing=true},
+	{2333.02,-2304.29,13.55,0,0,0,repairing=true},
+	{2328.77,-2308.56,13.55,0,0,0,repairing=true},	
+-->
+</map>

@@ -1,0 +1,7 @@
+<meta>
+  <script src="import_pojazdow.lua" type="server" />
+  <script src="obiekty.lua" type="server" />
+  <script src="winda_c.lua" type="client" />
+  
+
+</meta>

@@ -1,0 +1,14 @@
+<map edf:definitions="editor_main">
+    <object id="object (lasdkrt2) (1)" doublesided="false" model="3570" interior="0" dimension="0" posX="2432.3967285156" posY="-1673.8684082031" posZ="12.817976951599" rotX="0" rotY="90" rotZ="0"></object>
+    <object id="object (lasdkrt2) (2)" doublesided="false" model="3570" interior="0" dimension="0" posX="2429.736328125" posY="-1673.8743896484" posZ="12.787964820862" rotX="0" rotY="270" rotZ="0"></object>
+    <object id="object (lasdkrt2) (3)" doublesided="false" model="3570" interior="0" dimension="0" posX="2429.7365722656" posY="-1676.4346923828" posZ="11.607924461365" rotX="0" rotY="270" rotZ="0"></object>
+    <object id="object (lasdkrt2) (4)" doublesided="false" model="3570" interior="0" dimension="0" posX="2429.7211914063" posY="-1671.3531494141" posZ="13.963003158569" rotX="0" rotY="270" rotZ="0"></object>
+    <object id="object (lasdkrt2) (5)" doublesided="false" model="3570" interior="0" dimension="0" posX="2432.3933105469" posY="-1671.3521728516" posZ="13.993015289307" rotX="0" rotY="90" rotZ="0"></object>
+    <object id="object (lasdkrt2) (6)" doublesided="false" model="3570" interior="0" dimension="0" posX="2432.3933105469" posY="-1676.4357910156" posZ="11.63893699646" rotX="0" rotY="90" rotZ="0"></object>
+    <object id="object (lasdkrt2) (7)" doublesided="false" model="3570" interior="0" dimension="0" posX="2432.3928222656" posY="-1678.9984130859" posZ="10.647285461426" rotX="0" rotY="90" rotZ="0"></object>
+    <object id="object (lasdkrt2) (8)" doublesided="false" model="3570" interior="0" dimension="0" posX="2429.7360839844" posY="-1678.9901123047" posZ="10.616835594177" rotX="0" rotY="270" rotZ="0"></object>
+    <object id="object (lasdkrt2) (9)" doublesided="false" model="3570" interior="0" dimension="0" posX="2432.3928222656" posY="-1681.5854492188" posZ="9.7841234207153" rotX="0" rotY="90" rotZ="0"></object>
+    <object id="object (lasdkrt2) (10)" doublesided="false" model="3570" interior="0" dimension="0" posX="2429.7341308594" posY="-1681.5690917969" posZ="9.7536735534668" rotX="0" rotY="270" rotZ="0"></object>
+    <object id="object (kmb_crash3door) (1)" doublesided="false" model="2924" interior="0" dimension="0" posX="2432.4699707031" posY="-1670.0582275391" posZ="13.734275817871" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (kmb_crash3door) (2)" doublesided="false" model="2924" interior="0" dimension="0" posX="2429.6843261719" posY="-1670.0394287109" posZ="13.734275817871" rotX="0" rotY="0" rotZ="180"></object>
+</map>

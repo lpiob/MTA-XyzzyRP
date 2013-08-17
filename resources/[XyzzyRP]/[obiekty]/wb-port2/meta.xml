@@ -1,0 +1,7 @@
+<meta>
+	<map src="Port2.map" />	
+	
+	<script src="texty.lua" type="server" />
+	
+	<sync_map_element_data>false</sync_map_element_data>
+</meta>

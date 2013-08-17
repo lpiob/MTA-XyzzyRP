@@ -1,0 +1,10 @@
+<meta>
+    <<!--script src="szlaban.lua" type="server" />
+    <export function="menu_szlaban" type="client" />
+    <script src="szlaban_c.lua" type="client" />-->	
+	
+	<file src="audio/fontanna.ogg" />
+	<script src="dzwiek_c.lua" type="client" />	
+	
+	<script src="texty.lua" type="client" />	
+</meta>

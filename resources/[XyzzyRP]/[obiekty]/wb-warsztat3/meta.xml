@@ -1,0 +1,8 @@
+<meta>
+	<script src="Interior.lua" type="client" />
+	<map src="Warsztat3.map" />	
+
+<!--	<map src="Bramy.map" />		-->
+
+	<script src="texty.lua" type="server" />
+</meta>

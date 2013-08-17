@@ -1,0 +1,5 @@
+<map edf:definitions="editor_main">
+    <object id="object (Gen_doorEXT19) (1)" interior="0" alpha="255" doublesided="true" model="1557" scale="1" dimension="0" posX="817.03723144531" posY="-1385.7238769531" posZ="12.592624664307" rotX="0" rotY="0" rotZ="180"></object>
+    <object id="object (lasdkrt3) (5)" interior="0" alpha="255" doublesided="true" model="3571" scale="1" dimension="0" posX="816.27221679688" posY="-1381.6940917969" posZ="13.722290992737" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (lasdkrt3) (6)" interior="0" alpha="255" doublesided="true" model="3571" scale="1" dimension="0" posX="816.2734375" posY="-1381.6875" posZ="14.259432792664" rotX="0" rotY="0" rotZ="270"></object>
+</map>

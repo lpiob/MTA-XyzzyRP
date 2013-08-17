@@ -1,0 +1,5 @@
+<meta>
+    <!--<script src="garaze_c.lua" type="client" />-->
+	<script src="lakiernia.lua" type="server" />
+	<script src="lakiernia_c.lua" type="client" />
+</meta>

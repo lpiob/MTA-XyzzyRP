@@ -1,0 +1,15 @@
+<map edf:definitions="editor_main">
+    <object id="object (0)" doublesided="true" model="14791" interior="2" dimension="22" posX="1313.6298828125" posY="388.669921875" posZ="2201.6999511719" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (1)" doublesided="true" model="14793" interior="2" dimension="22" posX="1313.66" posY="388.55" posZ="2204.48" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (2)" doublesided="true" model="14792" interior="2" dimension="22" posX="1313.54" posY="388.62" posZ="2201.15" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (3)" doublesided="true" model="2631" interior="2" dimension="22" posX="1311.4793701172" posY="396.43469238281" posZ="2199.7299804688" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (5)" doublesided="true" model="2630" interior="2" dimension="22" posX="1321.63" posY="388.36" posZ="2199.68" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (6)" doublesided="true" model="1985" interior="2" dimension="22" posX="1320.349609375" posY="397.75" posZ="2202.5900878906" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (7)" doublesided="true" model="1985" interior="2" dimension="22" posX="1320.87" posY="392.28" posZ="2202.59" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (8)" doublesided="true" model="1985" interior="2" dimension="22" posX="1323.16" posY="392.27" posZ="2202.59" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (9)" doublesided="true" model="1985" interior="2" dimension="22" posX="1320.35" posY="395.47" posZ="2202.59" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (10)" doublesided="true" model="14794" interior="2" dimension="22" posX="1313.419921875" posY="388.359375" posZ="2202.080078125" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (Gen_doorEXT02) (1)" doublesided="true" model="1497" interior="2" dimension="22" posX="1320.1418457031" posY="377.65023803711" posZ="2199.6428222656" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (lasdkrt2) (1)" doublesided="true" model="3570" interior="2" dimension="22" posX="1320.8833007813" posY="373.64065551758" posZ="2201.01171875" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (3)" doublesided="true" model="2631" interior="2" dimension="22" posX="1315.6173095703" posY="396.37203979492" posZ="2199.7299804688" rotX="0" rotY="0" rotZ="90"></object>
+</map>

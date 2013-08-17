@@ -1,0 +1,10 @@
+<meta>
+	<script src="naglosnienie.lua" type="server" />
+	<script src="naglosnienie_c.luac" type="client" />
+	
+	<script src="schody_b.lua" type="server" />
+	<script src="schody_c.lua" type="client" />		
+
+	
+	<export function="menu_schody" type="client" />
+</meta>

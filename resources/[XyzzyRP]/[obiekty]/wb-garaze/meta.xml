@@ -1,0 +1,8 @@
+<meta>
+	<map src="Interior.map" />
+	<map src="Garaze.map" />	
+	
+	<script src="texty.lua" type="client" />	
+	
+	<sync_map_element_data>false</sync_map_element_data>
+</meta>

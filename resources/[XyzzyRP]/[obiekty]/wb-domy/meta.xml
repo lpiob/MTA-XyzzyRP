@@ -1,0 +1,7 @@
+<meta>
+	<map src="Domy.map" />
+	<map src="Domy_w_podziemiach.map" />
+	<map src="Inne_pomieszczenia.map" />
+
+	<sync_map_element_data>false</sync_map_element_data>
+</meta>

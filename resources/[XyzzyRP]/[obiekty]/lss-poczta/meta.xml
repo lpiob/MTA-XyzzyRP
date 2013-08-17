@@ -1,0 +1,10 @@
+<meta>
+    <script src="poczta.lua" type="server" />
+    <script src="punkt_nadawczy.lua" type="client" />
+    <script src="pedy.lua" type="client" />
+    <export function="menu_odbierzListy" type="client" />
+    <script src="punkt_dystrybucji.lua" type="server" />
+    <script src="dostarczanie.lua" type="server" />
+    <script src="dostarczanie_c.lua" type="client" />
+    <export function="dostarczListy" type="client" />
+</meta>

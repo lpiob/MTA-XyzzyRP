@@ -1,0 +1,6 @@
+<meta>
+	<map src="Interior.map" />
+	<map src="Na_zewnatrz.map" />
+	
+	<sync_map_element_data>false</sync_map_element_data>
+</meta>

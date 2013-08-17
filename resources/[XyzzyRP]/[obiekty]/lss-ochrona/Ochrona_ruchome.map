@@ -1,0 +1,11 @@
+<map edf:definitions="editor_main">
+
+<!-- ochrona -->
+
+    <object id="drzwi_ochrona_1" doublesided="false" model="1495" interior="1" dimension="31" posX="2171.3620605469" posY="-1780.8178710938" posZ="1421.5125732422" rotX="0" rotY="0" rotZ="90"
+			animtime="1800" pos2X="2171.3620605469" pos2Y="-1781.9574951172" pos2Z="1421.5125732422"></object>
+    <object id="drzwi_ochrona_2" doublesided="false" model="1495" interior="1" dimension="31" posX="2171.3325195313" posY="-1777.8074951172" posZ="1421.5125732422" rotX="0" rotY="0" rotZ="270"
+			animtime="1800" pos2X="2171.3325195313" pos2Y="-1776.6833496094" pos2Z="1421.5125732422"></object>
+		
+			
+</map>

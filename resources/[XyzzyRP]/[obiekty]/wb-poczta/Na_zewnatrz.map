@@ -1,0 +1,8 @@
+<map edf:definitions="editor_main">
+    <object id="object (cr_door_03) (2)" doublesided="false" model="2946" interior="0" dimension="0" posX="1249.560546875" posY="-1559.291015625" posZ="12.555492401123" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (cr_door_03) (3)" doublesided="false" model="2946" interior="0" dimension="0" posX="1246.3782958984" posY="-1559.2785644531" posZ="12.555492401123" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (CJ_BUSH_PROP2) (1)" doublesided="true" model="1361" interior="0" dimension="0" posX="1243.1557617188" posY="-1561.4365234375" posZ="13.297819137573" rotX="0" rotY="0" rotZ="69.999389648438"></object>
+    <object id="object (CJ_BUSH_PROP2) (2)" doublesided="true" model="1361" interior="0" dimension="0" posX="1252.7183837891" posY="-1561.3238525391" posZ="13.297819137573" rotX="0" rotY="0" rotZ="289.9951171875"></object>
+    <object id="object (lckupgrgdoor_lvs) (1)" doublesided="false" model="8948" interior="0" dimension="0" posX="1248.1365966797" posY="-1559.2186279297" posZ="14.304470062256" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (POLICE_NB_car) (1)" doublesided="false" model="2737" interior="0" dimension="0" posX="1252.8092041016" posY="-1559.9560546875" posZ="14.358961105347" rotX="0" rotY="0" rotZ="0"></object>
+</map>

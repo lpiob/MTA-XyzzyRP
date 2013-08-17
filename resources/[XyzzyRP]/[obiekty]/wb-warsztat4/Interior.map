@@ -1,0 +1,23 @@
+<map edf:definitions="editor_main">
+    <object id="object (mp_ammu01) (1)" doublesided="true" model="18045" interior="2" dimension="8" posX="1213.16381836" posY="244.38243103" posZ="2084.50458527" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (ADAM_V_DOOR) (2)" doublesided="true" model="1569" interior="2" dimension="8" posX="1208.60998535" posY="237.873626709" posZ="2082.50514984" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (MED_OFFICE_DESK_3) (1)" doublesided="true" model="2173" interior="2" dimension="8" posX="1209.63989258" posY="246.912200928" posZ="2082.51239777" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (kb_swivelchair2) (1)" doublesided="true" model="1715" interior="2" dimension="8" posX="1208.43725586" posY="246.851028442" posZ="2082.51239777" rotX="0" rotY="0" rotZ="54.75"></object>
+    <object id="object (turn_table_R) (1)" doublesided="true" model="1954" interior="2" dimension="8" posX="1215.8972168" posY="251.086013794" posZ="2082.61959076" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (Plant_Pot_22) (1)" doublesided="true" model="2253" interior="2" dimension="8" posX="1208.90881348" posY="240.47706604" posZ="2082.79279327" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (Frame_Clip_1) (1)" doublesided="true" model="2254" interior="2" dimension="8" posX="1213.84423828" posY="251.706283569" posZ="2084.75511169" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (Plant_Pot_5) (1)" doublesided="true" model="2241" interior="2" dimension="8" posX="1209.90087891" posY="245.777404785" posZ="2083.81784821" rotX="0" rotY="0" rotZ="70"></object>
+    <object id="object (Plant_Pot_4) (1)" doublesided="true" model="949" interior="2" dimension="8" posX="1208.93835449" posY="250.62210083" posZ="2083.14868164" rotX="0" rotY="0" rotZ="304"></object>
+    <object id="object (Gen_doorSHOP02) (1)" doublesided="true" model="1496" interior="2" dimension="8" posX="1217.63879395" posY="240.039794922" posZ="2082.51239777" rotX="18.9848022461" rotY="2.37948608398" rotZ="90.2254638672"></object>
+    <object id="object (water_coolnu) (1)" doublesided="true" model="2002" interior="2" dimension="8" posX="1211.82702637" posY="237.481369019" posZ="2082.51239777" rotX="0" rotY="0" rotZ="180"></object>
+    <object id="object (water_coolnu) (2)" doublesided="true" model="2002" interior="2" dimension="8" posX="1212.6895752" posY="237.493560791" posZ="2082.51239777" rotX="0" rotY="0" rotZ="179.994506836"></object>
+    <object id="object (cj_bucket) (1)" doublesided="true" model="2713" interior="2" dimension="8" posX="1217.48425293" posY="244.2940979" posZ="2082.66594696" rotX="0" rotY="0" rotZ="34.5"></object>
+    <object id="object (POLICE_NB_car) (1)" doublesided="true" model="2737" interior="2" dimension="8" posX="1209.93115234" posY="237.019470215" posZ="2084.2322464" rotX="0" rotY="0" rotZ="180"></object>
+    <object id="object (CJ_OFF2_LIC_1_L) (1)" doublesided="true" model="2533" interior="2" dimension="8" posX="1214.34375" posY="237.506713867" posZ="2082.51239777" rotX="0" rotY="0" rotZ="180"></object>
+    <object id="object (ZIP_SHELF1) (1)" doublesided="true" model="2708" interior="2" dimension="8" posX="1218.15686035" posY="250.546844482" posZ="2082.51239777" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (MED_OFFICE5_UNIT_1) (1)" doublesided="true" model="2200" interior="2" dimension="8" posX="1218.32775879" posY="246.65675354" posZ="2082.51239777" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (SWK_SINGLE_1) (1)" doublesided="true" model="2291" interior="2" dimension="8" posX="1211.12976074" posY="247.349380493" posZ="2082.51239777" rotX="0" rotY="0" rotZ="294.75"></object>
+    <object id="object (lounge_wood_up) (1)" doublesided="true" model="1645" interior="2" dimension="8" posX="1215.71691895" posY="243.613891602" posZ="2082.84454346" rotX="0" rotY="89.2500915527" rotZ="0"></object>
+    <object id="object (DYN_BOXES) (1)" doublesided="true" model="1421" interior="2" dimension="8" posX="1217.16210938" posY="243.014923096" posZ="2083.2822876" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (PHOTOCOPIER_1) (1)" doublesided="true" model="2186" interior="2" dimension="8" posX="1209.48205566" posY="244.191116333" posZ="2082.51239777" rotX="0" rotY="0" rotZ="180"></object>
+</map>

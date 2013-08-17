@@ -1,0 +1,31 @@
+<map edf:definitions="editor_main">
+    <object id="object (spdr_sfw) (2)" doublesided="true" model="9625" interior="2" dimension="33" posX="2444.32495117" posY="116.793075562" posZ="2287.27328491" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (Gen_doorEXT02) (3)" doublesided="true" model="1497" interior="2" dimension="33" posX="2444.29638672" posY="110.328704834" posZ="2284.44851685" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (fightplaza1_LAn) (1)" doublesided="true" model="4033" interior="2" dimension="33" posX="2437.39672852" posY="130.004669189" posZ="2278.32384491" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (fightplaza1_LAn) (2)" doublesided="true" model="4033" interior="2" dimension="33" posX="2450.76098633" posY="112.437164307" posZ="2277.7911377" rotX="90" rotY="0" rotZ="270"></object>
+    <object id="object (fightplaza1_LAn) (3)" doublesided="true" model="4033" interior="2" dimension="33" posX="2437.87524414" posY="130.634338379" posZ="2277.79675293" rotX="90" rotY="180" rotZ="180"></object>
+    <object id="object (fightplaza1_LAn) (4)" doublesided="true" model="4033" interior="2" dimension="33" posX="2417.92016602" posY="115.738479614" posZ="2277.79615784" rotX="90" rotY="180" rotZ="270"></object>
+    <object id="object (fightplaza1_LAn) (5)" doublesided="true" model="4033" interior="2" dimension="33" posX="2428.6159668" posY="103.236671448" posZ="2277.80354309" rotX="90" rotY="179.994506836" rotZ="0"></object>
+    <object id="object (LacmaBase1_LAn) (2)" doublesided="true" model="4559" interior="2" dimension="33" posX="2422.43725586" posY="156.579040527" posZ="2306.78096771" rotX="0" rotY="180" rotZ="0"></object>
+    <object id="object (vegasNbball1) (1)" doublesided="true" model="6959" interior="2" dimension="33" posX="2434.01269531" posY="120.335083008" posZ="2284.45307922" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (ufo_light02) (1)" doublesided="true" model="16779" interior="2" dimension="33" posX="2434.87304688" posY="116.899749756" posZ="2291.15854645" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (MED_OFFICE_UNIT_5) (1)" doublesided="true" model="2164" interior="2" dimension="33" posX="2426.60107422" posY="109.802886963" posZ="2284.42182922" rotX="0" rotY="0" rotZ="180"></object>
+    <object id="object (SWK_SINGLE_1) (1)" doublesided="true" model="2291" interior="2" dimension="33" posX="2430.36206055" posY="122.497116089" posZ="2284.42182922" rotX="0" rotY="0" rotZ="50.3785705566"></object>
+    <object id="object (DYN_TV) (1)" doublesided="true" model="1429" interior="2" dimension="33" posX="2429.45776367" posY="119.062904358" posZ="2284.71313477" rotX="0" rotY="0" rotZ="51.8785705566"></object>
+    <object id="object (acbox1_SFS) (1)" doublesided="true" model="3796" interior="2" dimension="33" posX="2427.58178711" posY="121.541244507" posZ="2284.42182922" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (michelle-barrels) (1)" doublesided="true" model="14878" interior="2" dimension="33" posX="2428.765625" posY="115.921005249" posZ="2284.88441467" rotX="0" rotY="0" rotZ="31.3591918945"></object>
+    <object id="object (officedesk1l) (1)" doublesided="true" model="1998" interior="2" dimension="33" posX="2428.67944336" posY="111.191711426" posZ="2284.42182922" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (LOW_DIN_CHAIR_2) (1)" doublesided="true" model="2121" interior="2" dimension="33" posX="2434.76123047" posY="110.424728394" posZ="2284.93509674" rotX="0" rotY="0" rotZ="180"></object>
+    <object id="object (LOW_DIN_CHAIR_2) (2)" doublesided="true" model="2121" interior="2" dimension="33" posX="2435.5078125" posY="110.367446899" posZ="2284.93509674" rotX="0" rotY="0" rotZ="187.494506836"></object>
+    <object id="object (LOW_DIN_CHAIR_2) (3)" doublesided="true" model="2121" interior="2" dimension="33" posX="2436.54248047" posY="110.138671875" posZ="2284.93509674" rotX="0" rotY="0" rotZ="173.242675781"></object>
+    <object id="object (LOW_DIN_CHAIR_2) (4)" doublesided="true" model="2121" interior="2" dimension="33" posX="2428.59667969" posY="110.063514709" posZ="2284.93509674" rotX="0" rotY="0" rotZ="97.76953125"></object>
+    <object id="object (PHOTOCOPIER_1) (1)" doublesided="true" model="2186" interior="2" dimension="33" posX="2428.64794922" posY="112.267181396" posZ="2284.42182922" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (CJ_FF_COOKER) (1)" doublesided="true" model="2417" interior="2" dimension="33" posX="2424.80493164" posY="117.8179245" posZ="2284.42182922" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (parkbench1) (1)" doublesided="true" model="1280" interior="2" dimension="33" posX="2426.77758789" posY="119.368659973" posZ="2285.49815369" rotX="51.8785705566" rotY="0" rotZ="0"></object>
+    <object id="object (propcollecttable) (1)" doublesided="true" model="1670" interior="2" dimension="33" posX="2427.64819336" posY="117.281059265" posZ="2285.29792786" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (chairsntableml) (1)" doublesided="true" model="1679" interior="2" dimension="33" posX="2427.6640625" posY="117.2370224" posZ="2284.88567352" rotX="0" rotY="0" rotZ="49.6285705566"></object>
+    <object id="object (LOW_DIN_CHAIR_2) (5)" doublesided="true" model="2121" interior="2" dimension="33" posX="2431.03857422" posY="111.921653748" posZ="2284.93509674" rotX="0" rotY="0" rotZ="300.521057129"></object>
+    <object id="object (LOW_DIN_CHAIR_2) (6)" doublesided="true" model="2121" interior="2" dimension="33" posX="2431.625" posY="110.427658081" posZ="2284.93509674" rotX="0" rotY="0" rotZ="261.321044922"></object>
+    <object id="object (Frame_Thick_6) (1)" doublesided="true" model="2279" interior="2" dimension="33" posX="2429.28344727" posY="123.602996826" posZ="2287.07980347" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (Frame_WOOD_3) (1)" doublesided="true" model="2267" interior="2" dimension="33" posX="2436.12182617" posY="109.737487793" posZ="2287.36991882" rotX="0" rotY="0" rotZ="180"></object>
+</map>

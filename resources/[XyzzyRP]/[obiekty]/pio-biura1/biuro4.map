@@ -1,0 +1,25 @@
+<map edf:definitions="editor_main">
+    <object id="object (lawnhousegreyRS) (2)" doublesided="false" model="3678" interior="1" dimension="3141" posX="3428.3999023438" posY="-152.10000610352" posZ="662.20001220703" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (desn2_ammun) (3)" doublesided="false" model="16387" interior="1" dimension="3141" posX="3447.3999023438" posY="-153" posZ="667.70001220703" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (desn2_ammun) (4)" doublesided="false" model="16387" interior="1" dimension="3141" posX="3418.3000488281" posY="-156.60000610352" posZ="667.70001220703" rotX="0" rotY="0" rotZ="180"></object>
+    <object id="object (desn2_ammun) (5)" doublesided="false" model="16387" interior="1" dimension="3141" posX="3431" posY="-140.69999694824" posZ="667.70001220703" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (desn2_ammun) (7)" doublesided="false" model="16387" interior="1" dimension="3141" posX="3434.6000976563" posY="-169.19999694824" posZ="667.70001220703" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (mrk_liv_tble) (1)" doublesided="false" model="2024" interior="1" dimension="3141" posX="3435.6000976563" posY="-152.89999389648" posZ="667.79998779297" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (kb_chair03) (1)" doublesided="false" model="1704" interior="1" dimension="3141" posX="3433.1999511719" posY="-152.80000305176" posZ="667.79998779297" rotX="0" rotY="0" rotZ="96.702392578125"></object>
+    <object id="object (kb_chair03) (2)" doublesided="false" model="1704" interior="1" dimension="3141" posX="3437.1999511719" posY="-153" posZ="667.79998779297" rotX="0" rotY="0" rotZ="250.12780761719"></object>
+    <object id="object (kb_chair03) (3)" doublesided="false" model="1704" interior="1" dimension="3141" posX="3436.8999023438" posY="-150.69999694824" posZ="667.79998779297" rotX="0" rotY="0" rotZ="294.67980957031"></object>
+    <object id="object (CJ_POLICE_COUNTER) (1)" doublesided="false" model="2604" interior="1" dimension="3141" posX="3432" posY="-158.19999694824" posZ="668.59997558594" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (PHOTOCOPIER_1) (1)" doublesided="false" model="2186" interior="1" dimension="3141" posX="3428.8000488281" posY="-159.5" posZ="667.79998779297" rotX="0" rotY="0" rotZ="180"></object>
+    <object id="object (POLCE_SHELF) (1)" doublesided="false" model="2608" interior="1" dimension="3141" posX="3430.3000488281" posY="-160" posZ="670.29998779297" rotX="0" rotY="0" rotZ="180"></object>
+    <object id="object (veg_palmkb14) (1)" doublesided="false" model="646" interior="1" dimension="3141" posX="3437.1000976563" posY="-159.30000305176" posZ="669.20001220703" rotX="0" rotY="0" rotZ="53.5"></object>
+    <object id="object (Plant_Pot_2) (1)" doublesided="false" model="2194" interior="1" dimension="3141" posX="3432.3000488281" posY="-156.60000610352" posZ="669.20001220703" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (desn2_ammun) (8)" doublesided="false" model="16387" interior="1" dimension="3141" posX="3422.6999511719" posY="-150.60000610352" posZ="667.70001220703" rotX="0" rotY="0" rotZ="180"></object>
+    <object id="object (Hotel_dresser_2) (1)" doublesided="false" model="2562" interior="1" dimension="3141" posX="3427.3999023438" posY="-155.10000610352" posZ="667.79998779297" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (Plant_Pot_15) (1)" doublesided="false" model="2247" interior="1" dimension="3141" posX="3435" posY="-152.5" posZ="668.79998779297" rotX="0" rotY="0" rotZ="16.771514892578"></object>
+    <object id="object (Frame_5) (1)" doublesided="false" model="2286" interior="1" dimension="3141" posX="3433.6000976563" posY="-149.80000305176" posZ="670.20001220703" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (Frame_2) (1)" doublesided="false" model="2289" interior="1" dimension="3141" posX="3436.1999511719" posY="-149.80000305176" posZ="670.20001220703" rotX="0" rotY="0" rotZ="0.25"></object>
+    <object id="object (PC_1) (1)" doublesided="false" model="2190" interior="1" dimension="3141" posX="3427.6999511719" posY="-154.60000610352" posZ="668.59997558594" rotX="0" rotY="0" rotZ="20.978576660156"></object>
+    <object id="object (est_chair1) (1)" doublesided="false" model="1721" interior="1" dimension="3141" posX="3428.3000488281" posY="-156.39999389648" posZ="667.79998779297" rotX="0" rotY="0" rotZ="14.482727050781"></object>
+    <object id="object (Gen_doorEXT09) (1)" doublesided="false" model="1507" interior="1" dimension="3141" posX="3436" posY="-160.19999694824" posZ="667.79998779297" rotX="0" rotY="0" rotZ="180"></object>
+    <object id="object (gaz_pier1) (1)" doublesided="false" model="6189" interior="1" dimension="3141" posX="3426.1999511719" posY="-155.69999694824" posZ="685.70001220703" rotX="0" rotY="180" rotZ="0"></object>
+</map>

@@ -1,0 +1,9 @@
+<meta>
+	<map src="Interior.map" />
+	<map src="Na_zewnatrz.map" />
+	
+    <script src="sklep.lua" type="server" />
+    <script src="sklep_c.lua" type="client" />
+	
+	<sync_map_element_data>false</sync_map_element_data>
+</meta>

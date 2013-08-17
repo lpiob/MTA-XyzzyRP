@@ -1,0 +1,7 @@
+<meta>
+	<map src="drzwi.map" />	
+	
+    <script src="test_c.lua" type="client" />
+    <export function="menu_brama" type="client" />
+    <script src="test_b.lua" type="server" />
+</meta>

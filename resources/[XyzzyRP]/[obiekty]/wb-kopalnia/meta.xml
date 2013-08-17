@@ -1,0 +1,19 @@
+<meta>
+	<map src="Tymczasowe.map" />
+
+<!--	<script src="Na_zewnatrz.lua" type="client" />	-->
+    <map src="Na_zewnatrz.map" />
+<!--	<script src="Interior.lua" type="client" />	-->
+    <map src="Interior.map" />
+
+<!--	<script src="Kopalnia-interior.lua" type="client" />		-->
+    <map src="Kopalnia-interior.map" />
+
+	<map src="windy.map" />	
+	<script src="windy.lua" type="server" />
+
+	<file src="audio/fx-kopalnia.ogg" />
+	<script src="kopalnia_muzyka.lua" type="client" />	
+	
+	<script src="texty.lua" type="server" />
+</meta>

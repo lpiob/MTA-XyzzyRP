@@ -1,0 +1,7 @@
+<meta>
+	<map src="biuro1.map" />
+	<map src="biuro2.map" />
+	<map src="biuro3.map" />
+	<map src="biuro4.map" />
+	 <sync_map_element_data>false</sync_map_element_data>
+</meta>

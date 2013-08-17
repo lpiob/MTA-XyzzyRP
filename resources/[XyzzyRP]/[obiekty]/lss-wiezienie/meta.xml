@@ -1,0 +1,83 @@
+<meta>
+	<script src="glowna_b.lua" type="server" />
+	<script src="glowna_c.lua" type="client" />
+	
+	<!--<script src="glowna_plac_b.lua" type="server" />
+	<script src="glowna_plac_c.lua" type="client" />-->
+	
+	<script src="wydzial_a_b.lua" type="server" />
+	<script src="wydzial_a_c.lua" type="client" />
+	
+	<script src="wydzial_b_b.lua" type="server" />
+	<script src="wydzial_b_c.lua" type="client" />	
+	
+	<script src="cela_a_1_b.lua" type="server" />
+	<script src="cela_a_1_c.lua" type="client" />
+	
+	<script src="cela_a_2_b.lua" type="server" />
+	<script src="cela_a_2_c.lua" type="client" />	
+
+	<script src="cela_a_3_b.lua" type="server" />
+	<script src="cela_a_3_c.lua" type="client" />		
+	
+	<script src="cela_a_4_b.lua" type="server" />
+	<script src="cela_a_4_c.lua" type="client" />	
+	
+	<script src="cela_a_5_b.lua" type="server" />
+	<script src="cela_a_5_c.lua" type="client" />	
+	
+	<script src="cela_a_6_b.lua" type="server" />
+	<script src="cela_a_6_c.lua" type="client" />		
+	
+	<script src="cela_b_1_b.lua" type="server" />
+	<script src="cela_b_1_c.lua" type="client" />		
+
+	<script src="cela_b_2_b.lua" type="server" />
+	<script src="cela_b_2_c.lua" type="client" />		
+	
+	<script src="cela_b_3_b.lua" type="server" />
+	<script src="cela_b_3_c.lua" type="client" />	
+	
+	<script src="cela_b_4_b.lua" type="server" />
+	<script src="cela_b_4_c.lua" type="client" />		
+	
+	<script src="cela_b_5_b.lua" type="server" />
+	<script src="cela_b_5_c.lua" type="client" />
+	
+	<script src="cela_b_6_b.lua" type="server" />
+	<script src="cela_b_6_c.lua" type="client" />	
+	
+	<script src="podium_b.lua" type="server" />
+	<script src="podium_c.lua" type="client" />		
+
+	<script src="wydzial2_a_b.lua" type="server" />
+	<script src="wydzial2_a_c.lua" type="client" />
+	
+	<script src="wydzial2_b_b.lua" type="server" />
+	<script src="wydzial2_b_c.lua" type="client" />	
+
+	
+	<export function="menu_brama1" type="client" />
+	<!--<export function="menu_brama2" type="client" />-->
+	<export function="menu_brama3" type="client" />	
+	<export function="menu_brama4" type="client" />	
+	<export function="menu_brama5" type="client" />	
+	<export function="menu_brama6" type="client" />	
+	<export function="menu_brama7" type="client" />	
+	<export function="menu_brama8" type="client" />	
+	<export function="menu_brama9" type="client" />	
+	<export function="menu_brama10" type="client" />	
+	<export function="menu_brama11" type="client" />	
+	<export function="menu_brama12" type="client" />	
+	<export function="menu_brama13" type="client" />	
+	<export function="menu_brama14" type="client" />	
+	<export function="menu_brama15" type="client" />	
+	<export function="menu_brama16" type="client" />
+	<export function="menu_brama17" type="client" />
+	<export function="menu_brama18" type="client" />
+	<export function="menu_brama19" type="client" />			
+	
+    <script src="dyrektor_b.lua" type="server" />
+    <export function="menu_drzwi" type="client" />
+    <script src="dyrektor_c.lua" type="client" />
+</meta>

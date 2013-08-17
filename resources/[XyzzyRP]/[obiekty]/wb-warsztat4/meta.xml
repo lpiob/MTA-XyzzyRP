@@ -1,0 +1,6 @@
+<meta>
+	<script src="Interior.lua" type="client" />
+	<script src="Warsztat4.lua" type="client" />	
+	
+	<!--<script src="texty.lua" type="client" />-->	
+</meta>

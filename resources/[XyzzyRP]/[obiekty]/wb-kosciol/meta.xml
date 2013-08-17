@@ -1,0 +1,9 @@
+<meta>
+	<map src="Interior.map" />	
+	<map src="Na_zewnatrz.map" />	
+
+	<script src="Kosciol_muzyka.lua" type="client" />
+	<file src="audio/fx-kosciol.ogg" />
+	
+	<sync_map_element_data>false</sync_map_element_data>
+</meta>

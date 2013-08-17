@@ -1,0 +1,10 @@
+<meta>
+    <script src="warsztat_c.lua" type="client" />
+    <export function="menu_brama" type="client" />
+    <script src="warsztat_b.lua" type="server" />
+	
+	<map src="warsztat2_ruchome.map" />
+	<script src="rozsuwane_drzwi.lua" type="server" />
+
+	<script src="texty.lua" type="server" />
+</meta>

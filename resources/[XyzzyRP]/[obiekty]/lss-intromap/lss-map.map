@@ -1,0 +1,16 @@
+<map edf:definitions="editor_main">    
+  <object id="object (turtle) (1)" interior="0" alpha="255" doublesided="false" model="1609" scale="0.30000001192093" dimension="7" posX="2129.3999023438" posY="-83.400001525879" posZ="1.7999999523163" rotX="0" rotY="4" rotZ="280"></object>
+   <object id="object (CJ_SURF_BOARD) (1)" interior="0" alpha="255" doublesided="false" model="2404" scale="1" dimension="7" posX="2138" posY="-90" posZ="3.0999999046326" rotX="355" rotY="0" rotZ="170"></object>
+   <object id="object (CJ_SURF_BOARD2) (1)" interior="0" alpha="255" doublesided="false" model="2405" scale="1" dimension="7" posX="2136.6999511719" posY="-89.599998474121" posZ="3.0999999046326" rotX="354.99572753906" rotY="0" rotZ="169.99694824219"></object>
+   <object id="object (CJ_SURF_BOARD3) (1)" interior="0" alpha="255" doublesided="false" model="2406" scale="1" dimension="7" posX="2135.5" posY="-89.300003051758" posZ="3.0999999046326" rotX="354.99572753906" rotY="0" rotZ="169.99694824219"></object>
+   <object id="object (CJ_SURF_BOARD3) (2)" interior="0" alpha="255" doublesided="false" model="2406" scale="1" dimension="7" posX="2124.5" posY="-101.40000152588" posZ="0.40000000596046" rotX="278" rotY="90" rotZ="169.00012207031"></object>
+   <object id="object (MED_SPEAKER_4) (1)" interior="0" alpha="255" doublesided="false" model="2232" scale="1" dimension="7" posX="2143.3000488281" posY="-79.800003051758" posZ="2.5" rotX="0" rotY="0" rotZ="290"></object>
+   <object id="object (MED_SPEAKER_4) (2)" interior="0" alpha="255" doublesided="false" model="2232" scale="1" dimension="7" posX="2142.8999023438" posY="-81" posZ="3.2000000476837" rotX="0" rotY="0" rotZ="289.9951171875"></object>
+   <object id="object (MED_SPEAKER_4) (3)" interior="0" alpha="255" doublesided="false" model="2232" scale="1" dimension="7" posX="2144" posY="-82.69921875" posZ="2.4000000953674" rotX="0" rotY="0" rotZ="289.9951171875"></object>
+   <object id="object (MED_SPEAKER_4) (4)" interior="0" alpha="255" doublesided="false" model="2232" scale="1" dimension="7" posX="2143.1999511719" posY="-81.800003051758" posZ="3.2000000476837" rotX="0" rotY="0" rotZ="289.9951171875"></object>
+   <object id="object (beachball) (1)" interior="0" alpha="255" doublesided="false" model="1598" scale="1" dimension="7" posX="2128.1999511719" posY="-86.199996948242" posZ="2.8" rotX="0" rotY="0" rotZ="0"></object>
+   <object id="object (sandcastle1) (1)" interior="0" alpha="255" doublesided="false" model="1610" scale="3" dimension="7" posX="2127.3999023438" posY="-80.099998474121" posZ="1.3999999761581" rotX="0" rotY="0" rotZ="0"></object>
+   <object id="object (od_pat_hutb) (1)" interior="0" alpha="255" doublesided="false" model="1637" scale="1" dimension="7" posX="2129.1000976563" posY="-65" posZ="2.2000000476837" rotX="0" rotY="0" rotZ="0"></object>
+   <object id="object (beachtowel04) (1)" interior="0" alpha="255" doublesided="false" model="1640" scale="1" dimension="7" posX="2134.3999023438" posY="-71.8" posZ="1.4099999666214" rotX="0" rotY="0" rotZ="0"></object>
+   <object id="object (beachtowel02) (1)" interior="0" alpha="255" doublesided="false" model="1642" scale="1" dimension="7" posX="2140.8000488281" posY="-76.699996948242" posZ="2.0999999046326" rotX="0" rotY="0" rotZ="280"></object>
+</map>
