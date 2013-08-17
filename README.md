@@ -74,5 +74,42 @@ Aby uruchomić serwer należy:
 8. Zainstalować i uruchomić rejestrację kont na stronie.
 
 
+Informacje techniczne
+========================================================================
 
+## Wstępnie
 
+Nie ma pełnej dokumentacji do wszystkich elementów kodu. Jest on dość spory i obejmuje wiele aspektów. Poniżej wypisane zostały pewne kluczowe aspekty na które należy zwrócić uwagę, pozostałych rzeczy trzeba dowiedzieć się samemu czytając kod źródłowy.
+
+## Obsługa bazy danych.
+
+Kod powstał zanim MTA zostało doposażone o funkcje do natywnej obsługi baz danych (funkcje db...). W związku z tym, w kodzie wykorzystywane są zarówno te funkcje jak i funkcje udostępniane przez moduł mta_mysql.
+
+mta_mysql, mimo że jest w pełni sprawny, nie oferuje takiej elastyczności jak wbudowane funkcje do obsługi baz danych. Jednym z niuansów tego modułu jest to, że każda zwracana zmienna jest typu string i w związku z tym po pobraniu danych z bazy wymagana jest ich dalsza konwersja. Wbudowane funkcje zwracają od razu zmienne we właściwych typach.
+
+Komunikacja przez mta_mysql jest realizowana w zasobie DB i wykorzystywana przez starsze fragment kodu.
+
+Komunikacja przez funkcje db... jest realizowania w zasobie DB2 i wykorzystywana przez nowsze fragmenty kodu.
+
+Pisząc dowolny fragment kodu korzystający z baz danych, powinieneś odwoływać się tylko do zasobu DB2.
+
+### Ekwipunek
+
+Każdy przedmiot który może trafić do ekwipunku składa się z następującego zestawu informacji:
+
+> (uint) id przedmiotu, (uint/nil) podtyp przedmiotu, (uint) ilość
+
+Każda z tych zmiennych to nieujemna liczba całkowita, lub nil/NULL w przypadku braku podtypu.
+
+Przykładowe itemy to:
+Aparat: id przedmiotu: 1, podtyp nil
+Mapa: id przedmiotu 4, podtyp nil
+Klucze do pojazdu 1337: id przedmiotu 6, podtyp 1337
+
+Spis przedmiotów można znaleźć w plikach lss-gui/ekwipunek.lua. Wtórny spis przedmiotów tworzony jest w bazie danych w tabeli lss_items.
+
+Przedmioty mogą być przechowywane przy postaci oraz w pojemnikach. Do pojemników zaliczamy: sejfy, skrytki bankowe, magazyny, bagażniki pojazdów.
+
+Przedmioty przechowywane przy postaci zapisywane są w postaci zserializoanej w tabeli lss_characters, kolumna eq. Nie jest może to najbardziej elegancka forma przechowywania tych danych, ale zdecydowanie najszybsza jeśli chodzi o ich przetwarzanie. Zmiany w tej kolumnie mogą być dokonywane tylko, jeśli edytowana postać jest offline.
+
+Przedmioty przechowywane w pozostałych miejscach zapisywane są w tablicach lss_container_contents. Zmiany w tych tablicach są natychmiastowe, pod warunkiem że nikt w danej chwili nie dokonuje interakcji z edytowanym pojemnikiem.
