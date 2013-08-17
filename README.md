@@ -1,4 +1,4 @@
 MTA-XyzzyRP
 ===========
 
-Gamemode RP do MTA
+Gamemode RP do MTA.
