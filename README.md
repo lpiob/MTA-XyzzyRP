@@ -48,6 +48,7 @@ Oprogramowanie to nie wymaga żadnego specjalnego serwera dedykowanego. Aby go u
 Podczas wyboru hostingu należy upewnić się, czy:
 - hosting umożliwia dostęp do bazy danych MySQL
 - dostęp do bazy danych możliwy jest także z dowolnego hosta w internecie
+
 (wymienione wyżej hostingi spełniają te wymogi)
 
 Oprócz hostingu na serwer MTA wymagany jest też hosting na utrzymanie strony internetowej, a przynajmniej kodu pozwalającego na rejestrację graczy, gdyż ta nie jest wbudowana w serwer. Do tego wystarczy dowolony nowoczesny hosting z zainstalowanym PHP oraż możliwością wykonywania połączeń do bazy danych umieszczonej na ww. hostingu.
@@ -89,7 +90,7 @@ mta_mysql, mimo że jest w pełni sprawny, nie oferuje takiej elastyczności jak
 
 Komunikacja przez mta_mysql jest realizowana w zasobie DB i wykorzystywana przez starsze fragment kodu.
 
-Komunikacja przez funkcje db... jest realizowania w zasobie DB2 i wykorzystywana przez nowsze fragmenty kodu.
+Komunikacja przez funkcje db... jest realizowana w zasobie DB2 i wykorzystywana przez nowsze fragmenty kodu.
 
 Pisząc dowolny fragment kodu korzystający z baz danych, powinieneś odwoływać się tylko do zasobu DB2.
 
@@ -102,14 +103,14 @@ Każdy przedmiot który może trafić do ekwipunku składa się z następująceg
 Każda z tych zmiennych to nieujemna liczba całkowita, lub nil/NULL w przypadku braku podtypu.
 
 Przykładowe itemy to:
-Aparat: id przedmiotu: 1, podtyp nil
-Mapa: id przedmiotu 4, podtyp nil
-Klucze do pojazdu 1337: id przedmiotu 6, podtyp 1337
+- Aparat: id przedmiotu: 1, podtyp nil
+- Mapa: id przedmiotu 4, podtyp nil
+- Klucze do pojazdu 1337: id przedmiotu 6, podtyp 1337
 
 Spis przedmiotów można znaleźć w plikach lss-gui/ekwipunek.lua. Wtórny spis przedmiotów tworzony jest w bazie danych w tabeli lss_items.
 
 Przedmioty mogą być przechowywane przy postaci oraz w pojemnikach. Do pojemników zaliczamy: sejfy, skrytki bankowe, magazyny, bagażniki pojazdów.
 
-Przedmioty przechowywane przy postaci zapisywane są w postaci zserializoanej w tabeli lss_characters, kolumna eq. Nie jest może to najbardziej elegancka forma przechowywania tych danych, ale zdecydowanie najszybsza jeśli chodzi o ich przetwarzanie. Zmiany w tej kolumnie mogą być dokonywane tylko, jeśli edytowana postać jest offline.
+Przedmioty przechowywane przy postaci zapisywane są w postaci zserializowanej w tabeli lss_characters, kolumna eq. Nie jest może to najbardziej elegancka forma przechowywania tych danych, ale zdecydowanie najszybsza jeśli chodzi o ich przetwarzanie. Zmiany w tej kolumnie mogą być dokonywane tylko, jeśli edytowana postać jest offline.
 
 Przedmioty przechowywane w pozostałych miejscach zapisywane są w tablicach lss_container_contents. Zmiany w tych tablicach są natychmiastowe, pod warunkiem że nikt w danej chwili nie dokonuje interakcji z edytowanym pojemnikiem.
