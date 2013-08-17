@@ -1,0 +1,5 @@
+<meta>
+    <script src="przystanki_c.lua" type="client" />
+    <export function="menu_przystanek" type="client" />
+	<file src="autobus.ogg" type="client" />
+</meta>

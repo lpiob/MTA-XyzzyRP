@@ -1,0 +1,7 @@
+<meta>
+<!--    <min_mta_version client="1.3.0-9.03772" server="1.3.0-9.03772" />-->
+    <min_mta_version client="1.3.0-9.04710" server="1.3.0-9.03772" />
+    
+    <script src="kamizelki.lua" type="server" />
+	<script src="telefony.lua" type="server" />
+</meta>

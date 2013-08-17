@@ -1,0 +1,31 @@
+<meta>
+    <include resource="lss-core" />
+
+	<script src="utils.lua" type="server" />
+    <script src="base.lua" type="server" />
+
+
+    <script src="commands_admin.lua" type="server" />
+    <script src="commands_admin_c.lua" type="client" />
+    <script src="commands_support.lua" type="server" />
+    <script src="commands_support_c.lua" type="client" />
+    <script src="menu.lua" type="server" />
+    <script src="menu_c.lua" type="client" />
+    <export function="menu_unfreeze" type="client" />
+    <export function="menu_lift1" type="client" />
+    <export function="menu_bringHere" type="client" />
+	<export function="menu_vehinfo" type="client" />
+
+	<script src="server_view.lua" type="server" />
+	<export function="gameView_add" type="server" />
+	<export function="reportView_add" type="server" />
+    <export function="outputLog" type="server" />
+	<script src="reports.lua" type="server" />
+	
+	<script src="logging.lua" type="server" />
+	<script src="screenshots.lua" type="server" />
+
+	<script src="nadawaniegp.lua" type="server" />
+	<script src="nadawaniegp_c.lua" type="client" />
+
+</meta>
