@@ -39,6 +39,20 @@ Wydaliśmy ten kod aby:
 
 4. Aby ściągnąć więcej graczy do MTA.
 
+Zawartość repozytorium
+========================================================================
+
+W repozytorium znajduje się:
+- Kod LUA serwera
+- Struktura bazy danych
+- Kod PHP realizujący rejestrację kont i postaci
+- Dodatkowe wymagane moduły
+
+W repozytorium nie ma:
+- Kodu integrującego IPBoard lub inne oprogramowanie forum z autoryzacją używaną na serwerze
+- Podmianek skinów i pojazdów
+
+
 Gdzie uruchomić serwer
 ========================================================================
 
