@@ -1,3 +1,6 @@
+Trwa przygotowywanie kodu do wgrania do repozytorium. Jak ten komunikat zniknie, w repozytorium znajdzie się kompletna wersja, gotowa do pobrania.
+
+
 MTA-XyzzyRP
 ===========
 
@@ -11,7 +14,7 @@ Autorzy
 - Eryk "Erock" Dwornicki
 - Karer <karer.programmer@gmail.com>
 
-Licencja:
+Licencja
 ========================================================================
 
 Kod dystrybuowany jest na licencji GPLv2. Polskie tłumaczenie licencji: http://gnu.org.pl/text/licencja-gnu.html 
@@ -23,7 +26,7 @@ W repozytorium znajdują się również fragmenty kodu z community, dystrybuowan
 Istnieje możliwość otrzymania tego kodu na innej licencji. Jeśli jesteś tym zainteresowany, skontaktuj się z nami.
 
 
-Dlaczego ten kod został wydany:
+Dlaczego ten kod został wydany
 ========================================================================
 
 Wydaliśmy ten kod aby:
@@ -114,3 +117,11 @@ Przedmioty mogą być przechowywane przy postaci oraz w pojemnikach. Do pojemnik
 Przedmioty przechowywane przy postaci zapisywane są w postaci zserializowanej w tabeli lss_characters, kolumna eq. Nie jest może to najbardziej elegancka forma przechowywania tych danych, ale zdecydowanie najszybsza jeśli chodzi o ich przetwarzanie. Zmiany w tej kolumnie mogą być dokonywane tylko, jeśli edytowana postać jest offline.
 
 Przedmioty przechowywane w pozostałych miejscach zapisywane są w tablicach lss_container_contents. Zmiany w tych tablicach są natychmiastowe, pod warunkiem że nikt w danej chwili nie dokonuje interakcji z edytowanym pojemnikiem.
+
+Często zadawane pytania
+========================================================================
+
+### Czy można wykorzystywać fragmenty tego kodu?
+
+Tak, pod warunkiem, że opublikujesz cały swój kod na licencji GPL, lub otrzymasz ten kod na innej licencji po uprzednim kontakcie z nami (<wielebny@lss-rp.pl>).
+
