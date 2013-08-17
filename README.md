@@ -132,6 +132,12 @@ Przedmioty przechowywane przy postaci zapisywane są w postaci zserializowanej w
 
 Przedmioty przechowywane w pozostałych miejscach zapisywane są w tablicach lss_container_contents. Zmiany w tych tablicach są natychmiastowe, pod warunkiem że nikt w danej chwili nie dokonuje interakcji z edytowanym pojemnikiem.
 
+### Logowanie
+
+Wszystkie logi przechowywane są w katalogu lss-admin/logs. Przy restarcie tego zasobu tworzony jest nowy plik z logami.
+Wszystkie screeny graczy wykonane komendą /sshot przechowywane są w katalogu lss-admin/ss/
+
+
 Często zadawane pytania
 ========================================================================
 
