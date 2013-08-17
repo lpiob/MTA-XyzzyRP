@@ -1,0 +1,25 @@
+271 - czarny mężczyzna,
+270 - czarny mężczyzna,
+269 - czarny mężczyzna,
+105 - czarny mężczyzna,
+106 - czarny mężczyzna,
+107 - czarny mężczyzna,
+102 - czarny mężczyzna,
+103 - czarny mężczyzna,
+104 - czarny mężczyzna,
+114 - latynos mężczyzna,
+115 - latynos mężczyzna,
+116 - latynos mężczyzna,
+108 - latynos mężczyzna,
+109 - latynos mężczyzna,
+110 - latynos mężczyzna,
+173 - latynos mężczyzna,
+174 - latynos mężczyzna,
+175 - latynos mężczyzna,
+195 - czarna kobieta
+201 - biała kobieta
+244 - czarna kobieta
+245 - czarna kobieta
+
+21 MB na wszystkie skiny
+2MB maksymalnie na jeden skin (dff+txd)

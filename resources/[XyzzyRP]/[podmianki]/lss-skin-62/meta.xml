@@ -1,0 +1,5 @@
+<meta>
+	<file src="wmoprea.dff" />
+	<file src="wmoprea.txd" />
+	<script src="replace.lua" type="client" />
+</meta>

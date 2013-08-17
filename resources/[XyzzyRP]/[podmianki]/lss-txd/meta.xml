@@ -1,0 +1,8 @@
+<meta>
+	<file src="billbrdlawn.txd" type="client" />
+	<file src="melrosetr1_lawn.txd" type="client" />
+<!--	<file src="roads_lawn.txd" type="client" />-->
+	<file src="gazlaw2.txd" type="client" />
+
+	<script src="replace_c.lua" type="client" />
+</meta>

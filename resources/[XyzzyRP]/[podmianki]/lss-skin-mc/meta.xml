@@ -1,0 +1,6 @@
+<meta>
+	<file src="lekarka.dff" />
+	<file src="lekarka.txd" />
+
+	<script src="replace.lua" type="client" />
+</meta>

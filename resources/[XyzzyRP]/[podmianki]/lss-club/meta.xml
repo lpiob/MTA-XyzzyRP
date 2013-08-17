@@ -1,0 +1,6 @@
+<meta>
+	<file src="comet.txd" />
+	<file src="comet.dff" />
+<!--	<script type="server" src="handling.lua" />-->
+	<script type="client" src="replace.lua" />
+</meta>

@@ -1,0 +1,5 @@
+ <meta>
+            <script src="replace.lua" type="client" />
+            <file src="silenced.txd" />
+            <file src="silenced.dff" />
+        </meta>

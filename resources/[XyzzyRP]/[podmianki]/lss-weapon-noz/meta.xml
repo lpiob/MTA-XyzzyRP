@@ -1,0 +1,5 @@
+ <meta>
+	<script src="replace.lua" type="client" />
+	<file src="knifecur.txd" />
+	<file src="knifecur.dff" />
+</meta>

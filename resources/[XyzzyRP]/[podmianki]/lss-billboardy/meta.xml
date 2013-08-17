@@ -1,0 +1,8 @@
+<meta>
+  
+	<script src="c_uv_scripted.lua" type="client" />
+
+	<file src="shader-simple.fx" type="client" />
+	<file src="i/komis.jpg" type="client" />
+	<file src="i/marmur.jpg" type="client" />
+</meta>

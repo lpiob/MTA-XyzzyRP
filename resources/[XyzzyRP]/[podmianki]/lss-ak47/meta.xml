@@ -1,0 +1,5 @@
+ <meta>
+            <script src="replace.lua" type="client" />
+            <file src="ak47.txd" />
+			<file src="ak47.dff" />
+        </meta>
