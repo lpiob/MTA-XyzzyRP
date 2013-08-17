@@ -9,7 +9,7 @@ Autorzy
 - Łukasz "W/Wielebny" Biegaj <wielebny@lss-rp.pl>
 - Wujek <wujek@lss-rp.pl>
 - Eryk "Erock" Dwornicki
-- Karer
+- Karer <karer.programmer@gmail.com>
 
 Licencja:
 ========================================================================
