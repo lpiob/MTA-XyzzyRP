@@ -121,7 +121,16 @@ Przedmioty przechowywane w pozostałych miejscach zapisywane są w tablicach lss
 Często zadawane pytania
 ========================================================================
 
+### Chciałbym się dowiedzieć czy mogę wraz ze znajomym użyć całego kodu do stworzenia nowego serwera, oraz jeżeli tak czy możemy wprowadzić w nim parę nowych zmian/ulepszeń.
+
+Tak, możecie na podstawie tego utworzyć własny serwer, pamiętajcie jednak, że nie możecie zmienić licencji z GPL na inną, chyba że otrzymaliście go w innej licencji.
+
+Przed rozpoczęciem modyfikacji należy zapoznać się i zaakceptować treść licencji GPLv2 - polskie tłumaczenie można znaleźć tu: http://gnu.org.pl/text/licencja-gnu.html 
+
 ### Czy można wykorzystywać fragmenty tego kodu?
 
-Tak, pod warunkiem, że opublikujesz cały swój kod na licencji GPL, lub otrzymasz ten kod na innej licencji po uprzednim kontakcie z nami (<wielebny@lss-rp.pl>).
+Tak, pod warunkiem, że opublikujesz cały swój kod na licencji GPL, lub otrzymasz ten kod na innej licencji.
 
+### Jak zdobyć kod na innej licencji?
+
+Poprzez kontakt ze mną - wielebny@lss-rp.pl
