@@ -11,7 +11,7 @@ Autorzy
 
 - Łukasz "W/Wielebny" Biegaj <wielebny@lss-rp.pl>
 - Wujek <wujek@lss-rp.pl>
-- Eryk "Erock" Dwornicki
+- Eryk "RootKiller" Dwornicki <rootkiller.programmer@gmail.com>
 - Karer <karer.programmer@gmail.com>
 
 Licencja
