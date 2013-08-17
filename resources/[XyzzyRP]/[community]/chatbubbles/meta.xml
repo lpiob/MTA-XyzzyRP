@@ -1,0 +1,40 @@
+<meta>
+
+	<info author="eXo|dragon" description="Adds chatbubbles above the player's heads!" type="script" version="1.0.4" />
+
+	<script src="chatbubbles_server.lua" type="server"/>
+	<script src="chatbubbles_client.lua" type="client"/>
+
+	<settings>
+
+        <setting
+		name="*DefaultTime"
+		value="5000"
+		accept="number"
+		desc="The default time every bubble will be visible."
+        />
+
+        <setting
+		name="*PerCharacterAddition"
+		value="50"
+		accept="number"
+		desc="The time every character in a message adds to the total time visible."
+        />
+
+        <setting
+		name="*MaxBubbles"
+		value="3"
+		accept="number/false"
+		desc="The max number of bubbles stacked above one's head. To disable enter 'false'."
+        />
+
+        <setting
+		name="*HideOwn"
+		value="false"
+		accept="true/false"
+		desc="Decides whether players are able to see their own bubbles or not."
+        />
+
+    </settings>
+	
+</meta>

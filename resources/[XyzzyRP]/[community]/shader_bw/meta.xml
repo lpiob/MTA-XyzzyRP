@@ -1,0 +1,8 @@
+<meta>
+	<info name ="OldFilmShader" description="Old Film Shader v1" author ="Sam@ke" version="1.0.0" type="script" />
+	
+	<script src="shader.lua" type="client"/>
+	
+	<file src="shaders/old_film.fx" type="client"/>
+</meta>
+
