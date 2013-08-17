@@ -35,3 +35,44 @@ Wydaliśmy ten kod aby:
 3. Aby pobudzić scenę serwerów w MTA, ukrócić wykorzystywanie nielegalnego, kradzionego kodu krążącego po sieci.
 
 4. Aby ściągnąć więcej graczy do MTA.
+
+Gdzie uruchomić serwer
+========================================================================
+
+Oprogramowanie to nie wymaga żadnego specjalnego serwera dedykowanego. Aby go uruchomić, wystarczy zwykły hosting współdzielony. W rzeczy samej polecamy skorzystanie z takiego hostingu w firmach:
+
+- ServerProject - http://serverproject.pl/ - utrzymywali LSS-RP przez większość czasu
+- OG-Servers - http://og-servers.net/
+- ServHost - http://servhost.pl/
+
+Podczas wyboru hostingu należy upewnić się, czy:
+- hosting umożliwia dostęp do bazy danych MySQL
+- dostęp do bazy danych możliwy jest także z dowolnego hosta w internecie
+(wymienione wyżej hostingi spełniają te wymogi)
+
+Oprócz hostingu na serwer MTA wymagany jest też hosting na utrzymanie strony internetowej, a przynajmniej kodu pozwalającego na rejestrację graczy, gdyż ta nie jest wbudowana w serwer. Do tego wystarczy dowolony nowoczesny hosting z zainstalowanym PHP oraż możliwością wykonywania połączeń do bazy danych umieszczonej na ww. hostingu.
+
+Jak uruchomić serwer
+========================================================================
+
+Aby uruchomić serwer należy:
+
+1. Zainstalować serwer MTA
+ 
+2. Ściągnać lub samodzielnie skompilować plugin mta_mysql.so/mta_mysql.dll i wrzucić do katalogu mods/deatchmatch/modules/
+ 
+3. Skopiować katalog resources/[XyzzyRP]/ do katalogu mods/deathmatch/resources/[XyzzyRP]/
+ 
+4. Zainicjalizować bazę danych plikami zawartymi w sql/schema.sql
+
+5. Zainicjalizować samodzielnie czyste konto w ACL, lub skorzystać z dołączonego pliku opt/internal.db (zastąpić istniejący).
+
+6. Stworzyć własny plik mtaserver.conf lub połączyć istniejący z tym znajdującym się w opt/mtaserver.conf. W pliku tym muszą znaleźć się adresy ip i porty (narzucone przez hosting), zasoby do uruchomienia oraz odwołanie do modułu mta_mysql.
+
+7. Zainstalować serwer, uruchomić, zalogować się, zmienić hasło do ACL
+
+8. Zainstalować i uruchomić rejestrację kont na stronie.
+
+
+
+
