@@ -9,6 +9,7 @@
         <acl name="RPC"></acl>
         <acl name="Support"></acl>
         <acl name="Administrator"></acl>
+        <object name="user.root"></object>
         <object name="resource.admin"></object>
         <object name="resource.webadmin"></object>
     </group>
@@ -24,10 +25,12 @@
     </group>
     <group name="Support">
         <acl name="Support"></acl>
+        <object name="user.root"></object>
     </group>
     <group name="Administrator">
         <acl name="Support"></acl>
         <acl name="Administrator"></acl>
+        <object name="user.root"></object>
     </group>
     <acl name="Default">
         <right name="general.ModifyOtherObjects" access="false"></right>
