@@ -92,15 +92,17 @@ Aby uruchomić serwer należy:
 
 8. Zainstalować i uruchomić rejestrację kont na stronie.
 
+Domyślne konto testowe w grze: login tester, hasło tester, postać Brian_Looner
+
 
 Informacje techniczne
 ========================================================================
 
-## Wstępnie
+### Wstępnie
 
 Nie ma pełnej dokumentacji do wszystkich elementów kodu. Jest on dość spory i obejmuje wiele aspektów. Poniżej wypisane zostały pewne kluczowe aspekty na które należy zwrócić uwagę, pozostałych rzeczy trzeba dowiedzieć się samemu czytając kod źródłowy.
 
-## Obsługa bazy danych.
+### Obsługa bazy danych.
 
 Kod powstał zanim MTA zostało doposażone o funkcje do natywnej obsługi baz danych (funkcje db...). W związku z tym, w kodzie wykorzystywane są zarówno te funkcje jak i funkcje udostępniane przez moduł mta_mysql.
 
@@ -116,7 +118,7 @@ Pisząc dowolny fragment kodu korzystający z baz danych, powinieneś odwoływa�
 
 Każdy przedmiot który może trafić do ekwipunku składa się z następującego zestawu informacji:
 
-> (uint) id przedmiotu, (uint/nil) podtyp przedmiotu, (uint) ilość
+    (uint) id przedmiotu, (uint/nil) podtyp przedmiotu, (uint) ilość
 
 Każda z tych zmiennych to nieujemna liczba całkowita, lub nil/NULL w przypadku braku podtypu.
 
@@ -137,6 +139,30 @@ Przedmioty przechowywane w pozostałych miejscach zapisywane są w tablicach lss
 
 Wszystkie logi przechowywane są w katalogu lss-admin/logs. Przy restarcie tego zasobu tworzony jest nowy plik z logami.
 Wszystkie screeny graczy wykonane komendą /sshot przechowywane są w katalogu lss-admin/ss/
+
+### Hasła graczy
+
+Hasła graczy zapisywane są w tabeli lss_users w postaci skrótu MD5 z wykorzystaniem zmiennej i stałej soli. Solą zmienną jest login gracza zapisany małym literami. Hashe generowane są według następującej funkcji:
+
+    SELECT MD5(CONCAT(LOWER("Login gracza"),"MRFX_01", "haslo"));
+    580947a2986bd1f14039b95d89a7e1fe
+
+Przed wdrożeniem własnej instalacji NALEŻY zmienić sól z MRFX_01 na swoją własną, w przeciwnym przypadku można narazić się na szybkie odkodowanie haseł w przypadku wycieku bazy danych.
+
+Szybką zmianę hasła można dokonać za pomocą następującego zapytania:
+
+    mysql> SELECT id,login,hash,email FROM lss_users WHERE id=1;
+    +----+--------+----------------------------------+------------------+
+    | id | login  | hash                             | email            |
+    +----+--------+----------------------------------+------------------+
+    |  1 | tester | 0c154f10cb3672e82976d5e8e7d6c91a | tester@tester.pl |
+    +----+--------+----------------------------------+------------------+
+    1 row in set (0.00 sec)
+
+
+    mysql> UPDATE lss_users SET hash=MD5(CONCAT(LOWER(login),'MRFX_01','tu_wpisz_nowe_haslo')) WHERE id=1;
+    Query OK, 1 row affected (0.00 sec)
+    Rows matched: 1  Changed: 1  Warnings: 0
 
 
 Często zadawane pytania
