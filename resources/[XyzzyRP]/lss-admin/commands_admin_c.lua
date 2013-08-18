@@ -4,17 +4,11 @@ lss-admin: różne funkcje dla adminów
 @author Lukasz Biegaj <wielebny@lss-rp.pl>
 @copyright 2011-2013 Lukasz Biegaj <wielebny@lss-rp.pl>
 @license GPLv2
+@package MTA-XyzzyRP
+@link https://github.com/lpiob/MTA-XyzzyRP GitHub
+
 ]]--
 
-
-local licence=[[
-
-==============================================================================
-LSS-RP (c) Wielebny <wielebny@bestplay.pl>
-
-2012-
-
-]]
 
 addCommandHandler("xdevmodex",function()
 	setDevelopmentMode(true)

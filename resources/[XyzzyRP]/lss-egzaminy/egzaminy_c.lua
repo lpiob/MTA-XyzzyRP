@@ -1,6 +1,6 @@
 --[[
 @author Lukasz Biegaj <wielebny@lss-rp.pl>
-@author AFX <afx@pylife.pl>
+@author Lukasz Biegaj <wielebny@lss-rp.pl>
 @copyright 2011-2013 Lukasz Biegaj <wielebny@lss-rp.pl>
 @license GPLv2
 ]]--

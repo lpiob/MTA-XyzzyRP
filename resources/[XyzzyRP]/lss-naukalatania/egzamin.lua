@@ -1,5 +1,5 @@
 --[[
-@author AFX <afx@pylife.pl>
+@author Lukasz Biegaj <wielebny@lss-rp.pl>
 @author RacheT <rachet@pylife.pl>
 @copyright 2011-2013 Lukasz Biegaj <wielebny@lss-rp.pl>
 @license GPLv2

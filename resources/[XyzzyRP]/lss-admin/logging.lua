@@ -4,6 +4,9 @@ lss-admin: logowanie różnych rzeczy
 @author Lukasz Biegaj <wielebny@lss-rp.pl>
 @copyright 2011-2013 Lukasz Biegaj <wielebny@lss-rp.pl>
 @license GPLv2
+@package MTA-XyzzyRP
+@link https://github.com/lpiob/MTA-XyzzyRP GitHub
+
 ]]--
 
 
