@@ -1,0 +1,4 @@
+<meta>
+	<script src="infoboards.lua" type="server" />
+	<script src="infoboards_c.lua" type="client" />
+</meta>

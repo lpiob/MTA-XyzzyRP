@@ -1,0 +1,7 @@
+<meta>
+	<include resource="DB2" />
+	<script src="magazyny.lua" type="server" />
+	<script src="magazyny_ladowanie_c.lua" type="client" />
+	<script src="magazyny_zarzadzanie.lua" type="server" />
+	<script src="magazyny_zarzadzanie_c.lua" type="client" />
+</meta>

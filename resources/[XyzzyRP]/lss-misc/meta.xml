@@ -1,0 +1,11 @@
+<meta>
+	<script src="dodo_baner_c.lua" type="client" />
+	<script src="kominiarki.lua" type="server" />
+	<script src="tuning.lua" type="server" />
+	<script src="tuning_c.lua" type="client" />
+
+	<script src="neony.lua" type="server" />
+	<script src="montaz_w_pojezdzie_c.lua" type="client" />
+	<export function="menu_montazWPojezdzie" type="client" />
+	<file src="black.png" type="client" />
+</meta>
