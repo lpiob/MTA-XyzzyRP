@@ -94,6 +94,8 @@ Aby uruchomić serwer należy:
 
 Domyślne konto testowe w grze: login tester, hasło tester, postać Brian_Looner
 
+Przygotowaliśmy krótką instrukcję instalacji krok-po-kroku całego gamemodu na hosting ServerProject. Można ją przeczytać tu: https://github.com/lpiob/MTA-XyzzyRP/wiki/Instalacja-XyzzyRP-na-ServerProject.pl
+
 
 Informacje techniczne
 ========================================================================
