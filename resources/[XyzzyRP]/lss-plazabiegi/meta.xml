@@ -1,0 +1,4 @@
+<meta>
+  <script src="plaza_biegi_c.lua" type="client" />
+  <script src="plaza_biegi.lua" type="server" />
+</meta>

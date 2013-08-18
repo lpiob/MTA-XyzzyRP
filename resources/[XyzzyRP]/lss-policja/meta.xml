@@ -1,0 +1,6 @@
+<meta>
+	<script src="odciski.lua" type="server" />
+	<script src="odciski_c.lua" type="client" />
+	<export function="menu_odciski" type="client" />
+    <script src="wiez.lua" type="server" />
+</meta>

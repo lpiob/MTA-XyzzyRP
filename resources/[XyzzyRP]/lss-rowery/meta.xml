@@ -1,0 +1,5 @@
+<meta>
+    <include resource="lss-vehicles" />
+    <script src="rowery_c.lua" type="client" />
+    <script src="rowery.lua" type="server" />
+</meta>

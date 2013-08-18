@@ -1,0 +1,5 @@
+<meta>
+    <script src="przeszukanie.lua" type="server" />
+    <script src="przeszukanie_c.lua" type="client" />
+    <export function="menu_przeszukaj" type="client" />
+</meta>

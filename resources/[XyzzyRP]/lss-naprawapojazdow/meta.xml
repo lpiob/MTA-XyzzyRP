@@ -1,0 +1,5 @@
+<meta>
+  <script src="sn.lua" type="server" />
+  <script src="sn_c.lua" type="client" />
+  <script src="kola.lua" type="server" />
+</meta>

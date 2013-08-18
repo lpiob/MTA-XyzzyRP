@@ -1,0 +1,6 @@
+<meta>
+	<script src="notatnik.lua" type="server" />
+	<script src="notatnik_c.lua" type="client" />
+	<export function="notatka_stworz" type="client" />
+	<export function="notatka_pokaz" type="client" />
+</meta>

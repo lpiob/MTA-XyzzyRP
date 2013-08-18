@@ -1,0 +1,5 @@
+<meta>
+	<script src="oferta.lua" type="server" />
+	<script src="oferta_c.lua" type="client" />
+	<export function="menu_oferta" type="client" />
+</meta>

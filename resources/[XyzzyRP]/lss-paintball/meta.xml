@@ -1,0 +1,4 @@
+<meta>
+	<script src="pb.lua" type="server" />
+	<script src="hits_c.lua" type="client" />
+</meta>

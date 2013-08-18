@@ -1,0 +1,7 @@
+<meta>
+  <file src="i/gps.png" type="client" />
+  <file src="i/kropka.png" type="client" />
+  <file src="i/arrow.png" type="client" />
+    <script src="namierzacz_c.lua" type="client" />
+    <script src="namierzacz.lua" type="server" />
+</meta>
