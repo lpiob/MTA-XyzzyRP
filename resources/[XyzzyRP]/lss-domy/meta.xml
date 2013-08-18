@@ -1,0 +1,24 @@
+<meta>
+	<script src="util.lua" type="server" />
+	<script src="interiory.lua" type="server" />
+	<script src="domy.lua" type="server" />
+	<script src="domy_c.lua" type="client" />
+<!--	<script src="podglad_c.lua" type="client" />-->
+	<script src="wyjscia.lua" type="server" />
+	<script src="domy_opcje.lua" type="server" />
+	<file src="audio/wejscie-1.ogg" />
+	<file src="audio/wejscie-2.ogg" />
+	<file src="audio/wejscie-3.ogg" />
+	<file src="audio/wejscie-4.ogg" />
+	<file src="audio/wejscie-5.ogg" />
+
+
+
+
+	<file src="audio/zamkniete-1.ogg" />
+	<file src="audio/zamkniete-2.ogg" />
+	<export function="domReload" type="server" />
+	<export function="graczMozeSpawnowacPodDomem" type="server" />
+	<export function="spawnGraczaPodDomem" type="server" />
+	<export function="domyGetInfo" type="server" />
+</meta>
