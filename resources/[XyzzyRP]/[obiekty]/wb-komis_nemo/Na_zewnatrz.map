@@ -1,0 +1,6 @@
+<map edf:definitions="editor_main">
+    <object id="object (cn2_savgardr1_) (3)" doublesided="false" model="16500" interior="0" dimension="0" posX="328.03143310547" posY="-62.777183532715" posZ="0.67853379249573" rotX="0" rotY="0" rotZ="78.75"></object>
+    <object id="object (cn2_savgardr1_) (4)" doublesided="false" model="16500" interior="0" dimension="0" posX="325.24792480469" posY="-62.220649719238" posZ="0.67853379249573" rotX="0" rotY="0" rotZ="78.75"></object>
+    <object id="object (cn2_savgardr1_) (6)" doublesided="false" model="16500" interior="0" dimension="0" posX="320.3176574707" posY="-61.734790802002" posZ="0.67853379249573" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (cn2_savgardr1_) (7)" doublesided="false" model="16500" interior="0" dimension="0" posX="318.36071777344" posY="-61.72802734375" posZ="0.67853379249573" rotX="0" rotY="0" rotZ="90"></object>
+</map>

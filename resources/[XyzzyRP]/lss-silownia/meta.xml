@@ -1,0 +1,9 @@
+<meta>
+  <script src="laweczka.lua" type="server" />
+  <script src="laweczka_c.lua" type="client" />
+  <export function="menu_laweczka" type="client" />
+
+    <script src="silownia.lua" type="server" />
+    <script src="bieznia_c.lua" type="client" />
+	<export function="menu_bieznia" type="client" />
+</meta>

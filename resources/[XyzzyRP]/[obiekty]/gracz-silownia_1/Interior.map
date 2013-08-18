@@ -1,0 +1,24 @@
+<map edf:definitions="editor_main">
+    <object id="object (0)" doublesided="true" model="14778" interior="2" dimension="15" posX="2236.67" posY="-1713.09" posZ="2003.55" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (3)" doublesided="true" model="2631" interior="2" dimension="15" posX="2246.99" posY="-1712.62" posZ="1999.73" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (4)" doublesided="true" model="14781" interior="2" dimension="15" posX="2235.32" posY="-1718.18" posZ="2000.77" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (5)" doublesided="true" model="1985" interior="2" dimension="15" posX="2243.45996094" posY="-1721.20996094" posZ="2002.45001221" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (6)" doublesided="true" model="1985" interior="2" dimension="15" posX="2241.18" posY="-1721.21" posZ="2002.45" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (7)" doublesided="true" model="14779" interior="2" dimension="15" posX="2236.87" posY="-1712.63" posZ="2001.73" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (8)" doublesided="true" model="14825" interior="2" dimension="15" posX="2239.12988281" posY="-1712.24023438" posZ="2001.92999268" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (9)" doublesided="true" model="14780" interior="2" dimension="15" posX="2234.87" posY="-1706.83" posZ="2000.55" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (10)" doublesided="true" model="14782" interior="2" dimension="15" posX="2229.48925781" posY="-1711.53027344" posZ="2000.70001221" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (11)" doublesided="true" model="1985" interior="2" dimension="15" posX="2242.76" posY="-1703.62" posZ="2002.45" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (12)" doublesided="true" model="1985" interior="2" dimension="15" posX="2245.06" posY="-1703.62" posZ="2002.45" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (13)" doublesided="true" model="14778" interior="2" dimension="15" posX="2236.66992188" posY="-1713.09082031" posZ="2003.54998779" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (14)" doublesided="true" model="2630" interior="2" dimension="15" posX="2246.17" posY="-1708.59" posZ="1999.68" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (15)" doublesided="true" model="2629" interior="2" dimension="15" posX="2247.9" posY="-1716.55" posZ="1999.67" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (16)" doublesided="true" model="2631" interior="2" dimension="15" posX="2246.99" posY="-1712.62" posZ="1999.73" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (17)" doublesided="true" model="14781" interior="2" dimension="15" posX="2235.31933594" posY="-1718.1796875" posZ="2000.77001953" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (20)" doublesided="true" model="14779" interior="2" dimension="15" posX="2236.86914062" posY="-1712.63085938" posZ="2001.72998047" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (21)" doublesided="true" model="14825" interior="2" dimension="15" posX="2239.12988281" posY="-1712.24023438" posZ="2001.92999268" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (22)" doublesided="true" model="14780" interior="2" dimension="15" posX="2234.87" posY="-1706.83" posZ="2000.55" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (lasdkrt2) (1)" doublesided="true" model="3570" interior="2" dimension="15" posX="2246.46484375" posY="-1727.65502644" posZ="2000.76507568" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (lasdkrt2) (2)" doublesided="true" model="3570" interior="2" dimension="15" posX="2246.46484375" posY="-1727.65029526" posZ="2001.36114502" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (Gen_doorEXT02) (3)" doublesided="true" model="1497" interior="2" dimension="15" posX="2245.70074463" posY="-1723.63693047" posZ="1999.66778564" rotX="0" rotY="0" rotZ="0"></object>
+</map>

@@ -1,0 +1,16 @@
+<map edf:definitions="editor_main">
+    <object id="object (a51_jetdoor) (2)" doublesided="false" model="3095" interior="0" dimension="0" posX="171.71226501465" posY="-275.47802734375" posZ="-0.47753119468689" rotX="0" rotY="90" rotZ="359.56118774414"></object>
+    <object id="object (vgElkup) (1)" doublesided="false" model="8947" interior="0" dimension="0" posX="-162.97779846191" posY="-261.82049560547" posZ="7.9532842636108" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (vgElkup) (2)" doublesided="false" model="8947" interior="0" dimension="0" posX="-162.97445678711" posY="-261.82208251953" posZ="0.72716295719147" rotX="0" rotY="180" rotZ="270"></object>
+    <object id="object (vgElkup) (3)" doublesided="false" model="8947" interior="0" dimension="0" posX="-162.9772644043" posY="-261.818359375" posZ="6.2269601821899" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (savehousegdoor_SFS) (1)" doublesided="false" model="10671" interior="0" dimension="0" posX="-168.6893157959" posY="-255.61080932617" posZ="1.1463397741318" rotX="0" rotY="0" rotZ="269.4599609375"></object>
+    <object id="object (savehousegdoor_SFS) (2)" doublesided="false" model="10671" interior="0" dimension="0" posX="-168.6884765625" posY="-255.6103515625" posZ="4.6774587631226" rotX="0" rotY="0" rotZ="269.4599609375"></object>
+    <object id="object (savehousegdoor_SFS) (3)" doublesided="false" model="10671" interior="0" dimension="0" posX="-168.6884765625" posY="-255.6103515625" posZ="8.2870454788208" rotX="0" rotY="0" rotZ="269.4599609375"></object>
+    <object id="object (savehousegdoor_SFS) (4)" doublesided="false" model="10671" interior="0" dimension="0" posX="-159.39375305176" posY="-255.59646606445" posZ="4.6774587631226" rotX="0" rotY="0" rotZ="269.4599609375"></object>
+    <object id="object (savehousegdoor_SFS) (5)" doublesided="false" model="10671" interior="0" dimension="0" posX="-159.3935546875" posY="-255.595703125" posZ="8.1442937850952" rotX="0" rotY="0" rotZ="269.45617675781"></object>
+    <object id="object (savehousegdoor_SFS) (6)" doublesided="false" model="10671" interior="0" dimension="0" posX="-169.10743713379" posY="-267.56814575195" posZ="1.1463397741318" rotX="0" rotY="0" rotZ="89.458190917969"></object>
+    <object id="object (savehousegdoor_SFS) (7)" doublesided="false" model="10671" interior="0" dimension="0" posX="-169.06280517578" posY="-267.58016967773" posZ="4.5989894866943" rotX="0" rotY="0" rotZ="89.456176757813"></object>
+    <object id="object (savehousegdoor_SFS) (8)" doublesided="false" model="10671" interior="0" dimension="0" posX="-169.107421875" posY="-267.56814575195" posZ="8.1301069259644" rotX="0" rotY="0" rotZ="89.456176757813"></object>
+    <object id="object (savehousegdoor_SFS) (9)" doublesided="false" model="10671" interior="0" dimension="0" posX="-157.46186828613" posY="-267.56814575195" posZ="4.5989894866943" rotX="0" rotY="0" rotZ="89.456176757813"></object>
+    <object id="object (savehousegdoor_SFS) (10)" doublesided="false" model="10671" interior="0" dimension="0" posX="-157.4609375" posY="-267.5673828125" posZ="8.1301069259644" rotX="0" rotY="0" rotZ="89.456176757813"></object>
+</map>

@@ -1,0 +1,27 @@
+<map edf:definitions="editor_main">
+
+<!-- posterunek LS -->
+
+<!-- glowne -->
+    <object id="drzwi_komLS_1" doublesided="false" model="1495" interior="1" dimension="5" posX="1557.3293457" posY="-1680.54980469" posZ="1462.4745636" rotX="0" rotY="0" rotZ="90"
+			animtime="1800" pos2X="1557.3293457" pos2Y="-1681.0992431641" pos2Z="1462.4745636"></object>
+    <object id="drzwi_komLS_2" doublesided="false" model="1495" interior="1" dimension="5" posX="1557.30102539" posY="-1677.54248047" posZ="1462.4745636" rotX="0" rotY="0" rotZ="270"
+			animtime="1800" pos2X="1557.30102539" pos2Y="-1676.9925537109" pos2Z="1462.4745636"></object>
+
+<!-- wiezienie -->			
+     <object id="brama" doublesided="true" model="2930" interior="1" dimension="5" posX="1575.283203125" posY="-1698.9189453125" posZ="1462.5098876953" rotX="0" rotY="0" rotZ="90"
+			animtime="1800" pos2X="1573.5598144531" pos2Y="-1698.8409423828" pos2Z="1462.5098876953"></object>
+
+<!-- parking -->
+    <object id="brama_1_komLS" doublesided="false" model="2990" interior="0" dimension="0" posX="1589.6750488281" posY="-1638.0562744141" posZ="14.982257843018" rotX="0" rotY="0" rotZ="180"
+			animtime="4200" pos2X="1597.3408203125" pos2Y="-1638.0562744141" pos2Z="14.982257843018"></object>
+	<object id="brama_2_komLS" doublesided="false" model="2930" interior="0" dimension="0" posX="1582.3880615234" posY="-1638.0562744141" posZ="15.044115066528" rotX="0" rotY="0" rotZ="90"
+			animtime="1800" pos2X="1581.0034179688" pos2Y="-1638.0562744141" pos2Z="15.044115066528"></object>				
+
+<!-- dach -->
+    <object id="dach_komLS_1" doublesided="false" model="2990" interior="1" dimension="5" posX="1637.146484375" posY="-1682.873046875" posZ="1462.4656982422" rotX="0" rotY="0" rotZ="180"
+			animtime="4200" pos2X="1638.3994140625" pos2Y="-1682.9013671875" pos2Z="1462.4656982422"></object>
+	<object id="dach_komLS_2" doublesided="false" model="2930" interior="1" dimension="5" posX="1634.13671875" posY="-1638.0562744141" posZ="1462.4656982422" rotX="0" rotY="0" rotZ="0"
+			animtime="1800" pos2X="1632.8670654297" pos2Y="-1682.8929443359" pos2Z="1462.4656982422"></object>	
+
+</map>

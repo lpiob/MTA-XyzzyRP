@@ -1,0 +1,8 @@
+<meta>
+	<map src="Interior.map" />	
+	<map src="Warsztat1.map" />
+	
+	<sync_map_element_data>false</sync_map_element_data>
+
+	<script src="texty.lua" type="server" />
+</meta>

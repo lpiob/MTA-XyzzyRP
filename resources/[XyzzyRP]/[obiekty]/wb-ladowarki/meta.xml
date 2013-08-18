@@ -1,0 +1,6 @@
+<meta>
+	<map src="Ladowarki.map" />	
+	<script src="texty.lua" type="server" />	
+	
+	<sync_map_element_data>false</sync_map_element_data>
+</meta>

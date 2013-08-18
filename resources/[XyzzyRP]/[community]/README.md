@@ -1,0 +1,1 @@
+Wszystkie zawarte tu skrypty pochodzą z community.mtasa.com, część z nich została zmodyfikowana. Wszystkie dystryubowane są na oryginalnych licencjach.

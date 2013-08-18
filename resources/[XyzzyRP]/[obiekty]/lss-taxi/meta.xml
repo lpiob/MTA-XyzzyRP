@@ -1,0 +1,4 @@
+<meta>
+	<script src="taxi_c.lua" type="client" />
+	<script src="taxi.lua" type="server" />
+</meta>

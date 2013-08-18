@@ -1,0 +1,8 @@
+<meta>
+	<map src="Plac_egzaminacyjny.map" />	
+	<map src="Plac_manewrowy.map" />	
+
+	<script src="brama.lua" type="server" />
+	<script src="brama_c.lua" type="client" />
+	<export function="menu_brama" type="client" />
+</meta>

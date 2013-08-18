@@ -1,0 +1,11 @@
+<map edf:definitions="editor_main">
+    <object id="object (Gen_doorEXT15) (2)" interior="0" alpha="255" doublesided="true" model="1536" scale="1" dimension="0" posX="606.33123779297" posY="-1459.6671142578" posZ="13.340221405029" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (lasdkrt3) (6)" interior="0" alpha="255" doublesided="true" model="3571" scale="1" dimension="0" posX="602.25708007813" posY="-1458.8756103516" posZ="14.54354095459" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (lasdkrt3) (7)" interior="0" alpha="255" doublesided="true" model="3571" scale="1" dimension="0" posX="602.2470703125" posY="-1458.875" posZ="15.032366752625" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (cn2_savgardr1_) (1)" interior="0" alpha="255" doublesided="true" model="16500" scale="1" dimension="0" posX="606.14123535156" posY="-1463.1390380859" posZ="15.113624572754" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (cn2_savgardr1_) (2)" interior="0" alpha="255" doublesided="true" model="16500" scale="1" dimension="0" posX="606.1484375" posY="-1463.1396484375" posZ="18.891988754272" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (cn2_savgardr1_) (3)" interior="0" alpha="255" doublesided="true" model="16500" scale="1" dimension="0" posX="606.14562988281" posY="-1458.2572021484" posZ="15.113624572754" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (cn2_savgardr1_) (4)" interior="0" alpha="255" doublesided="true" model="16500" scale="1" dimension="0" posX="606.15612792969" posY="-1454.7630615234" posZ="15.113624572754" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (cn2_savgardr1_) (5)" interior="0" alpha="255" doublesided="true" model="16500" scale="1" dimension="0" posX="606.16552734375" posY="-1454.7615966797" posZ="18.891988754272" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (cn2_savgardr1_) (6)" interior="0" alpha="255" doublesided="true" model="16500" scale="1" dimension="0" posX="606.15234375" posY="-1458.2568359375" posZ="18.891988754272" rotX="0" rotY="0" rotZ="0"></object>
+</map>

@@ -1,0 +1,5 @@
+<meta>
+	<file src="bmymib.dff" />
+	<file src="bmymib.txd" />
+	<script src="replace.lua" type="client" />
+</meta>

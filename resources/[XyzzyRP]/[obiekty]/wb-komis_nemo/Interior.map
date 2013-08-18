@@ -1,0 +1,22 @@
+<map edf:definitions="editor_main">
+    <object id="object (portakabin) (1)" doublesided="true" model="1684" interior="2" dimension="34" posX="324.242340088" posY="-48.8392906189" posZ="2022.9065876" rotX="0" rotY="0" rotZ="180"></object>
+    <object id="object (portakabin) (2)" doublesided="true" model="1684" interior="2" dimension="34" posX="310.674102783" posY="-40.5647926331" posZ="2022.9065876" rotX="0" rotY="0" rotZ="179.994506836"></object>
+    <object id="object (portakabin) (3)" doublesided="true" model="1684" interior="2" dimension="34" posX="307.248657227" posY="-44.7052993774" posZ="2022.9065876" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (portakabin) (4)" doublesided="true" model="1684" interior="2" dimension="34" posX="327.32723999" posY="-44.6991119385" posZ="2022.9065876" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (LacmaBase1_LAn) (1)" doublesided="true" model="4559" interior="2" dimension="34" posX="314.205718994" posY="-81.6290969849" posZ="2035.26903534" rotX="0" rotY="180" rotZ="0"></object>
+    <object id="object (portakabin) (5)" doublesided="true" model="1684" interior="2" dimension="34" posX="317.246917725" posY="-51.7916717529" posZ="2022.9065876" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (portakabin) (6)" doublesided="true" model="1684" interior="2" dimension="34" posX="310.21081543" posY="-48.8504142761" posZ="2022.9065876" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (portakabin) (7)" doublesided="true" model="1684" interior="2" dimension="34" posX="320.620452881" posY="-40.5561790466" posZ="2022.9065876" rotX="0" rotY="0" rotZ="179.994506836"></object>
+    <object id="object (transmitbldg_SFS) (1)" doublesided="true" model="10676" interior="2" dimension="34" posX="317.196166992" posY="-40.8039169312" posZ="2013.94847488" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (officedesk1) (1)" doublesided="true" model="2008" interior="2" dimension="34" posX="314.763977051" posY="-44.1648406982" posZ="2021.3938427" rotX="0" rotY="0" rotZ="225"></object>
+    <object id="object (filing_cab_nu) (1)" doublesided="true" model="2000" interior="2" dimension="34" posX="312.71975708" posY="-43.2245063782" posZ="2021.3938427" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (PHOTOCOPIER_1) (1)" doublesided="true" model="2186" interior="2" dimension="34" posX="313.482849121" posY="-43.1809883118" posZ="2021.3938427" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (MED_DIN_CHAIR_5) (1)" doublesided="true" model="1811" interior="2" dimension="34" posX="321.563568115" posY="-44.8242607117" posZ="2022.02014732" rotX="0" rotY="0" rotZ="358.839782715"></object>
+    <object id="object (MED_DIN_CHAIR_5) (2)" doublesided="true" model="1811" interior="2" dimension="34" posX="321.812164307" posY="-43.4032173157" posZ="2022.02014732" rotX="0" rotY="0" rotZ="356.585449219"></object>
+    <object id="object (veg_palmkb8) (1)" doublesided="true" model="630" interior="2" dimension="34" posX="321.856170654" posY="-44.1217689514" posZ="2022.41900253" rotX="0" rotY="0" rotZ="1.5"></object>
+    <object id="object (MED_OFFICE_UNIT_1) (1)" doublesided="true" model="2162" interior="2" dimension="34" posX="317.185699463" posY="-46.7815513611" posZ="2021.3938427" rotX="0" rotY="0" rotZ="180"></object>
+    <object id="object (ufo_light02) (1)" doublesided="true" model="16779" interior="2" dimension="34" posX="317.22164917" posY="-44.8109092712" posZ="2024.52614975" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (MODEL_BOX6) (1)" doublesided="true" model="2478" interior="2" dimension="34" posX="316.470153809" posY="-43.2722473145" posZ="2021.67115974" rotX="0" rotY="0" rotZ="8.25"></object>
+    <object id="object (CJ_OilDrum2) (1)" doublesided="true" model="2062" interior="2" dimension="34" posX="318.26852417" posY="-43.2156562805" posZ="2021.96247673" rotX="0" rotY="0" rotZ="42.5387878418"></object>
+    <object id="object (MED_DIN_CHAIR_5) (3)" doublesided="true" model="1811" interior="2" dimension="34" posX="312.808197021" posY="-44.2616729736" posZ="2022.02014732" rotX="0" rotY="0" rotZ="162.311035156"></object>
+</map>

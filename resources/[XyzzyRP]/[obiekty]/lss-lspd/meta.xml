@@ -1,0 +1,21 @@
+<meta>
+    <script src="lspd.lua" type="server" />
+    <script src="lspd_c.lua" type="client" />
+    <export function="menu_szlaban" type="client" />	
+	
+	<map src="Komisariaty_ruchome.map" />
+	<script src="rozsuwane_drzwi.lua" type="server" />
+	
+	<script src="strzelnica_ruchome.lua" type="server" />	
+
+    <script src="dyrektor_b.lua" type="server" />
+    <export function="menu_drzwi" type="client" />
+    <script src="dyrektor_c.lua" type="client" />
+    <script src="korytarz_b.lua" type="server" />
+    <export function="menu_drzwi2" type="client" />
+    <script src="korytarz_c.lua" type="client" />
+    <!--<script src="areszt_b.lua" type="server" />
+    <script src="areszt_c.lua" type="client" />-->	
+	
+    <script src="pedy.lua" type="client" />
+</meta>

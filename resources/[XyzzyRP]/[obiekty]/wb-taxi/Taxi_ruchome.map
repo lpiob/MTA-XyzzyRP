@@ -1,0 +1,13 @@
+<map edf:definitions="editor_main">
+
+<!-- Taxi -->
+
+    <object id="taxi_brama_1_a" doublesided="false" model="975" interior="0" dimension="0" posX="1105.1695556641" posY="-1737.4609375" posZ="14.149972915649" rotX="0" rotY="0" rotZ="270"
+			animtime="5800" pos2X="1105.1695556641" pos2Y="-1752.8465576172" pos2Z="14.149972915649"></object>
+    <object id="taxi_brama_1_b" doublesided="false" model="975" interior="0" dimension="0" posX="1105.1695556641" posY="-1744.5002441406" posZ="14.149972915649" rotX="0" rotY="0" rotZ="270"
+			animtime="5800" pos2X="1105.1695556641" pos2Y="-1759.9005126953" pos2Z="14.149972915649"></object>
+
+    <object id="taxi_brama_2" doublesided="false" model="975" interior="0" dimension="0" posX="1100.6262207031" posY="-1780.1206054688" posZ="14.256015777588" rotX="0" rotY="0" rotZ="180"
+			animtime="3800" pos2X="1094.1176757813" pos2Y="-1780.1206054688" pos2Z="14.256015777588"></object>				
+			     
+</map>

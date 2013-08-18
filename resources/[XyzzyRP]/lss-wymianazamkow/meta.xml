@@ -1,0 +1,5 @@
+<meta>
+  <script src="obiekty_c.lua" type="client" />
+  <script src="pwz_c.lua" type="client" />
+	<script src="pwz.lua" type="server" />
+</meta>

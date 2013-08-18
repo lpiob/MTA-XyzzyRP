@@ -1,0 +1,20 @@
+<meta>
+    <script src="straz_pozarna1.lua" type="server" />
+    <export function="menu_brama1" type="client" />
+    <script src="straz_pozarna1_c.lua" type="client" />
+    <script src="straz_pozarna2.lua" type="server" />
+    <export function="menu_brama2" type="client" />
+    <script src="straz_pozarna2_c.lua" type="client" />	
+	
+    <script src="lsfd.lua" type="server" />
+    <export function="menu_szlaban" type="client" />
+    <script src="lsfd_c.lua" type="client" />
+	
+    <script src="dyrektor_b.lua" type="server" />
+    <export function="menu_drzwi" type="client" />
+    <script src="dyrektor_c.lua" type="client" />
+	
+	<script src="drzwi_b.lua" type="server" />
+	<export function="menu_drzwi2" type="client" />
+	<script src="drzwi_c.lua" type="client" />	
+</meta>

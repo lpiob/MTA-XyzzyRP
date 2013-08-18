@@ -1,0 +1,12 @@
+<meta>
+  <file src="dog.dff" type="client" />
+  <file src="dog.txd" type="client" />
+  <file src="pitbull.dff" type="client" />
+  <file src="pitbull.txd" type="client" />
+  <file src="rottweiler.dff" type="client" />
+  <file src="rottweiler.txd" type="client" />
+  <file src="szczekanie.mp3" type="client" />
+  <script src="pet_system_c.lua" type="client" />
+  <script src="pet_system.lua" type="server" />
+  <export function="menu_oswajanie" type="server" /> 
+</meta>

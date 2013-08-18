@@ -1,0 +1,9 @@
+<meta>
+	<map src="Interior.map" />	
+	<map src="Na_zewnatrz.map" />	
+
+	<map src="brama.map" />
+	<script src="brama_c.lua" type="client" />
+	<script src="brama.lua" type="server" />
+	<export function="menu_brama" type="client" />
+</meta>

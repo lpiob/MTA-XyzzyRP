@@ -1,0 +1,12 @@
+<meta>
+
+	<script src="cam_c.luac" type="client" />
+	<script src="cam.lua" type="server" />
+
+	<file src="shader-simple.fx" type="client" />
+	<file src="i/off.jpg" type="client" />
+	<file src="i/off2.jpg" type="client" />
+
+	<file src='i/tvn24.png' type='client' />
+	<min_mta_version client="1.3.0-9.04431" server="1.3.0-9.04431" />
+</meta>

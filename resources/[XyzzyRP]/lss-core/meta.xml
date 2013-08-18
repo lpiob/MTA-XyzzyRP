@@ -1,0 +1,74 @@
+<meta>
+    <include resource="DB" />
+    <include resource="chatbubbles" />
+	<script src="usunieciebroni.lua" type="server" />
+	<script src="ninjaban.lua" type="server" />
+    <script src="utils.lua" type="server" />
+    
+    <script src="base.lua" type="server" />
+    
+	<script src="anims.lua" type="server" />
+    <script src="anims_c.lua" type="client" />
+    <script src="chats.lua" type="server" />
+	<export function="toggleOOC" type="server" />
+    
+	<script src="bany.lua" type="server" />
+    <script src="auth.lua" type="server" />
+    <script src="id_graczy.lua" type="server" />
+    
+    <script src="players.lua" type="server" />
+    <script src="interiors.lua" type="server" />
+    <script src="captions.lua" type="server" />
+    
+    <script src="intro.lua" type="server" />
+    <script src="vehicles.lua" type="server" />
+
+    <script src="mapwrap.lua" type="server" />
+<!--    <script src="weather.lua" type="server" />-->
+	<script src="commands_misc.lua" type="server" />
+    
+    <script src="ekwipunek.lua" type="server" />
+    
+    <script src="pda.lua" type="server" />
+    
+    <script src="test.lua" type="server" />
+    <script src="swiatla.lua" type="server" />
+    <script src="garaze.lua" type="server" />
+
+	<script src="pm.lua" type="server" />
+	<script src="drugs.lua" type="server" />
+    <script src="aj.lua" type="server" />
+    <script src="server_stats.lua" type="server" />
+	<script src="vehicles.lua" type="server" />
+
+	<script src="krotkofalowka_c.lua" type="client" />
+	<script src="menu_c.lua" type="client" />
+	<script src="menu.lua" type="server" />
+	
+	<script src="pedy_intro.lua" type="server" />
+	<script src="radio_bike.lua" type="client" />
+
+	<script src="abilities.lua" type="server" />
+	<export function="menu_usiadz" type="client" />
+	<export function="menu_kielbasaUpiecz" type="client" />
+    <export function="menu_rybaUpiecz" type="client" />
+	<export function="menu_grillTake" type="client" />
+	<export function="menu_blokadaTake" type="client" />
+	<export function="menu_kanisterFill" type="client" />
+	<export function="menu_zestawAudio" type="client" />
+	
+    <export function="eq_playerHasFreeSpace" type="server" />
+    <export function="eq_getItem" type="server" />
+    <export function="eq_giveItem" type="server" />
+    <export function="eq_takeItem" type="server" />
+	<export function="eq_getItemBySlot" type="server" />
+
+    <export function="getInterior" type="server" />
+    <export function="getPlayerDBID" type="server" />
+    <export function="savePlayerData" type="server" />
+	<export function="findPlayer" type="server" />
+	
+	<script src="wprop.lua" type="server" />
+	
+	
+</meta>

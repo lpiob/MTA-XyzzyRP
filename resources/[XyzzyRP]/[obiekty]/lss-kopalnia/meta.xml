@@ -1,0 +1,4 @@
+<meta>
+    <script src="kopalnia.lua" type="server" />
+	<script src="przejscie_c.lua" type="client" />
+</meta>

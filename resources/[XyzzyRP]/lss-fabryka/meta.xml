@@ -1,0 +1,7 @@
+<meta>
+	<script src="spawner_pojazdow.lua" type="server" />
+	
+    <script src="brama.lua" type="server" />		
+    <script src="brama_c.lua" type="client" />
+    <export function="menu_brama" type="client" />	
+</meta>

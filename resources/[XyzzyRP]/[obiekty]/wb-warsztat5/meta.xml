@@ -1,0 +1,10 @@
+<meta>
+<!--	<script src="Interior.lua" type="client" />-->
+    <sync_map_element_data>false</sync_map_element_data>
+    <map src="Interior.map" />
+	<map src="Warsztat5.map" />	
+	
+	<!--<map src="Brama.map" />-->	
+	
+	<!--<script src="texty.lua" type="client" />-->	
+</meta>

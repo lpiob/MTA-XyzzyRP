@@ -1,0 +1,11 @@
+<map edf:definitions="editor_main">
+    <object id="object (sm_fir_) (1)" interior="0" alpha="255" doublesided="true" model="687" scale="1" dimension="0" posX="2520.037109375" posY="-1526.7176513672" posZ="22.464239120483" rotX="0" rotY="0" rotZ="112.71838378906"></object>
+    <object id="object (circuslampost03) (1)" interior="0" alpha="255" doublesided="true" model="3472" scale="1" dimension="0" posX="2519.8947753906" posY="-1526.4908447266" posZ="23.681940078735" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (circuslampost03) (2)" interior="0" alpha="255" doublesided="true" model="3472" scale="1" dimension="0" posX="2519.89453125" posY="-1526.490234375" posZ="28.387445449829" rotX="0" rotY="0" rotZ="84.538787841797"></object>
+    <object id="object (circuslampost03) (3)" interior="0" alpha="255" doublesided="true" model="3472" scale="1" dimension="0" posX="2519.8178710938" posY="-1526.4932861328" posZ="33.058280944824" rotX="0" rotY="0" rotZ="162.61791992188"></object>
+    <object id="object (sf_rooflite) (1)" interior="0" alpha="255" doublesided="true" model="3877" scale="1" dimension="0" posX="2520.0661621094" posY="-1526.6246337891" posZ="47.805030822754" rotX="0" rotY="0" rotZ="126.80816650391"></object>
+    <object id="object (sm_fir_) (2)" interior="0" alpha="255" doublesided="true" model="687" scale="1" dimension="0" posX="2520.2685546875" posY="-1526.7595214844" posZ="22.464239120483" rotX="0" rotY="0" rotZ="112.71420288086"></object>
+    <object id="object (sm_fir_) (3)" interior="0" alpha="255" doublesided="true" model="687" scale="1" dimension="0" posX="2519.6323242188" posY="-1526.6547851563" posZ="22.464239120483" rotX="0" rotY="0" rotZ="133.13861083984"></object>
+    <object id="object (sm_fir_) (4)" interior="0" alpha="255" doublesided="true" model="687" scale="1" dimension="0" posX="2520.1384277344" posY="-1526.2602539063" posZ="22.464239120483" rotX="0" rotY="0" rotZ="161.27478027344"></object>
+    <object id="object (sm_fir_) (5)" interior="0" alpha="255" doublesided="true" model="687" scale="1" dimension="0" posX="2519.7807617188" posY="-1527.0803222656" posZ="22.464239120483" rotX="0" rotY="0" rotZ="48.555450439453"></object>
+</map>

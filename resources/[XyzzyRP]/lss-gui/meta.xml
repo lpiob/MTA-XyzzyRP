@@ -1,0 +1,280 @@
+<meta>
+<!--    <min_mta_version client="1.3.0-9.03772" server="1.3.0-9.03772" />-->
+    <min_mta_version client="1.3.0-9.04710" server="1.3.0-9.03772" />
+    
+    <file src="audio/karol-intro1.ogg" type="client" />
+    <file src="audio/karol-intro2on.ogg" type="client" />
+    <file src="audio/karol-intro3.ogg" type="client" />
+    <file src="audio/karol-intro4.ogg" type="client" />
+    <file src="audio/karol-noniezledostaleswdupe.ogg" type="client" />
+    
+    <file src="audio/dzwon.ogg" type="client" />
+    <file src="audio/dzwon2.ogg" type="client" />
+    <file src="audio/dzwon-single.mp3" type="client" />
+<!--<file src="audio/marchios-los_santos_stories.ogg" type="client" />-->
+<!--<file src="audio/marchios-los_santos.ogg" type="client" />-->
+<!--<file src="audio/marchios-ls2.ogg" type="client" />-->
+<!--<file src="audio/kubat-los_santos_stories.ogg" type="client" />-->
+	<!--<file src="audio/radioactive.ogg" type="client" />-->
+<!--<file src="audio/marchios-ls3.ogg" type="client" />-->
+<!--	<file src="audio/marchios-christmas.ogg" type="client" />-->
+	<file src="audio/loni2.ogg" type="client" />
+    
+    <file src="audio/ambiance-crowd.ogg" type="client" />
+   	<file src="audio/heartbeat.mp3" type="client" />
+	
+	<file src="audio/nokiatune.ogg" type="client" />
+	
+    <file src="img/lss.png" type="client" />
+    <file src="img/arrow.png" type="client" />
+    <file src="img/keys.png" type="client" />
+    <file src="img/pda.png" type="client" />
+    <file src="img/nav.png" type="client" />
+
+    <file src="img/telefon.png" type="client" />
+
+	<file src="droid-sans.ttf" type="client" />
+    <file src="img/EQ_aparat_fotograficzny.png" type="client" />	
+    <file src="img/EQ_blank.png" type="client" />
+    <file src="img/EQ_zeton.png" type="client" />
+    <file src="img/EQ_papierosy.png" type="client" />
+    <file src="img/EQ_aparat.png" type="client" />
+    <file src="img/EQ_mapa.png" type="client" />    
+	<file src="img/EQ_obroza.png" type="client" />    
+    <file src="img/EQ_mapa_duza.jpg" type="client" />
+    <file src="img/EQ_aspiryna.png" type="client" />
+    <file src="img/EQ_kluczyki_auto.png" type="client" />
+    <file src="img/EQ_kluczyki_kurierzy.png" type="client" />	
+    <file src="img/EQ_kluczyki_policja.png" type="client" />
+	<file src="img/EQ_grill.png" type="client" />
+    <file src="img/EQ_kluczyki_sm.png" type="client" />    
+    <file src="img/EQ_kluczyki_warsztat.png" type="client" />
+	<file src="img/EQ_prezent.png" type="client" />
+    <file src="img/EQ_kluczyki_ochrony.png" type="client" />
+    <file src="img/EQ_kluczyki_cnn_news.png" type="client" />	
+    <file src="img/EQ_kluczyki_urzad_miasta.png" type="client" />
+    <file src="img/EQ_kluczyki_import.png" type="client" />
+    <file src="img/EQ_kluczyki_gornikow.png" type="client" />
+    <file src="img/EQ_kluczyki_sadu_rejonowego.png" type="client" />
+    <file src="img/EQ_kluczyki_sluzb_wieziennych.png" type="client" />
+    <file src="img/EQ_kluczyki_sluzb_specjalnych.png" type="client" />    	
+    <file src="img/EQ_kluczyki_przychodni_lekarskiej.png" type="client" />    		
+    <file src="img/EQ_pda.png" type="client" />
+    <file src="img/EQ_ryba.png" type="client" />
+    <file src="img/EQ_ryba_1.png" type="client" />
+	<file src="img/EQ_karma.png" type="client" />
+	<file src="img/EQ_kielbasa1.png" type="client" />
+	<file src="img/EQ_kielbasa2.png" type="client" />
+	<file src="img/EQ_boombox.png" type="client" />
+    <file src="img/EQ_smieci.png" type="client" />
+    <file src="img/EQ_kwit.png" type="client" />
+	<file src="img/EQ_laser.png" type="client" />
+    <file src="img/EQ_paczka.png" type="client" />
+    <file src="img/EQ_nav.png" type="client" />
+	<file src="img/EQ_prawojazdy.png" type="client" />
+	<file src="img/EQ_snajperka.png" type="client" />
+	<file src="img/EQ_pill1.png" type="client" />
+	<file src="img/EQ_gazeta.png" type="client" />
+	<file src="img/EQ_kluczyki_naukajazdy.png" type="client" />
+	<file src="img/EQ_telefon.png" type="client" />
+	<file src="img/EQ_drink.png" type="client" />
+	<file src="img/EQ_paralizator.png" type="client" />
+	<file src="img/EQ_deagle.png" type="client" />
+	<file src="img/EQ_spray.png" type="client" />
+	<file src="img/EQ_kluczyki_taxi.png" type="client" />
+	<file src="img/EQ_joint.png" type="client" />
+	<file src="img/EQ_kajdanki.png" type="client" />
+	<file src="img/EQ_kluczyki_medycy.png" type="client" />
+	<file src="img/EQ_kanister.png" type="client" />
+	<file src="img/EQ_defibrylator.png" type="client" />
+	<file src="img/EQ_glock.png" type="client" />
+	<file src="img/EQ_blokada.png" type="client" />
+	<file src="img/EQ_baseball.png" type="client" />
+	<file src="img/EQ_mikrofon.png" type="client" />
+	<file src="img/EQ_palka.png" type="client" />
+	<file src="img/EQ_grzybek.png" type="client" />
+	<file src="img/EQ_pager.png" type="client" />
+	<file src="img/EQ_kastet.png" type="client" />
+	<file src="img/EQ_gasnica.png" type="client" />
+	<file src="img/EQ_strzykawka.png" type="client" />
+	<file src="img/EQ_list_otwarty.png" type="client" />
+	<file src="img/EQ_list_zamkniety.png" type="client" />
+	<file src="img/EQ_uzi.png" type="client" />
+	<file src="img/EQ_krotkofalowka.png" type="client" />
+	<file src="img/EQ_piwo.png" type="client" />
+	<file src="img/EQ_szkicownik.png" type="client" />
+	<file src="img/EQ_snop.png" type="client" />
+	<file src="img/EQ_miotaczplomieni.png" type="client" />
+	<file src="img/EQ_dowod.png" type="client" />
+	<file src="img/EQ_notatka.png" type="client" />
+	<file src="img/EQ_notes.png" type="client" />
+	<!--<file src="img/EQ_ak47.png" type="client" />-->
+	<file src="img/EQ_karabinek.png" type="client" />
+	<file src="img/EQ_mp5.png" type="client" />
+	<file src="img/EQ_m4.png" type="client" />
+	<file src="img/EQ_olbrzyn.png" type="client" />
+	<file src="img/EQ_shotgun.png" type="client" />
+	<file src="img/EQ_kwiaty.png" type="client" />	
+	<file src="img/EQ_neony.png" type="client" />
+	<file src="img/EQ_plyta.png" type="client" />
+	<file src="img/EQ_moneta.png" type="client" />
+	<file src="img/EQ_kostka.png" type="client" />
+	<file src="img/EQ_pila.png" type="client" />
+	<file src="img/EQ_noz.png" type="client" />
+	<file src="img/EQ_whiskey.png" type="client" />
+	<file src="img/EQ_pizza.png" type="client" />
+	<file src="img/EQ_cola.png" type="client" />
+	<file src="img/EQ_sok.png" type="client" />
+	<file src="img/EQ_chleb.png" type="client" />
+	<file src="img/EQ_woda.png" type="client" />
+	<file src="img/EQ_hotdog.png" type="client" />
+	<file src="img/EQ_frytki.png" type="client" />
+	<file src="img/EQ_baton.png" type="client" />
+	<file src="img/EQ_owoce.png" type="client" />
+	<file src="img/EQ_papier_toaletowy.png" type="client" />
+	<file src="img/EQ_spirytus.png" type="client" />
+	<file src="img/EQ_cygaro.png" type="client" />
+	<file src="img/EQ_rybka_w_konserwie.png" type="client" />
+	<file src="img/EQ_recznik.png" type="client" />
+	<file src="img/EQ_lody.png" type="client" />
+	<file src="img/EQ_szaszlyk.png" type="client" />
+	<file src="img/EQ_dropsy_mietowe.png" type="client" />
+	<file src="img/EQ_kluczyki_sluzb_koscielnych.png" type="client" />
+	<file src="img/EQ_spadochron.png" type="client" />
+	<file src="img/EQ_kluczyki_tartaku.png" type="client" />
+	<file src="img/EQ_kluczyki_szkoly_lotniczej.png" type="client" />
+	<file src="img/EQ_heronina.png" type="client" />
+	<file src="img/EQ_kluczyki_gastronomii.png" type="client" />
+	<file src="img/EQ_kluczyki_turystyki.png" type="client" />
+	<file src="img/EQ_plecak.png" type="client" />
+	<file src="img/EQ_torba.png" type="client" />
+	<file src="img/EQ_zwloki.png" type="client" />
+
+	<file src="img/EQ_m_aluminium.png" type="client" />
+	<file src="img/EQ_m_drewno.png" type="client" />
+	<file src="img/EQ_m_papier.png" type="client" />
+	<file src="img/EQ_m_polietylen.png" type="client" />
+	<file src="img/EQ_m_polipropylen.png" type="client" />
+	<file src="img/EQ_m_polistyren.png" type="client" />
+	<file src="img/EQ_m_stal.png" type="client" />
+	<file src="img/EQ_m_szklo.png" type="client" />
+
+	<file src="img/EQ_pacholek.png" type="client" />
+
+	<file src="img/EQ_kolo_1025.png" type="client" />
+	<file src="img/EQ_kolo_1073.png" type="client" />
+	<file src="img/EQ_kolo_1074.png" type="client" />
+	<file src="img/EQ_kolo_1075.png" type="client" />
+	<file src="img/EQ_kolo_1076.png" type="client" />
+	<file src="img/EQ_kolo_1077.png" type="client" />
+	<file src="img/EQ_kolo_1078.png" type="client" />
+	<file src="img/EQ_kolo_1079.png" type="client" />
+	<file src="img/EQ_kolo_1080.png" type="client" />
+	<file src="img/EQ_kolo_1081.png" type="client" />
+	<file src="img/EQ_kolo_1082.png" type="client" />
+	<file src="img/EQ_kolo_1083.png" type="client" />
+	<file src="img/EQ_kolo_1084.png" type="client" />
+	<file src="img/EQ_kolo_1085.png" type="client" />
+	<file src="img/EQ_kolo_1096.png" type="client" />
+	<file src="img/EQ_kolo_1097.png" type="client" />
+	<file src="img/EQ_kolo_1098.png" type="client" />
+
+	<file src="img/EQ_hydraulika.png" type="client" />
+	<file src="img/EQ_kominiarka.png" type="client" />
+	<file src="img/EQ_fajerwerki.png" type="client" />
+	<file src="img/EQ_megafon.png" type="client" />
+	<file src="img/EQ_amunicja.png" type="client" />
+	<file src="img/EQ_kamizelkapd.png" type="client" />
+	<file src="img/EQ_kamizelkamc.png" type="client" />
+
+
+	<file src="img/EQ_kakanina.png" type="client" />
+	<file src="img/EQ_lds.png" type="client" />
+	<file src="img/EQ_oipum.png" type="client" />
+	<file src="img/EQ_heronina.png" type="client" />
+	<file src="img/EQ_extas.png" type="client" />
+	
+	<file src="img/EQ_granathukowy.png" type="client" />
+	<file src="img/EQ_granatdymny.png" type="client" />
+	
+	<file src="img/engine.png" type="client" />
+	<file src="img/locked.png" type="client" />
+	<file src="img/licznik.png" type="client" />
+	<file src="img/paliwo.png" type="client" />
+	<file src="img/icon_energy.png" type="client" />
+	<file src="img/icon_stamina.png" type="client" />
+
+	<file src="img/lssrppl.png" type="client" />
+	<file src="img/cn1.png" type="client" />
+	<file src="img/cn2.png" type="client" />
+	<file src="img/cn3.png" type="client" />
+	<file src="img/cn4.png" type="client" />
+	<file src="img/cn5.png" type="client" />
+	<file src="img/cn6.png" type="client" />
+	<file src="img/cn7.png" type="client" />
+
+    <file src="img/bgcolor.png" type="client" />
+
+    <file src="fx/grayscale.fx" type="client" />
+    <file src="fx/motion.fx" type="client" />
+    
+    <script src="utils.lua" type="client" />
+
+	<script src="items.lua" type="server" />
+
+
+	<script src="weapons.lua" type="server" />
+	<script src="weapons_c.lua" type="client" />
+	<script src="paliwo_c.lua" type="client" />
+	
+	<script src="laser_c.lua" type="client" />
+	
+	<script src="drugs_c.lua" type="client" />
+	<script src="drugs.lua" type="server" />
+	
+    <script src="gui_c_.luac" type="client" />
+    <script src="nametags_c.lua" type="client" />
+    <script src="intro.lua" type="client" />
+    <script src="dzwony.lua" type="client" />
+    <script src="vehicles.lua" type="server" />
+    <script src="vehicles_c.lua" type="client" />
+
+    <script src="test_ani.lua" type="client" />
+	<script src="gazeta_c.lua" type="client" />
+    <script src="ekwipunek.luac" type="client" />
+	<script src="ekwipunek_s.lua" type="server" />
+
+	<script src="telefon.lua" type="server" />
+    <script src="telefon_c_.luac" type="client" />
+
+
+    <script src="mapa.lua" type="client" />
+    
+	<script src="death_c.lua" type="client" />
+  	<script src="death.lua" type="server" />
+	
+    <script src="soundplaces.lua" type="client" />
+	<script src="papierosy.lua" type="server" />
+	<script src="kamizelki.lua" type="server" />
+	<script src="iphone_s.lua" type="server" />
+	<script src="torby.lua" type="server" />
+	<script src="afk_c.luac" type="client" />
+	<script src="carblips_c.lua" type="client" />
+    
+    <script src="frakcje_c.lua" type="client" />
+    <script src="pback.lua" type="server" />
+    
+    <export function="panel_hide" type="client" />	<!-- lss-autobusy -->
+    <export function="panel_show" type="client" />	<!-- uzywane przez lss-kasyno -->
+	
+
+    <export function="eq_getItemByID" type="client" />
+    <export function="eq_takeItem" type="client" />
+    <export function="eq_giveItem" type="client" />
+    <export function="eq_get" type="client" />
+    <export function="eq_item_nav_turnOff" type="client" />
+    <export function="eq_item_nav_clear" type="client" />
+	<export function="eq_getFreeIndex" type="client" />
+	<export function="showAnnouncement" type="client" />
+	<export function="setGPSTarget" type="client" />
+</meta>

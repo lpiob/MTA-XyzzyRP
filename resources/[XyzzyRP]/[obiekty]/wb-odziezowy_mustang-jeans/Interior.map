@@ -1,0 +1,14 @@
+<map edf:definitions="editor_main">
+    <object id="object (0)" interior="2" collisions="true" alpha="255" doublesided="true" model="18008" scale="1" dimension="67" posX="1723.619140625" posY="-1665.4794921875" posZ="2004.1999511719" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (1)" interior="2" collisions="true" alpha="255" doublesided="true" model="18094" scale="1" dimension="67" posX="1723.67" posY="-1665.6" posZ="2001.87" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (2)" interior="2" collisions="true" alpha="255" doublesided="true" model="18067" scale="1" dimension="67" posX="1737.0400390625" posY="-1670.1796875" posZ="2001.2299804688" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (3)" interior="2" collisions="true" alpha="255" doublesided="true" model="2368" scale="1" dimension="67" posX="1715.529296875" posY="-1671.1396484375" posZ="2000.2299804688" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (Gen_doorEXT12) (1)" interior="2" collisions="true" alpha="255" doublesided="true" model="1533" scale="1" dimension="67" posX="1737.8218994141" posY="-1668.6636962891" posZ="2001.2077636719" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (lasdkrt3) (1)" interior="2" collisions="true" alpha="255" doublesided="true" model="3571" scale="1" dimension="67" posX="1739.2469482422" posY="-1669.6964111328" posZ="2002.4020996094" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (Gen_doorEXT12) (2)" interior="2" collisions="true" alpha="255" doublesided="true" model="1533" scale="1" dimension="67" posX="1737.8253173828" posY="-1670.1602783203" posZ="2001.2077636719" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (Gen_doorEXT03) (1)" interior="2" collisions="true" alpha="255" doublesided="true" model="1498" scale="1" dimension="67" posX="1718.0512695313" posY="-1664.9509277344" posZ="2000.0750732422" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (Gen_doorEXT03) (3)" interior="2" collisions="true" alpha="255" doublesided="true" model="1498" scale="1" dimension="67" posX="1713.6544189453" posY="-1674.9434814453" posZ="2000.2077636719" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (Gen_doorEXT03) (4)" interior="2" collisions="true" alpha="255" doublesided="true" model="1498" scale="1" dimension="67" posX="1713.6544189453" posY="-1665.4158935547" posZ="2000.2077636719" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (lasdkrt3) (3)" interior="2" collisions="true" alpha="255" doublesided="true" model="3571" scale="1" dimension="67" posX="1712.3270263672" posY="-1671.5639648438" posZ="2001.4807128906" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (lasdkrt3) (4)" interior="2" collisions="true" alpha="255" doublesided="true" model="3571" scale="1" dimension="67" posX="1712.3657226563" posY="-1668.6345214844" posZ="2001.4807128906" rotX="0" rotY="0" rotZ="270"></object>
+</map>

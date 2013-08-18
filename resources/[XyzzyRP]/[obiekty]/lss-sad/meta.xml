@@ -1,0 +1,10 @@
+<meta>
+    <script src="pedy.lua" type="client" />
+
+	<map src="Sad_ruchome.map" />
+	<script src="rozsuwane_drzwi.lua" type="server" />	
+	
+    <script src="dyrektor_b.lua" type="server" />
+    <export function="menu_drzwi" type="client" />
+    <script src="dyrektor_c.lua" type="client" />
+</meta>

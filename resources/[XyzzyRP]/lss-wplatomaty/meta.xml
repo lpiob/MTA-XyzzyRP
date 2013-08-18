@@ -1,0 +1,4 @@
+<meta>
+	<script src="wplatomaty_c.lua" type="client" />
+	<script src="wplatomaty.lua" type="server" />
+</meta>

@@ -1,0 +1,5 @@
+<meta>
+  <script src="spedycja.lua" type="server" />
+  <script src="spedycja_c.lua" type="client" />
+  <export function="menu_spedycjaInfo" type="client" />
+</meta>

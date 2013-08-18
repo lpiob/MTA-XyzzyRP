@@ -1,0 +1,42 @@
+<meta>
+  <file src='137.dff' />
+  <file src='145.dff' />
+  <file src='167.dff' />
+  <file src='18.dff' />
+  <file src='203.dff' />
+  <file src='204.dff' />
+  <file src='205.dff' />
+  <file src='256.dff' />
+  <file src='257.dff' />
+  <file src='26.dff' />
+  <file src='264.dff' />
+  <file src='38.dff' />
+  <file src='39.dff' />
+  <file src='45.dff' />
+  <file src='81.dff' />
+  <file src='83.dff' />
+  <file src='84.dff' />
+  <file src='87.dff' />
+  <file src='80.dff' />
+
+  <file src='137.txd' />
+  <file src='145.txd' />
+  <file src='167.txd' />
+  <file src='18.txd' />
+  <file src='203.txd' />
+  <file src='204.txd' />
+  <file src='205.txd' />
+  <file src='256.txd' />
+  <file src='257.txd' />
+  <file src='26.txd' />
+  <file src='264.txd' />
+  <file src='38.txd' />
+  <file src='39.txd' />
+  <file src='45.txd' />
+  <file src='81.txd' />
+  <file src='83.txd' />
+  <file src='84.txd' />
+  <file src='87.txd' />
+  <file src='80.txd' />
+  <script src="replace.lua" type="client" />
+</meta>

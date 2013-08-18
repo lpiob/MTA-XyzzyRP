@@ -1,0 +1,9 @@
+<map edf:definitions="editor_main">
+
+
+<!-- brama wjazdowa na parking -->
+    <object id="brama_kurierzy" doublesided="true" model="988" interior="0" dimension="0" posX="777.84240722656" posY="-1330.2447509766" posZ="13.58962726593" rotX="0" rotY="0" rotZ="177.84802246094"
+			animtime="5000" pos2X="772.81597900391" pos2Y="-1330.2447509766" pos2Z="13.58962726593"></object>
+
+
+</map>

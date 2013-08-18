@@ -1,0 +1,13 @@
+<map edf:definitions="editor_main">
+
+<!-- port -->
+    <object id="brama_a" doublesided="true" model="2909" interior="0" dimension="0" posX="2491.2053222656" posY="-2719.6162109375" posZ="18.366344451904" rotX="0" rotY="0" rotZ="90"
+			animtime="5000" pos2X="2491.205078125" pos2Y="-2719.6162109375" pos2Z="23.887580871582"></object>
+    <object id="brama_b" doublesided="true" model="2909" interior="0" dimension="0" posX="2482.7807617188" posY="-2719.6162109375" posZ="18.366344451904" rotX="0" rotY="0" rotZ="90"
+			animtime="5000" pos2X="2482.7807617188" pos2Y="-2719.6162109375" pos2Z="23.887580871582"></object>
+    <object id="brama_c" doublesided="true" model="2909" interior="0" dimension="0" posX="2491.205078125" posY="-2719.6162109375" posZ="21.037330627441" rotX="0" rotY="180" rotZ="90"
+			animtime="5000" pos2X="2491.205078125" pos2Y="-2719.6162109375" pos2Z="26.527687072754"></object>
+    <object id="brama_d" doublesided="true" model="2909" interior="0" dimension="0" posX="2482.7802734375" posY="-2719.6162109375" posZ="21.037330627441" rotX="0" rotY="180" rotZ="90"
+			animtime="5000" pos2X="2482.7807617188" pos2Y="-2719.6162109375" pos2Z="26.527687072754"></object>				
+			
+</map>

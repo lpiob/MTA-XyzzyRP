@@ -1,0 +1,9 @@
+<meta>
+	<map src="Basen.map" />
+	<map src="Hala.map" />
+	<map src="Interior.map" />
+	<map src="Klatka_schodowa.map" />
+	<map src="Na_zewnatrz.map" />
+	
+	<sync_map_element_data>false</sync_map_element_data>
+</meta>

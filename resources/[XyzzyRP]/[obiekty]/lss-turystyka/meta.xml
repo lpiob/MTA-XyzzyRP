@@ -1,0 +1,10 @@
+<meta>
+    <script src="dyrektor_b.lua" type="server" />
+    <export function="menu_drzwi" type="client" />
+    <script src="dyrektor_c.lua" type="client" />
+	
+	<map src="Turystyka-ruchome.map" />
+	<script src="rozsuwane_drzwi.lua" type="server" />
+	
+	<script src="texty.lua" type="server" />
+</meta>

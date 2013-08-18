@@ -1,0 +1,6 @@
+<meta>
+	<script src="sql.lua" />
+	<export function="zapytanie" type="server" />
+	<export function="pobierzWyniki" type="server" />
+	<export function="pobierzTabeleWynikow" type="server" />
+</meta>

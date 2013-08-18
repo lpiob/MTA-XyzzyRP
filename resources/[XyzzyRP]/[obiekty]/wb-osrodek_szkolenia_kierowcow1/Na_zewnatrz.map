@@ -1,0 +1,7 @@
+<map edf:definitions="editor_main">
+    <object id="object (Gen_doorEXT15) (1)" interior="0" collisions="true" alpha="255" doublesided="true" model="1536" scale="1" dimension="0" posX="1043.2783203125" posY="-1290.6569824219" posZ="13.040286064148" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (lasdkrt2) (1)" interior="0" collisions="true" alpha="255" doublesided="true" model="3570" scale="1" dimension="0" posX="1039.2589111328" posY="-1291.4141845703" posZ="14.292695999146" rotX="0" rotY="0" rotZ="180"></object>
+    <object id="object (lasdkrt2) (2)" interior="0" collisions="true" alpha="255" doublesided="true" model="3570" scale="1" dimension="0" posX="1039.267578125" posY="-1291.4138183594" posZ="16.568311691284" rotX="0" rotY="0" rotZ="179.99450683594"></object>
+    <object id="object (POLICE_NB_car) (1)" interior="0" collisions="true" alpha="255" doublesided="true" model="2737" scale="1" dimension="0" posX="1043.2684326172" posY="-1294.3537597656" posZ="14.231126785278" rotX="0" rotY="0" rotZ="89.697875976563"></object>
+    <object id="object (POLICE_NB_car) (1)" interior="0" collisions="true" alpha="255" doublesided="true" model="2737" scale="1" dimension="0" posX="1043.2510986328" posY="-1297.8758544922" posZ="14.231126785278" rotX="0" rotY="0" rotZ="89.697875976563"></object>
+</map>

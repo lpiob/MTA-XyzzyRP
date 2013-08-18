@@ -1,0 +1,1 @@
+Cards images are (c) CC-BY-SA by David Bellot http://www.eludication.org/playingcards.html

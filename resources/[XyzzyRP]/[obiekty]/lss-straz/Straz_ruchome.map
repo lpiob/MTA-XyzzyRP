@@ -1,0 +1,11 @@
+<map edf:definitions="editor_main">
+
+<!-- straz pozarna -->
+
+<!-- drzwi -->
+    <object id="drzwi_fd_1" doublesided="false" model="1495" interior="1" dimension="26" posX="924.197265625" posY="-1287.1627197266" posZ="1439.9249267578" rotX="0" rotY="0" rotZ="90"
+			animtime="1800" pos2X="924.197265625" pos2Y="-1288.4879150391" pos2Z="1439.9249267578"></object>
+    <object id="drzwi_fd_2" doublesided="false" model="1495" interior="1" dimension="26" posX="924.197265625" posY="-1284.1558837891" posZ="1439.9249267578" rotX="0" rotY="0" rotZ="270"
+			animtime="1800" pos2X="924.197265625" pos2Y="-1282.8315429688" pos2Z="1439.9249267578"></object>
+
+</map>

@@ -1,0 +1,28 @@
+<meta>
+	<file src="policjantka_biala.dff" />
+	<file src="policjantka_biala.txd" />
+
+	<file src="kadet.dff" />
+	<file src="kadet.txd" />
+
+	<file src="policjant_bialy.dff" />
+	<file src="policjant_bialy.txd" />
+
+	<file src="policjant_bialy_2.dff" />
+	<file src="policjant_bialy_2.txd" />
+
+
+	<file src="policjant_bialy_3.dff" />
+	<file src="policjant_bialy_3.txd" />
+
+	<file src="policjant_bialy_4.dff" />
+	<file src="policjant_bialy_4.txd" />
+
+	<file src="policjant_czarny.dff" />
+	<file src="policjant_czarny.txd" />
+
+	<file src="policjant_czarny_2.dff" />
+	<file src="policjant_czarny_2.txd" />
+
+	<script src="replace.lua" type="client" />
+</meta>

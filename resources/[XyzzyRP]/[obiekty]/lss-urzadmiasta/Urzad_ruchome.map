@@ -1,0 +1,15 @@
+<map edf:definitions="editor_main">
+
+<!-- biuro burmistrza -->
+    <object id="burmistrz" doublesided="true" model="1495" interior="1" dimension="1" posX="1482.0715332031" posY="-1800.5832519531" posZ="1284.9989013672" rotX="0" rotY="0" rotZ="0"
+			animtime="1800" pos2X="1480.7487792969" pos2Y="-1800.5832519531" pos2Z="1284.9989013672"></object>	
+
+<!-- biuro zastepcy -->
+    <object id="minister_finansow" doublesided="true" model="1495" interior="1" dimension="1" posX="1481.3564453125" posY="-1785.0126953125" posZ="1251.9598388672" rotX="0" rotY="0" rotZ="180"
+			animtime="1800" pos2X="1482.6921386719" pos2Y="-1785.0126953125" pos2Z="1251.9598388672"></object>	
+			
+<!-- biuro ministra od gospodarki -->
+    <object id="minister_gospodarki" doublesided="true" model="1495" interior="1" dimension="1" posX="1481.3564453125" posY="-1785.0126953125" posZ="1191.9490966797" rotX="0" rotY="0" rotZ="180"
+			animtime="1800" pos2X="1482.6921386719" pos2Y="-1785.0126953125" pos2Z="1191.9490966797"></object>				
+			
+</map>

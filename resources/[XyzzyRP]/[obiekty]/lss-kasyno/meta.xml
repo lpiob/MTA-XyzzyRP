@@ -1,0 +1,72 @@
+<meta>
+    <file src="karty/back-blue-75-1.png" type="client" />
+    <file src="karty/back-blue-75-2.png" type="client" />
+    <file src="karty/back-blue-75-3.png" type="client" />
+    <file src="karty/back-red-75-1.png" type="client" />
+    <file src="karty/back-red-75-2.png" type="client" />
+    <file src="karty/back-red-75-3.png" type="client" />
+    <file src="karty/clubs-10-75.png" type="client" />
+    <file src="karty/clubs-2-75.png" type="client" />
+    <file src="karty/clubs-3-75.png" type="client" />
+    <file src="karty/clubs-4-75.png" type="client" />
+    <file src="karty/clubs-5-75.png" type="client" />
+    <file src="karty/clubs-6-75.png" type="client" />
+    <file src="karty/clubs-7-75.png" type="client" />
+    <file src="karty/clubs-8-75.png" type="client" />
+    <file src="karty/clubs-9-75.png" type="client" />
+    <file src="karty/clubs-a-75.png" type="client" />
+    <file src="karty/clubs-j-75.png" type="client" />
+    <file src="karty/clubs-k-75.png" type="client" />
+    <file src="karty/clubs-q-75.png" type="client" />
+    <file src="karty/diamonds-10-75.png" type="client" />
+    <file src="karty/diamonds-2-75.png" type="client" />
+    <file src="karty/diamonds-3-75.png" type="client" />
+    <file src="karty/diamonds-4-75.png" type="client" />
+    <file src="karty/diamonds-5-75.png" type="client" />
+    <file src="karty/diamonds-6-75.png" type="client" />
+    <file src="karty/diamonds-7-75.png" type="client" />
+    <file src="karty/diamonds-8-75.png" type="client" />
+    <file src="karty/diamonds-9-75.png" type="client" />
+    <file src="karty/diamonds-a-75.png" type="client" />
+    <file src="karty/diamonds-j-75.png" type="client" />
+    <file src="karty/diamonds-k-75.png" type="client" />
+    <file src="karty/diamonds-q-75.png" type="client" />
+    <file src="karty/hearts-10-75.png" type="client" />
+    <file src="karty/hearts-2-75.png" type="client" />
+    <file src="karty/hearts-3-75.png" type="client" />
+    <file src="karty/hearts-4-75.png" type="client" />
+    <file src="karty/hearts-5-75.png" type="client" />
+    <file src="karty/hearts-6-75.png" type="client" />
+    <file src="karty/hearts-7-75.png" type="client" />
+    <file src="karty/hearts-8-75.png" type="client" />
+    <file src="karty/hearts-9-75.png" type="client" />
+    <file src="karty/hearts-a-75.png" type="client" />
+    <file src="karty/hearts-j-75.png" type="client" />
+    <file src="karty/hearts-k-75.png" type="client" />
+    <file src="karty/hearts-q-75.png" type="client" />
+    <file src="karty/joker-b-75.png" type="client" />
+    <file src="karty/joker-r-75.png" type="client" />
+    <file src="karty/spades-10-75.png" type="client" />
+    <file src="karty/spades-2-75.png" type="client" />
+    <file src="karty/spades-3-75.png" type="client" />
+    <file src="karty/spades-4-75.png" type="client" />
+    <file src="karty/spades-5-75.png" type="client" />
+    <file src="karty/spades-6-75.png" type="client" />
+    <file src="karty/spades-7-75.png" type="client" />
+    <file src="karty/spades-8-75.png" type="client" />
+    <file src="karty/spades-9-75.png" type="client" />
+    <file src="karty/spades-a-75.png" type="client" />
+    <file src="karty/spades-j-75.png" type="client" />
+    <file src="karty/spades-k-75.png" type="client" />
+    <file src="karty/spades-q-75.png" type="client" />
+
+    <file src="img/EQ_zeton.png" type="client" />
+    <file src="img/EQ_papierosy.png" type="client" />
+
+
+
+    <script src="kasyno.lua" type="server" />
+    <script src="blackjack_c.lua" type="client" />
+    <script src="kasyno_c.lua" type="client" />
+    <export function="menu_blackjack" type="client" />
+</meta>

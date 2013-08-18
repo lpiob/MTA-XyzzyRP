@@ -1,0 +1,4 @@
+<meta>
+  <script src="voice.lua" type="server" />
+    <script src="voice_c.lua" type="client" />
+</meta>

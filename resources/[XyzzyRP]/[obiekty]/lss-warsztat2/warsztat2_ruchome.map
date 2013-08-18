@@ -1,0 +1,8 @@
+<map edf:definitions="editor_main">
+
+<!-- warsztat2 -->
+
+    <object id="warsztat2_brama" doublesided="true" model="11416" interior="0" dimension="0" posX="707.93835449219" posY="-119.41732025146" posZ="26.523136138916" rotX="0" rotY="0" rotZ="90"
+			animtime="4000" pos2X="707.93835449219" pos2Y="-119.41732025146" pos2Z="22.383716583252"></object>	
+ 
+</map>

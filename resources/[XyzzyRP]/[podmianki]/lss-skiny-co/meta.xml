@@ -1,0 +1,56 @@
+<meta>
+<file src='105.dff' />
+<file src='106.dff' />
+<file src='107.dff' />
+<file src='102.dff' />
+<file src='103.dff' />
+<file src='104.dff' />
+<file src='114.dff' />
+<file src='115.dff' />
+<file src='116.dff' />
+<file src='108.dff' />
+<file src='109.dff' />
+<file src='110.dff' />
+<file src='173.dff' />
+<file src='174.dff' />
+<file src='175.dff' />
+<file src='195.dff' />
+<file src='201.dff' />
+<file src='244.dff' />
+<file src='245.dff' />
+<file src='269.dff' />
+<file src='270.dff' />
+<file src='271.dff' />
+
+<file src='105.txd' />
+<file src='106.txd' />
+<file src='107.txd' />
+<file src='102.txd' />
+<file src='103.txd' />
+<file src='104.txd' />
+<file src='114.txd' />
+<file src='115.txd' />
+<file src='116.txd' />
+<file src='108.txd' />
+<file src='109.txd' />
+<file src='110.txd' />
+<file src='173.txd' />
+<file src='174.txd' />
+<file src='175.txd' />
+<file src='195.txd' />
+<file src='201.txd' />
+<file src='244.txd' />
+<file src='245.txd' />
+<file src='269.txd' />
+<file src='270.txd' />
+<file src='271.txd' />
+
+<file src='146.dff' />
+<file src='97.dff' />
+
+<file src='146.txd' />
+<file src='97.txd' />
+
+
+  <script src="replace.lua" type="client" />
+</meta>

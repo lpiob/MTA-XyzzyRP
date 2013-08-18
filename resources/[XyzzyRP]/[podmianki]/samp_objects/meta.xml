@@ -1,0 +1,24 @@
+<meta>
+
+	<file src="PoliceLight1.dff" />
+	<file src="PoliceLight1.col" />
+
+	<file src="MatTextures.txd" />
+	<file src="RedNeonTube1.dff" />
+	<file src="RedNeonTube1.col" />
+	<file src="BlueNeonTube1.dff" />
+	<file src="BlueNeonTube1.col" />
+	<file src="GreenNeonTube1.dff" />
+	<file src="GreenNeonTube1.col" />
+	<file src="YellowNeonTube1.dff" />
+	<file src="YellowNeonTube1.col" />
+	<file src="PinkNeonTube1.dff" />
+	<file src="PinkNeonTube1.col" />
+	<file src="WhiteNeonTube1.dff" />
+	<file src="WhiteNeonTube1.col" />
+
+
+	<file src="MatColours.txd" />
+  <script src="samp_models_rc3.lua" type="client" />
+</meta>
+

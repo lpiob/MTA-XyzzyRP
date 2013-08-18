@@ -1,0 +1,6 @@
+<meta>
+
+	<file src="vcnmav.txd" />
+	<script type="client" src="replace.lua" />
+
+</meta>

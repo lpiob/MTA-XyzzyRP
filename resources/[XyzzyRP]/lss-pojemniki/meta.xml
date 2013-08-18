@@ -1,0 +1,7 @@
+<meta>
+    <script src="pojemniki_c.lua" type="client" />
+    <export function="otworzPojemnik" type="client" />
+    <export function="zamknijPojemnik" type="client" />
+    <export function="insertItemToContainer" type="server" />
+    <script src="pojemniki.lua" type="server" />
+</meta>

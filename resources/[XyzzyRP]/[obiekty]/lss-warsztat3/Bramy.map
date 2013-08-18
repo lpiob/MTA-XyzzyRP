@@ -1,0 +1,8 @@
+<map edf:definitions="editor_main">
+<!--
+    <object id="object (gate_autoR) (4)" doublesided="false" model="985" interior="0" dimension="0" posX="2319.2177734375" posY="-109.505859375" posZ="27.199689865112" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (gate_autoL) (3)" doublesided="false" model="986" interior="0" dimension="0" posX="2311.25" posY="-109.505859375" posZ="27.199689865112" rotX="0" rotY="0" rotZ="0"></object>
+-->
+    <object id="object (gate_autoR) (3)" doublesided="false" model="985" interior="0" dimension="0" posX="2258.529296875" posY="-109.505859375" posZ="27.199689865112" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (gate_autoL) (2)" doublesided="false" model="986" interior="0" dimension="0" posX="2250.5595703125" posY="-109.505859375" posZ="27.199689865112" rotX="0" rotY="0" rotZ="0"></object>
+</map>

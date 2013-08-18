@@ -1,0 +1,9 @@
+<map edf:definitions="editor_main">
+    <object id="object (wongs_gate) (2)" doublesided="false" model="2990" interior="0" dimension="0" posX="1043.6433105469" posY="-307.07327270508" posZ="70.006942749023" rotX="275.30310058594" rotY="351.85818481445" rotZ="351.892578125"></object>
+    <object id="object (wongs_gate) (3)" doublesided="false" model="2990" interior="0" dimension="0" posX="1050.3486328125" posY="-305.17700195313" posZ="70.006942749023" rotX="275.30090332031" rotY="351.85363769531" rotZ="351.89208984375"></object>
+    <object id="object (wongs_gate) (4)" doublesided="false" model="2990" interior="0" dimension="0" posX="1050.2825927734" posY="-300.65469360352" posZ="70.006942749023" rotX="275.30090332031" rotY="351.85363769531" rotZ="351.89208984375"></object>
+    <object id="object (wongs_gate) (5)" doublesided="false" model="2990" interior="0" dimension="0" posX="1041.5297851563" posY="-300.7829284668" posZ="70.006942749023" rotX="275.30090332031" rotY="351.85363769531" rotZ="351.89208984375"></object>
+    <object id="object (wongs_gate) (6)" doublesided="false" model="2990" interior="0" dimension="0" posX="1041.4195556641" posY="-294.14709472656" posZ="70.006942749023" rotX="275.30090332031" rotY="351.85363769531" rotZ="351.89208984375"></object>
+    <object id="object (wongs_gate) (7)" doublesided="false" model="2990" interior="0" dimension="0" posX="1049.4674072266" posY="-294.22528076172" posZ="70.006942749023" rotX="275.30090332031" rotY="351.85363769531" rotZ="351.89208984375"></object>
+    <object id="object (wongs_gate) (8)" doublesided="false" model="2990" interior="0" dimension="0" posX="1044.9885253906" posY="-287.29254150391" posZ="70.006942749023" rotX="275.30090332031" rotY="351.85363769531" rotZ="351.89208984375"></object>
+</map>

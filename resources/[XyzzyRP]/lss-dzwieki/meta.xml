@@ -1,0 +1,18 @@
+<meta>
+	<file src="syrena.ogg" />
+	<file src="pd-syrena.ogg" />
+	<file src="pd-syrena2.ogg" />
+	<file src="fd-syrena.ogg" />
+	<file src="fd-syrena2.ogg" />
+	<file src="fd-syrena3.ogg" />
+	<file src="fd-syrena4.ogg" />
+	<file src="familyfrost.ogg" />
+	<file src="audio/trzesienie.ogg" type="client" />
+    <file src="audio/flashbang.ogg" type="client" />
+	<file src="audio/smokegrenade.ogg" type="client" />
+	<file src="roy.ogg" />
+	<file src="march.ogg" />
+	<script src="dzwieki.lua" type="server" />
+	<script src="dzwieki_c.lua" type="client" />
+	<script src="fd-syrena_c.lua" type="client" />
+</meta>

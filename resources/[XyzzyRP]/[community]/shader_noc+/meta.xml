@@ -1,0 +1,8 @@
+<meta>
+	<info version="1.0" author="Shmorf" type="script" />
+
+	<script src="c_night.lua" type="client" />
+
+	<file src="night.fx" type="client" />
+	<file src="mta-helper.fx" type="client" />
+</meta>

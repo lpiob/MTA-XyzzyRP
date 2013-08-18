@@ -1,0 +1,22 @@
+<meta>
+    <!--<script src="szpital1.lua" type="server" />
+    <script src="szpital1_c.lua" type="client" />
+    <script src="szpital2.lua" type="server" />
+    <script src="szpital2_c.lua" type="client" />		
+	
+    <export function="menu_szlaban1" type="client" />
+    <export function="menu_szlaban2" type="client" />-->	
+	
+	<map src="Szpital_ruchome.map" />
+	<script src="rozsuwane_drzwi.lua" type="server" />
+	
+	<script src="szpital_ruchome.lua" type="server" />
+	
+    <script src="lsmc.lua" type="server" />
+    <script src="lsmc_c.lua" type="client" />
+    <export function="menu_szlaban" type="client" />
+	
+    <script src="dyrektor_b.lua" type="server" />
+    <export function="menu_drzwi" type="client" />
+    <script src="dyrektor_c.lua" type="client" />
+</meta>

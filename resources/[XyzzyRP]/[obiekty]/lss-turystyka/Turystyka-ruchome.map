@@ -1,0 +1,8 @@
+<map edf:definitions="editor_main">
+
+    <object id="drzwi_dt_1" doublesided="true" model="1495" interior="1" dimension="51" posX="2822.8649902344" posY="-1090.7165527344" posZ="1646.2537841797" rotX="0" rotY="0" rotZ="0"
+			animtime="1800" pos2X="2821.6303710938" pos2Y="-1090.7165527344" pos2Z="1646.2537841797"></object>
+    <object id="drzwi_dt_2" doublesided="true" model="1495" interior="1" dimension="51" posX="2825.875" posY="-1090.6848144531" posZ="1646.2537841797" rotX="0" rotY="0" rotZ="180"
+			animtime="1800" pos2X="2827.1088867188" pos2Y="-1090.6848144531" pos2Z="1646.2537841797"></object>
+
+</map>

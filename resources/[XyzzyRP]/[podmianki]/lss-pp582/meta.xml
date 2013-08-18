@@ -1,0 +1,6 @@
+<meta>
+
+	<file src="newsvan.txd" />
+	<script src="replace.lua" type="client" />
+
+</meta>

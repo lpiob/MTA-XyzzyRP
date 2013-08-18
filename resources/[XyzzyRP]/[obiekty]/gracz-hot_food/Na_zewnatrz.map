@@ -1,0 +1,9 @@
+<map edf:definitions="editor_main">
+    <object id="object (lasdkrt2) (1)" doublesided="false" model="3570" interior="0" dimension="0" posX="2397.515625" posY="-1903.5772705078" posZ="13.730752944946" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (lasdkrt2) (2)" doublesided="false" model="3570" interior="0" dimension="0" posX="2398.1782226563" posY="-1903.5791015625" posZ="13.730752944946" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (lasdkrt2) (3)" doublesided="false" model="3570" interior="0" dimension="0" posX="2398.17578125" posY="-1903.57421875" posZ="14.4369764328" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (lasdkrt2) (5)" doublesided="false" model="3570" interior="0" dimension="0" posX="2397.5163574219" posY="-1903.5729980469" posZ="14.4369764328" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (Gen_doorEXT16) (1)" doublesided="false" model="1537" interior="0" dimension="0" posX="2382.3928222656" posY="-1907.5513916016" posZ="12.546875" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (lasdkrt2) (6)" doublesided="false" model="3570" interior="0" dimension="0" posX="2386.4978027344" posY="-1906.7883300781" posZ="13.730752944946" rotX="0" rotY="0" rotZ="180"></object>
+    <object id="object (lasdkrt2) (7)" doublesided="false" model="3570" interior="0" dimension="0" posX="2386.4853515625" posY="-1906.7895507813" posZ="14.280037879944" rotX="0" rotY="0" rotZ="179.99450683594"></object>
+</map>

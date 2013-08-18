@@ -1,0 +1,6 @@
+<meta>
+    <script src="smieci.lua" type="server" />
+    <script src="smieci_c.lua" type="client" />
+
+    <export function="menu_podniesSmiecia" type="client" />
+</meta>

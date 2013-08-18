@@ -1,0 +1,4 @@
+<meta>
+    <script src="pedy.lua" type="client" />
+    <script src="skrytki_c.lua" type="client" />
+</meta>

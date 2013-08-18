@@ -1,0 +1,5 @@
+<meta>
+  <script src="tuning.lua" type="server" />
+  <export function="reloadOneVehicleTuning" type="server"/>
+  <export function="reloadVehiclesTuning" type="server"/>
+</meta>

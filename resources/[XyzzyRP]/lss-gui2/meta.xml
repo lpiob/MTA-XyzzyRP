@@ -1,0 +1,9 @@
+<meta>
+	<script src="hunger_c.lua" type="client" />
+	<script src="exits_c.lua" type="client" />
+	<script src="vradio.lua" type="server" />
+	<script src="vradio_c.lua" type="client" />
+	<script src="misc_c.lua" type="client" />
+    <script src="gh.lua" type="server" />
+    <script src="gh_c.lua" type="client" />
+</meta>

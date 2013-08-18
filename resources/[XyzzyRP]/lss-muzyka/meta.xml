@@ -1,0 +1,85 @@
+<meta>
+	<file src="audio/gto_-_rap.mod" />
+	<file src="audio/4852__zajo__loop02.ogg" />
+	<file src="audio/24039__bebeto__loop022.ogg" />
+	<file src="audio/gorappo.xm" />
+	<file src="audio/xtd-ucieczka_z_tropiku.mod" />
+	<file src="audio/18978__bebeto__loop007-ambient.ogg" />
+	<file src="audio/18979__bebeto__loop008-acid.ogg" />
+	<file src="audio/1281__plagasul__arpeggio6lop.ogg" />
+	<file src="audio/4-1.mp3" />
+	<file src="audio/4-2.mp3" />
+	<file src="audio/4-3.mp3" />
+	<file src="audio/4-4.mp3" />
+	<file src="audio/4-5.mp3" />
+
+	<file src="audio/alg.ogg" />
+	<file src="audio/layla.ogg" />
+	<file src="audio/orle.ogg" />
+	<file src="audio/poncz.ogg" />
+	<file src="audio/jolka.ogg" />
+	<file src="audio/mona_lisa.ogg" />
+	<file src="audio/szalona.ogg" />
+	<file src="audio/zielonym.ogg" />
+	<file src="audio/wino.ogg" />
+	<file src="audio/umowilem.ogg" />
+	<file src="audio/ghost.ogg" />
+	<file src="audio/trzej.ogg" />
+	<file src="audio/presley.ogg" />
+	<file src="audio/full.ogg" />
+	
+	<file src="audio/8-1.ogg" />
+	<file src="audio/8-2.ogg" />
+	<file src="audio/8-3.ogg" />
+	<file src="audio/8-4.ogg" />
+	<file src="audio/8-5.ogg" />
+	<file src="audio/9-1.ogg" />
+	<file src="audio/9-2.ogg" />
+	<file src="audio/9-3.ogg" />
+	<file src="audio/9-4.ogg" />
+	<file src="audio/9-5.ogg" />
+	<file src="audio/9-6.ogg" />
+	<file src="audio/10-1.ogg" />
+	<file src="audio/10-2.ogg" />
+	<file src="audio/10-3.ogg" />
+	<file src="audio/10-4.ogg" />
+	<file src="audio/10-5.ogg" />
+	<file src="audio/11-1.ogg" />
+	<file src="audio/11-2.ogg" />
+	<file src="audio/11-3.ogg" />
+	<file src="audio/11-4.ogg" />
+	<file src="audio/11-5.ogg" />
+	<file src="audio/13-1.ogg" />
+	<file src="audio/13-2.ogg" />
+	<file src="audio/13-3.ogg" />
+	<file src="audio/13-4.ogg" />
+	<file src="audio/13-5.ogg" />
+	<file src="audio/14-1.ogg" />
+	<file src="audio/14-2.ogg" />
+	<file src="audio/14-3.ogg" />
+	<file src="audio/14-4.ogg" />
+	<file src="audio/15-1.ogg" />
+	<file src="audio/15-2.ogg" />
+	<file src="audio/15-3.ogg" />
+	<file src="audio/15-4.ogg" />
+	<file src="audio/15-5.ogg" />
+	<file src="audio/16-1.ogg" />
+	<file src="audio/16-2.ogg" />
+	<file src="audio/16-3.ogg" />
+	<file src="audio/16-4.ogg" />
+	
+	<file src="audio/champions.ogg" />
+	<file src="audio/rock.ogg" />
+	<file src="audio/thisworld.ogg" />
+	
+	<script src="dane.lua" type="client" />
+
+	<script src="eq_c.luac" type="client" />
+	<export function="eq_plyta" type="client" />
+	<export function="menu_cdNext" type="client" />
+	<export function="menu_cdPrev" type="client" />
+	<export function="menu_cdEject" type="client" />
+
+	<script src="spool.lua" type="server" />
+
+</meta>

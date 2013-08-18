@@ -1,0 +1,35 @@
+<meta>
+	<script src="s.lua" type="server" />
+	<file src="n/wheel_sr1.dff" />
+	<file src="n/wheel_sr1.txd" />
+    <file src="n/wheel_gn1.dff" />
+	<file src="n/wheel_gn1.txd" />
+	<file src="n/wheel_gn5.dff" />
+	<file src="n/wheel_gn5.txd" />
+
+	<file src="n/wheel_lr4.dff" />
+	<file src="n/wheel_lr4.txd" />
+	<file src="n/wheel_lr2.dff" />
+	<file src="n/wheel_lr2.txd" />
+	<file src="n/wheel_sr3.dff" />
+	<file src="n/wheel_sr3.txd" />
+	<file src="n/wheel_sr2.dff" />
+	<file src="n/wheel_sr2.txd" />
+	<file src="n/wheel_sr4.dff" />
+	<file src="n/wheel_sr4.txd" />
+	<file src="n/wheel_sr5.dff" />
+	<file src="n/wheel_sr5.txd" />
+
+	<file src="n/wheel_lr5.dff" />
+	<file src="n/wheel_lr5.txd" />
+
+	<file src="hd/wheel_or1.dff" />
+	<file src="hd/wheel_sr6.dff" />
+	<file src="hd/wheel_sr5.dff" />
+	<file src="hd/wheel_lr2.dff" />
+	<file src="hd/wheel_lr5.dff" />
+	<file src="hd/wheel_gn2.dff" />
+	<file src="hd/wheel_gn5.dff" />
+
+	<script src="r.lua" type="client" />
+</meta>

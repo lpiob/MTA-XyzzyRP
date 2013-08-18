@@ -1,0 +1,15 @@
+<meta>
+	<info author="Wielebny"/>
+
+	<file src="img/lss.png" />
+
+	<file src="pomoc/podstawy.xml" />
+	<file src="pomoc/kary.xml" />
+	<file src="pomoc/animacje.xml" />
+	<file src="pomoc/tips.xml" />
+	<file src="pomoc/zasady.xml" />
+
+	<script src="przewodnik.lua" type="client" />
+
+
+</meta>

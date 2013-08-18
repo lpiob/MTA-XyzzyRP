@@ -1,0 +1,6 @@
+<map edf:definitions="editor_main">
+
+    <object id="object (crackfactvats_SFS) (1)" doublesided="false" model="11090" interior="0" dimension="0" background="" border="" foreground="" framesFaded="0" framesToFade="0" height="15" posX="694.7255859375" posY="-662.34375" posZ="16.082326889038" rotX="0" rotY="0" rotZ="0" state="hidden" text="XYZ position" width="68" x="0" y="0"></object>
+    <object id="object (crackfactvats_SFS) (2)" doublesided="false" model="11090" interior="0" dimension="0" posX="858.11462402344" posY="-548.88098144531" posZ="18.735668182373" rotX="0" rotY="0" rotZ="281.25"></object>
+    <object id="object (crackfactvats_SFS) (3)" doublesided="false" model="11090" interior="0" dimension="0" posX="618.04174804688" posY="-430.65219116211" posZ="18.700071334839" rotX="0" rotY="0" rotZ="90"></object>
+</map>

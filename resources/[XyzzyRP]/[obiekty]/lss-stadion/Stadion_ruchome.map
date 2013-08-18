@@ -1,0 +1,7 @@
+<map edf:definitions="editor_main">
+
+<!--stadion do wyscigow -->
+    <object id="brama_stadion" doublesided="true" model="975" interior="1" dimension="24" posX="2661.3894042969" posY="-1759.1760253906" posZ="1428.4639892578" rotX="0" rotY="0" rotZ="270"
+			animtime="5000" pos2X="2661.3894042969" pos2Y="-1763.5330810547" pos2Z="1428.4639892578"></object>
+
+</map>

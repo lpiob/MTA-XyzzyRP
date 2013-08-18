@@ -1,0 +1,21 @@
+<meta>
+	<info author="CrystalMV" version="1.0.1" name="DrawTag" description="Draw your own pictures on walls" type="script" />
+	<min_mta_version client="1.3.0-9.03931"/>
+	<script src="drawtag_s.lua" />
+	<script src="drawtag_c.lua" type="client" />
+	<script src="drawing_c.lua" type="client" />
+	<script src="spraying_s.lua" />
+	<script src="spraying_c.lua" type="client" />
+	<file src="imgs/red.png" />
+	<file src="imgs/green.png" />
+	<file src="imgs/blue.png" />
+	<file src="imgs/transparent.png" />
+	<file src="audio/sprayshake.ogg" />
+	<export function="setPlayerSprayMode" type="server" http="false" />
+	<export function="getPlayerSprayMode" type="server" http="false" />
+	<export function="getPlayerSprayMode" type="client" http="false" />
+	<export function="isDrawingWindowVisible" type="client" http="false" />
+	<export function="showDrawingWindow" type="client" http="false" />
+	<script src="sync.lua" type="server" />
+</meta>
+

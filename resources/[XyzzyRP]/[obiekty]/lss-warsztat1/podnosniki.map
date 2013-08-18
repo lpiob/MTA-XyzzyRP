@@ -1,0 +1,66 @@
+<map edf:definitions="editor_main">
+
+
+
+    <object id="podnosnik1" doublesided="true" model="16091" interior="0" dimension="0" posX="1848.0450439453" posY="-1774.6376953125" posZ="11.923800468445" rotX="0" rotY="180" rotZ="0"
+			posX_1="1848.0450439453" posY_1="-1774.6376953125" posZ_1="11.923800468445"
+			posX_2="1848.0450439453" posY_2="-1774.6376953125" posZ_2="14.323800468445"			
+></object>
+
+    <object id="podnosnik2" doublesided="true" model="8851" interior="0" dimension="0" posX="1848.0450439453" posY="-1774.6376953125" posZ="12.66151714325" rotX="0" rotY="0" rotZ="0"
+			posX_1="1848.0450439453" posY_1="-1774.6376953125" posZ_1="12.66151714325"
+			posX_2="1848.0450439453" posY_2="-1774.6376953125" posZ_2="15.06151714325"
+></object>
+
+    <object id="podnosnik3" doublesided="true" model="8851" interior="0" dimension="0" posX="1848.0450439453" posY="-1774.6376953125" posZ="12.66151714325" rotX="180" rotY="0" rotZ="0"
+			posX_1="1848.0450439453" posY_1="-1774.6376953125" posZ_1="12.66151714325"
+			posX_2="1848.0450439453" posY_2="-1774.6376953125" posZ_2="15.06151714325"	
+></object>
+
+    <object id="podnosnik4" doublesided="true" model="16091" interior="0" dimension="0" posX="1850.3920898438" posY="-1774.6376953125" posZ="11.923800468445" rotX="0" rotY="180" rotZ="0"
+			posX_1="1850.3920898438" posY_1="-1774.6376953125" posZ_1="11.923800468445"
+			posX_2="1850.3920898438" posY_2="-1774.6376953125" posZ_2="14.323800468445"
+></object>
+
+    <object id="podnosnik5" doublesided="true" model="8851" interior="0" dimension="0" posX="1850.3920898438" posY="-1774.6376953125" posZ="12.66151714325" rotX="0" rotY="0" rotZ="0"
+			posX_1="1850.3920898438" posY_1="-1774.6376953125" posZ_1="12.66151714325"
+			posX_2="1850.3920898438" posY_2="-1774.6376953125" posZ_2="15.06151714325"			
+></object>
+
+    <object id="podnosnik6" doublesided="true" model="8851" interior="0" dimension="0" posX="1850.3920898438" posY="-1774.6376953125" posZ="12.66151714325" rotX="180" rotY="0" rotZ="0"
+			posX_1="1850.3920898438" posY_1="-1774.6376953125" posZ_1="12.66151714325"
+			posX_2="1850.3920898438" posY_2="-1774.6376953125" posZ_2="15.06151714325"			
+></object>
+
+    <object id="podnosnik7" doublesided="true" model="16091" interior="0" dimension="0" posX="1893.9146728516" posY="-1774.6376953125" posZ="11.923800468445" rotX="0" rotY="180" rotZ="0"
+			posX_1="1893.9146728516" posY_1="-1774.6376953125" posZ_1="11.923800468445"
+			posX_2="1893.9146728516" posY_2="-1774.6376953125" posZ_2="14.323800468445"			
+></object>
+
+    <object id="podnosnik8" doublesided="true" model="8851" interior="0" dimension="0" posX="1893.9146728516" posY="-1774.6376953125" posZ="12.66151714325" rotX="0" rotY="0" rotZ="0"
+			posX_1="1893.9146728516" posY_1="-1774.6376953125" posZ_1="12.66151714325"
+			posX_2="1893.9146728516" posY_2="-1774.6376953125" posZ_2="15.06151714325"			
+></object>
+
+    <object id="podnosnik9" doublesided="true" model="8851" interior="0" dimension="0" posX="1893.9146728516" posY="-1774.6376953125" posZ="12.66151714325" rotX="180" rotY="0" rotZ="0"
+			posX_1="1893.9146728516" posY_1="-1774.6376953125" posZ_1="12.66151714325"
+			posX_2="1893.9146728516" posY_2="-1774.6376953125" posZ_2="15.06151714325"			
+></object>
+
+    <object id="podnosnik10" doublesided="true" model="16091" interior="0" dimension="0" posX="1897.0806884766" posY="-1774.6376953125" posZ="11.923800468445" rotX="0" rotY="180" rotZ="0"
+			posX_1="1897.0806884766" posY_1="-1774.6376953125" posZ_1="11.923800468445"
+			posX_2="1897.0806884766" posY_2="-1774.6376953125" posZ_2="14.323800468445"			
+></object>
+
+    <object id="podnosnik11" doublesided="true" model="8851" interior="0" dimension="0" posX="1897.0806884766" posY="-1774.6376953125" posZ="12.66151714325" rotX="0" rotY="0" rotZ="0"
+			posX_1="1897.0806884766" posY_1="-1774.6376953125" posZ_1="12.66151714325"
+			posX_2="1897.0806884766" posY_2="-1774.6376953125" posZ_2="15.06151714325"			
+></object>
+
+    <object id="podnosnik12" doublesided="true" model="8851" interior="0" dimension="0" posX="1897.0806884766" posY="-1774.6376953125" posZ="12.66151714325" rotX="180" rotY="0" rotZ="0"
+			posX_1="1897.0806884766" posY_1="-1774.6376953125" posZ_1="12.66151714325"
+			posX_2="1897.0806884766" posY_2="-1774.6376953125" posZ_2="15.06151714325"			
+></object>
+
+
+</map>

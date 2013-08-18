@@ -1,0 +1,4 @@
+<map edf:definitions="editor_main">
+    <object id="object (barrierturn) (1)" doublesided="false" model="968" interior="0" dimension="0" posX="1997.0172119141" posY="-1442.0372314453" posZ="13.256170272827" rotX="0" rotY="270" rotZ="90"></object>
+    <object id="object (barrierturn) (2)" doublesided="false" model="968" interior="0" dimension="0" posX="2005.9985351563" posY="-1450.8907470703" posZ="13.256170272827" rotX="0" rotY="270" rotZ="0"></object>
+</map>

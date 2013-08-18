@@ -1,0 +1,39 @@
+<map edf:definitions="editor_main">
+    <object id="object (Gen_doorEXT7_11L) (1)" interior="0" alpha="255" doublesided="true" model="1560" scale="1" dimension="0" posX="1604.2648925781" posY="-1170.7250976563" posZ="23.078125" rotX="0" rotY="0" rotZ="180"></object>
+    <object id="object (lasdkrt3) (1)" interior="0" alpha="255" doublesided="true" model="3571" scale="1" dimension="0" posX="1603.4813232422" posY="-1174.8190917969" posZ="24.272596359253" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (lasdkrt3) (2)" interior="0" alpha="255" doublesided="true" model="3571" scale="1" dimension="0" posX="1603.4799804688" posY="-1174.8298339844" posZ="24.80973815918" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (CJ_MLIGHT13) (1)" doublesided="true" model="2108" interior="0" dimension="0" posX="1608.1639404297" posY="-1171.6901855469" posZ="25.050874710083" rotX="0" rotY="0" rotZ="80"></object>
+    <object id="object (CJ_MLIGHT15) (1)" doublesided="true" model="2106" interior="0" dimension="0" posX="1606.9172363281" posY="-1171.8630371094" posZ="25.056423187256" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (CJ_MLIGHT14) (1)" doublesided="true" model="2105" interior="0" dimension="0" posX="1609.7176513672" posY="-1171.8171386719" posZ="25.504360198975" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (CJ_MLIGHT1) (1)" doublesided="true" model="2073" interior="0" dimension="0" posX="1610.1447753906" posY="-1171.2014160156" posZ="26.293994903564" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (CJ_MLIGHT5) (1)" doublesided="true" model="2071" interior="0" dimension="0" posX="1613.2125244141" posY="-1171.7507324219" posZ="26.398338317871" rotX="0" rotY="0" rotZ="70"></object>
+    <object id="object (cn2_savgardr2_) (1)" doublesided="true" model="16501" interior="0" dimension="0" posX="1613.0827636719" posY="-1173.1490478516" posZ="24.964721679688" rotX="0" rotY="90" rotZ="90"></object>
+    <object id="object (cn2_savgardr2_) (2)" doublesided="true" model="16501" interior="0" dimension="0" posX="1608.7746582031" posY="-1173.1474609375" posZ="24.967720031738" rotX="0" rotY="90" rotZ="90"></object>
+    <object id="object (cn2_savgardr2_) (3)" doublesided="true" model="16501" interior="0" dimension="0" posX="1598.0645751953" posY="-1173.0964355469" posZ="24.964721679688" rotX="0" rotY="90" rotZ="90"></object>
+    <object id="object (cn2_savgardr2_) (4)" doublesided="true" model="16501" interior="0" dimension="0" posX="1592.4073486328" posY="-1173.0964355469" posZ="24.967720031738" rotX="0" rotY="90" rotZ="90"></object>
+    <object id="object (CJ_MLIGHT7) (1)" doublesided="true" model="2069" interior="0" dimension="0" posX="1612.2945556641" posY="-1171.54296875" posZ="25.08318901062" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (shoplight1) (1)" doublesided="true" model="1893" interior="0" dimension="0" posX="1613.7640380859" posY="-1171.3081054688" posZ="27.256175994873" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (CJ_MLIGHT2) (1)" doublesided="true" model="1734" interior="0" dimension="0" posX="1607.0346679688" posY="-1171.2250976563" posZ="27.315217971802" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (DYN_TV) (1)" doublesided="true" model="1429" interior="0" dimension="0" posX="1593.3572998047" posY="-1171.5161132813" posZ="25.314519882202" rotX="0" rotY="0" rotZ="180"></object>
+    <object id="object (CJ_POLICE_COUNTER2) (1)" doublesided="true" model="2606" interior="0" dimension="0" posX="1599.38671875" posY="-1171.837890625" posZ="25.306035995483" rotX="0" rotY="0" rotZ="179.99450683594"></object>
+    <object id="object (CJ_Sphere_TV) (1)" doublesided="true" model="2224" interior="0" dimension="0" posX="1597.9807128906" posY="-1171.2875976563" posZ="25.058715820313" rotX="0" rotY="0" rotZ="136.5"></object>
+    <object id="object (LOW_HI_FI_3) (1)" doublesided="true" model="2226" interior="0" dimension="0" posX="1595.8479003906" posY="-1171.4407958984" posZ="25.061714172363" rotX="0" rotY="0" rotZ="180"></object>
+    <object id="object (SWANK_SPEAKER) (1)" doublesided="true" model="2229" interior="0" dimension="0" posX="1591.1715087891" posY="-1171.8874511719" posZ="25.061714172363" rotX="0" rotY="0" rotZ="180"></object>
+    <object id="object (SWANK_SPEAKER) (2)" doublesided="true" model="2229" interior="0" dimension="0" posX="1591.7939453125" posY="-1171.9599609375" posZ="25.061714172363" rotX="0" rotY="0" rotZ="179.99450683594"></object>
+    <object id="object (CJ_TELE_1) (1)" doublesided="true" model="2318" interior="0" dimension="0" posX="1594.3980712891" posY="-1171.7514648438" posZ="25.343227386475" rotX="0" rotY="0" rotZ="180"></object>
+    <object id="object (CJ_FF_MICROW) (1)" doublesided="true" model="2421" interior="0" dimension="0" posX="1599.3336181641" posY="-1171.6263427734" posZ="23.078125" rotX="0" rotY="0" rotZ="180"></object>
+    <object id="object (SWANK_VIDEO_3) (1)" doublesided="true" model="1790" interior="0" dimension="0" posX="1594.9366455078" posY="-1171.2556152344" posZ="25.131477355957" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (CJ_ICE_FRIDGE_1) (1)" doublesided="true" model="2361" interior="0" dimension="0" posX="1596.3695068359" posY="-1171.6038818359" posZ="23.078125" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (otb_glass) (2)" doublesided="true" model="14799" interior="0" dimension="0" posX="1611.5689697266" posY="-1171.1811523438" posZ="23.70588684082" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (otb_glass) (2)" doublesided="true" model="14799" interior="0" dimension="0" posX="1611.568359375" posY="-1171.1806640625" posZ="25.196821212769" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (otb_glass) (2)" doublesided="true" model="14799" interior="0" dimension="0" posX="1611.568359375" posY="-1171.1806640625" posZ="26.452344894409" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (otb_glass) (2)" doublesided="true" model="14799" interior="0" dimension="0" posX="1610.314453125" posY="-1171.1811523438" posZ="26.452344894409" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (otb_glass) (2)" doublesided="true" model="14799" interior="0" dimension="0" posX="1610.314453125" posY="-1171.1811523438" posZ="24.961410522461" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (otb_glass) (2)" doublesided="true" model="14799" interior="0" dimension="0" posX="1610.314453125" posY="-1171.1811523438" posZ="23.784357070923" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (otb_glass) (2)" doublesided="true" model="14799" interior="0" dimension="0" posX="1596.7124023438" posY="-1171.1811523438" posZ="23.784357070923" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (otb_glass) (2)" doublesided="true" model="14799" interior="0" dimension="0" posX="1596.7119140625" posY="-1171.1806640625" posZ="25.275291442871" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (otb_glass) (2)" doublesided="true" model="14799" interior="0" dimension="0" posX="1596.7119140625" posY="-1171.1806640625" posZ="26.452344894409" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (otb_glass) (2)" doublesided="true" model="14799" interior="0" dimension="0" posX="1595.3012695313" posY="-1171.1811523438" posZ="26.452344894409" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (otb_glass) (2)" doublesided="true" model="14799" interior="0" dimension="0" posX="1595.30078125" posY="-1171.1806640625" posZ="25.118350982666" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (otb_glass) (2)" doublesided="true" model="14799" interior="0" dimension="0" posX="1595.30078125" posY="-1171.1806640625" posZ="23.784357070923" rotX="0" rotY="0" rotZ="90"></object>
+</map>

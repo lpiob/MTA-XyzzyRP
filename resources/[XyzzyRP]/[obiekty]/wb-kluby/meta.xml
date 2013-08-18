@@ -1,0 +1,11 @@
+<meta>
+	<map src="klub_00th.map" />
+	
+    <script src="sklep.lua" type="server" />
+    <script src="sklep_c.lua" type="client" />
+	
+	<file src="audiodump.ogg" type="client" />
+	<script src="naglosnienie_c.lua" type="client" />
+	
+	<sync_map_element_data>false</sync_map_element_data>
+</meta>

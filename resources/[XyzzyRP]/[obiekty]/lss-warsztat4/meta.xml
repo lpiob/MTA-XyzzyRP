@@ -1,0 +1,8 @@
+<meta>
+    <script src="warsztat_c.lua" type="client" />
+    <export function="menu_brama" type="client" />
+    <script src="warsztat_b.lua" type="server" />
+	<!--<map src="Bramy.map" />-->
+	
+	<script src="texty.lua" type="client" />	
+</meta>

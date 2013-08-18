@@ -1,0 +1,5 @@
+<meta>
+	<script src="gui_c.lua" type="client" />
+	<script src="pas_c.lua" type="client" />
+	<script src="sortownie.lua" type="server" />
+</meta>

@@ -1,0 +1,6 @@
+<meta>
+    <script src="kurierzy.lua" type="server" />
+    <script src="kurierzy_c.lua" type="client" />
+    <export function="menu_odbiorPaczki" type="client" />
+    <export function="menu_dostawaPaczki" type="client" />
+</meta>

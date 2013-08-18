@@ -1,0 +1,14 @@
+<meta>
+	<min_mta_version client="1.3.0-9.03783" />
+
+    <script src="wystawa.lua" type="server" />
+
+
+	<script src="drzewa.lua" type="server" />
+	<script src="scinka_c.lua" type="client" />
+	<script src="forklift.lua" type="server" />
+	<script src="odbior.lua" type="server" />
+	<export function="menu_zetnij" type="client" />
+
+
+</meta>

@@ -1,0 +1,5 @@
+<meta>
+	<file src="wmomib.dff" />
+	<file src="wmomib.txd" />
+	<script src="replace.lua" type="client" />
+</meta>

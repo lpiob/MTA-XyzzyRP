@@ -1,0 +1,5 @@
+<meta>
+    <script src="wedzarnia_c.lua" type="client" />
+    <script src="wedzarnia.lua" type="server" />
+    <file src="wedzarnia.png" type="client" />
+</meta>

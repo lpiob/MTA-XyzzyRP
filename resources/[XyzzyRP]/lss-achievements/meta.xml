@@ -1,0 +1,19 @@
+<meta>
+	<include resource="DB2" />
+	<file src="i/star_black.png" />
+	<file src="i/star_blue.png" />
+	<file src="i/star_orange.png" />
+	<file src="i/star_purple.png" />
+	<file src="i/star_red.png" />
+	<file src="i/star_gold.png" />
+	<script src="render_c.lua" type="client" />
+	<file src="a/tada1.ogg" />
+	<file src="a/tada2.ogg" />
+
+	<script src="achievements.lua" type="server" />
+	<export function="checkAchievementForPlayer" type="server" />
+	<script src="abilities.lua" type="server" />
+	<script src="abilities_c.lua" type="client" />
+	<script src="fightingstyle.lua" type="server" />
+	<script src="fightingstyle_c.lua" type="client" />
+</meta>

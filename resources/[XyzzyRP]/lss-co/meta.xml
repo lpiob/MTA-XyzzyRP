@@ -1,0 +1,4 @@
+<meta>
+  <script src="co_zarzadzanie.lua" type="server" />
+  <script src="co_zarzadzanie_c.lua" type="client" />
+</meta>

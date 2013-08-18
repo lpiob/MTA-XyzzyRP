@@ -1,0 +1,10 @@
+<meta>
+    <script src="sklep.lua" type="server" />
+    <script src="sklep_c.lua" type="client" />
+    <script src="buyphone.lua" type="server" />
+	
+	<map src="Interior.map" />	
+	<map src="Na_zewnatrz.map" />	
+	
+	<sync_map_element_data>false</sync_map_element_data>
+</meta>

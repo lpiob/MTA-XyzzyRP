@@ -1,0 +1,25 @@
+<map edf:definitions="editor_main">
+
+
+    <object id="niszczarka1" doublesided="true" model="5259" interior="0" dimension="0" posX="661.56188964844" posY="-569.76580810547" posZ="27.163105010986" rotX="0" rotY="180" rotZ="0"
+			posX_1="661.56188964844" posY_1="-569.76580810547" posZ_1="27.163105010986"
+			posX_2="661.561889648" posY_2="-569.765808105" posZ_2="20.553105011"			
+></object>
+
+    <object id="niszczarka2" doublesided="true" model="5259" interior="0" dimension="0" posX="661.51794433594" posY="-561.80981445313" posZ="23.665925979614" rotX="0" rotY="0" rotZ="0"
+			posX_1="661.51794433594" posY_1="-561.80981445313" posZ_1="23.665925979614"
+			posX_2="661.517944336" posY_2="-561.809814453" posZ_2="17.0559259796"			
+></object>
+
+    <object id="niszczarka3" doublesided="true" model="5259" interior="0" dimension="0" posX="661.52172851563" posY="-561.80590820313" posZ="27.159378051758" rotX="0" rotY="180" rotZ="0"
+			posX_1="661.52172851563" posY_1="-561.80590820313" posZ_1="27.159378051758"
+			posX_2="661.521728516" posY_2="-561.805908203" posZ_2="20.5493780518"			
+></object>
+
+    <object id="niszczarka4" doublesided="true" model="5259" interior="0" dimension="0" posX="661.517578125" posY="-569.7578125" posZ="23.677919387817" rotX="0" rotY="0" rotZ="0"
+			posX_1="661.517578125" posY_1="-569.7578125" posZ_1="23.677919387817"
+			posX_2="661.517578125" posY_2="-569.7578125" posZ_2="17.0679193878"			
+></object>
+
+
+</map>

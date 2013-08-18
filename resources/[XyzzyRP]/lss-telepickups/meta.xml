@@ -1,0 +1,4 @@
+<meta>
+	<include resource="DB" />
+	<script src="telepickups.lua" type="server" />
+</meta>

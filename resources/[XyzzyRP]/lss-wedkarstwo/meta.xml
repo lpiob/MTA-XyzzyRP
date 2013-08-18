@@ -1,0 +1,6 @@
+<meta>
+    <script src="wedkowanie_c.lua" type="client" />
+	<script src="skup_c.lua" type="client" />
+	<script src="skup.lua" type="server" />
+	<export function="menu_oddajRyby" type="client" />
+</meta>

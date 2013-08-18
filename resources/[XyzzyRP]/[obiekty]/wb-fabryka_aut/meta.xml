@@ -1,0 +1,10 @@
+<meta>
+	<map src="Interior.map" />	
+	<map src="Na_zewnatrz.map" />	
+
+	<file src="audio/fx-fabryka.ogg" />
+	<script src="Fabryka_aut-muzyka.lua" type="client" />
+
+	<map src="Fabryka_aut-ruchome.map" />
+	<script src="Fabryka_aut-ruchome.lua" type="client" />
+</meta>

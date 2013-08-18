@@ -1,0 +1,23 @@
+<meta>
+  <script src="niszczarka.lua" type="server" />
+    <script src="dorabiarka_kluczy_c.lua" type="client" />
+	
+	<map src="Wysypisko_ruchome.map" />
+	<script src="rozsuwane_drzwi.lua" type="server" />	  
+	
+	<script src="texty.lua" type="server" />
+
+	<map src="Wysypisko_smieci.map" />
+	
+	<script src="skupy_c.lua" type="client" />		
+	<script src="skupy.lua" type="server" />
+	<export function="menu_wysypSmieci" type="client" />
+
+	<script src="przetwarzanie_c.lua" type="client" />
+	
+  <script src="szlabany.lua" type="server" />
+  <script src="szlabany2.lua" type="server" />
+  <script src="szlabany3.lua" type="server" />
+  
+    <script src="pedy.lua" type="client" />
+</meta>

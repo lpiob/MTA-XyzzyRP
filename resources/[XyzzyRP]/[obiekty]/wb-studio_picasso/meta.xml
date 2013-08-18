@@ -1,0 +1,6 @@
+<meta>
+	<map src="Studio_picasso.map" />	
+	<script src="texty.lua" type="client" />	
+	
+	<sync_map_element_data>false</sync_map_element_data>
+</meta>

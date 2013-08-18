@@ -1,0 +1,42 @@
+<meta>
+	<file src="lrp_cagoule.txd" />
+	<file src="lrp_cagoule.dff" />
+	
+	<file src="rpit_medic_bag.txd" />
+	<file src="rpit_medic_bag.dff" />
+	
+	<file src="lrp_kevlars.txd" />
+	<file src="lrp_kevlar_pd.dff" />
+	<file src="lrp_kevlar.dff" />
+	
+	<file src="lrp_phones.txd" />
+	<file src="lrp_phone1.dff" />
+	
+	<file src="lrp_micro.col" />
+	<file src="lrp_micro.txd" />
+	<file src="lrp_micro.dff" />
+	
+	<file src="vehicle_barrier01.col" />
+	<file src="vehicle_barrier01.dff" />
+	<file src="speed_bumps.txd" />
+	
+	<file src="lrp_morguebag.col" />
+	<file src="corpse_system.txd" />
+	<file src="lrp_morguebag.dff" />
+	
+	<file src="lrp_eastpak.txd" />
+	<file src="lrp_eastpak.dff" />
+	
+	<file src="lrp_sacepaule.txd" />
+	<file src="lrp_sacepaule.dff" />
+	
+	<file src="lrp_laptops.txd" />
+	<file src="lrp_laptop1.dff" />
+	
+	<file src="XmasBox1.txd" />
+	<file src="XmasBox1.dff" />
+	
+	<file src="lrp_atm.txd" />
+	<file src="lrp_atm.dff" />
+  <script src="replace.lua" type="client" />
+</meta>

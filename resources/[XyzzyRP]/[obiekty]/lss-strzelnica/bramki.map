@@ -1,0 +1,16 @@
+<map edfefinitions="editor_main">
+　　<object id="object (CJ_DETECTOR) (1)" doublesided="false" model="2412" interior="4" dimension="18" posX="294.70001220703" posY="-77.599998474121" posZ="1000.5" rotX="0" rotY="0" rotZ="90"></object>
+　　<object id="object (CJ_DETECTOR) (2)" doublesided="false" model="2412" interior="4" dimension="18" posX="294.70001220703" posY="-79.400001525879" posZ="1000.5" rotX="0" rotY="0" rotZ="90"></object>
+　　<object id="object (fenceshit3) (1)" doublesided="false" model="983" interior="4" dimension="18" posX="294.79998779297" posY="-77.199996948242" posZ="1002.200012207" rotX="270" rotY="194.470703125" rotZ="194.47045898438"></object>
+　　<object id="object (fenceshit3) (3)" doublesided="false" model="983" interior="4" dimension="18" posX="294.79998779297" posY="-76.800003051758" posZ="1002.200012207" rotX="270" rotY="194.470703125" rotZ="194.47045898438"></object>
+　　<object id="object (fenceshit3) (4)" doublesided="false" model="983" interior="4" dimension="18" posX="294.79998779297" posY="-80.400001525879" posZ="1002.200012207" rotX="270" rotY="194.46899414063" rotZ="194.46899414063"></object>
+　　<object id="object (fenceshit3) (5)" doublesided="false" model="983" interior="4" dimension="18" posX="294.79998779297" posY="-81.400001525879" posZ="1002.200012207" rotX="270" rotY="194.46899414063" rotZ="194.46899414063"></object>
+　　<object id="object (fenceshit3) (7)" doublesided="false" model="983" interior="4" dimension="18" posX="294.79998779297" posY="-79.099998474121" posZ="1007" rotX="270" rotY="194.46899414063" rotZ="194.46899414063"></object>
+　　<object id="object (fenceshit3) (9)" doublesided="false" model="983" interior="4" dimension="18" posX="294.7998046875" posY="-78.099609375" posZ="1007" rotX="270" rotY="194.46899414063" rotZ="194.46899414063"></object>
+　　<object id="object (fenceshit3) (5)" doublesided="false" model="983" interior="4" dimension="18" posX="294.20001220703" posY="-82.099998474121" posZ="1002.200012207" rotX="270" rotY="194.46899414063" rotZ="104.46899414063"></object>
+　　<object id="object (fenceshit3) (5)" doublesided="false" model="983" interior="4" dimension="18" posX="292.89999389648" posY="-82.099998474121" posZ="1002.200012207" rotX="270" rotY="194.46899414063" rotZ="104.46350097656"></object>
+　　<object id="object (fenceshit3) (5)" doublesided="false" model="983" interior="4" dimension="18" posX="292.29998779297" posY="-82.699996948242" posZ="1003.5999755859" rotX="270" rotY="194.46899414063" rotZ="194.96350097656"></object>
+　　<object id="object (fenceshit3) (5)" doublesided="false" model="983" interior="4" dimension="18" posX="292.29998779297" posY="-84" posZ="1003.5999755859" rotX="270" rotY="194.46899414063" rotZ="194.96337890625"></object>
+　　<object id="object (fenceshit3) (5)" doublesided="false" model="983" interior="4" dimension="18" posX="292.29998779297" posY="-85.300003051758" posZ="1003.5999755859" rotX="270" rotY="194.46899414063" rotZ="194.96337890625"></object>
+　　<object id="object (fenceshit3) (5)" doublesided="false" model="983" interior="4" dimension="18" posX="292.29998779297" posY="-86.5" posZ="1003.5999755859" rotX="270" rotY="194.46899414063" rotZ="194.96337890625"></object>
+</map>
