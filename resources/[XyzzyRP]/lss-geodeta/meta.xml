@@ -1,0 +1,5 @@
+<meta>
+  <script src="punkty.lua" type="client" />
+  <script src="praca.lua" type="server" />
+  <script src="praca_c.lua" type="client" />
+</meta>

@@ -1,0 +1,4 @@
+<meta>
+	<script src="egzamin.lua" type="server" />
+	<export function="egzamin_init" type="server" />
+</meta>

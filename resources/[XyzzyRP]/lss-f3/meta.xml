@@ -1,0 +1,6 @@
+<meta>
+  <script src="f3_c.lua" type="client" />
+  <script src="f3.lua" type="server" />
+  <file src="karer_bar.png" type="client" />
+  <file src="name_highlight.png" type="client" />
+</meta>

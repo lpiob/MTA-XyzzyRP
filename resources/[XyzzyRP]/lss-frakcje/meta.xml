@@ -1,0 +1,38 @@
+<meta>
+    <include resource="DB" />
+    <script src="frakcje_c.lua" type="client" />
+    <script src="frakcje.lua" type="server" />
+    <script src="frakcje_zarzadzanie.lua" type="server" />
+    <script src="frakcje_zarzadzanie_c.lua" type="client" />
+    
+    <script src="sm.lua" type="server" />
+    <script src="sm_c.lua" type="client" />
+    <export function="menu_blokadaKol" type="client" />
+    <export function="menu_wyladujPojazdy" type="client" />
+    <export function="menu_magnes" type="client" />
+    
+    
+	<script src="blips_c.lua" type="client" />
+	<export function="addMiscRequest" type="client" />
+
+    <script src="policja.lua" type="server" />
+    <script src="policja_c.lua" type="client" />
+	<export function="menu_zakuj" type="client" />
+
+
+	<script src="naukajazdy.lua" type="server" />
+	<script src="naukajazdy_c.lua" type="client" />
+
+	<script src="taxi_c.lua" type="client" />
+	<export function="menu_taxiResetLicznika" type="client" />
+
+	<script src="cn.lua" type="server" />
+	<script src="cn_c.lua" type="client" />
+	
+    <script src="medycy.lua" type="server" />
+    <script src="medycy_c.lua" type="client" />
+    <script src="fd.lua" type="server" />
+    <script src="fd_c.lua" type="client" />
+    <export function="menu_zastrzyk" type="client" />
+	<export function="addTaxiRequest" type="client" />
+</meta>

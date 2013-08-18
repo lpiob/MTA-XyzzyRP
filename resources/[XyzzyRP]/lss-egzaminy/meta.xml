@@ -1,0 +1,4 @@
+<meta>
+  <script src="egzaminy.lua" type="server" />
+  <script src="egzaminy_c.lua" type="client" />
+</meta>
