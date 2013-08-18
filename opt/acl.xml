@@ -15,6 +15,7 @@
     <group name="Console">
         <acl name="Admin"></acl>
         <acl name="RPC"></acl>
+        <object name="user.root"></object>
         <object name="user.Console"></object>
         <object name="resource.runcode"></object>
     </group>
