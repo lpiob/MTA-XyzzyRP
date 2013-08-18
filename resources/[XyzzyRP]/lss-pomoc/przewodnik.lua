@@ -14,14 +14,17 @@ local files = {"pomoc/zasady.xml;Zasady gry","pomoc/kary.xml;Kary","pomoc/podsta
 local resX,resY = guiGetScreenSize()
 
 function startup()
-	window = guiCreateWindow(resX*1/10,resY*2/10,resX/10*8,resY/10*6,"Los Santos Stories - Polski serwer RP",false)
+	window = guiCreateWindow(resX*1/10,resY*2/10,resX/10*8,resY/10*6,"XyzzyRP - Polski serwer RP",false)
 	guiSetVisible(window,false)
 	guiWindowSetMovable(window,false)
 	guiWindowSetSizable(window,false)
 	tPanel = guiCreateTabPanel(0,0.1,1,1,true,window)
 	local t1=guiCreateTab("XyzzyRP", tPanel)
 --	guiCreateStaticImage ( 0.02, 0.04, 0.94, 0.4, "img/lss.png", true, t1 )
-	guiCreateLabel( 0.02, 0.70, 0.94, 0.20, "http://github.com/lpiob/MTA-XyzzyRP/", true, t1)
+
+    -- pozostawienie ponizszej linii jest wymagane w ramach udzielonej licencji
+	guiCreateLabel( 0.02, 0.70, 0.94, 0.20, "http://github.com/lpiob/MTA-XyzzyRP/ licencja GPLv2", true, t1)
+
 
 	for k, v in ipairs(files) do
 		local data = split(v,string.byte(";"))
