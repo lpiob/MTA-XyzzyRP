@@ -1,0 +1,5 @@
+<meta>
+  <script src="uprawy.lua" type="server" />
+  <script src="uprawy_c.lua" type="client" />
+  <export function="menu_podnies" type="client" />
+</meta>

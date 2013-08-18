@@ -1,0 +1,9 @@
+<meta>
+	<script src="tempobjects.lua" type="server" />
+	<script src="tempobjects_c.lua" type="client" />
+	<export function="menu_podniesObiektTymczasowy" type="client" />
+	<export function="menu_itemPickup" type="client" />
+	<script src="pacholki_c.lua" type="client" />
+	<export function="postawPacholek" type="client" />
+	
+</meta>

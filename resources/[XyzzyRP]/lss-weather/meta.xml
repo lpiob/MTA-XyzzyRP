@@ -1,0 +1,4 @@
+<meta>
+  <script src="weather.lua" type="server" />
+  <export function="getPrognoza" type="server" />
+</meta>

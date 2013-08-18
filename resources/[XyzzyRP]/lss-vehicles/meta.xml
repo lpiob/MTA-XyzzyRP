@@ -1,0 +1,32 @@
+<meta>
+  <min_mta_version server="1.3.0-9.03968" />
+
+    <include resource="DB" />
+    <script src="util.lua" type="server" />
+    <script src="vehicles.lua" type="server" />
+    <script src="vehicles_c.lua" type="client" />
+    <script src="vehicle_fingerprints.lua" type="server" />
+    
+    <export function="createVehicleEx" type="server" />
+	<export function="unregisterVehicle" type="server" />
+    <export function="menu_openVehicle" type="client" />
+    <export function="menu_closeVehicle" type="client" />
+    <export function="menu_maska" type="client" />
+    <export function="menu_bagaznik" type="client" />
+    <export function="veh_save" type="server" />
+    <export function="menu_startEngine" type="client" />
+    <export function="menu_stopEngine" type="client" />
+    <export function="menu_freeze" type="client" />
+    <export function="menu_unfreeze" type="client" />
+    <export function="menu_flip" type="client" />
+    <export function="menu_kogut" type="client" />
+    <export function="menu_neony" type="client" />
+    <export function="menu_dach" type="client" />
+	
+    <export function="veh_load" type="server" />
+    <export function="veh_reload" type="server" />
+    <export function="assignVehicleToOwner" type="server" />
+    <export function="graczMaKlucze" type="client" />
+
+
+</meta>
