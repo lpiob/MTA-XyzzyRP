@@ -76,7 +76,7 @@ function displayLoginBox()
     addEventHandler ( "onClientRender", root, renderLoginBox )
     guiSetInputMode("no_binds_when_editing")
     
-   g_l_welcometext=guiCreateLabel(1/30, 12/30, 13/30, 6/30, "Najlepszy i najdłużej istniejący polski serwer RP\n\nRejestracja kont tylko na stronie: http://www.lss-rp.pl/",true)
+   g_l_welcometext=guiCreateLabel(1/30, 12/30, 13/30, 6/30, "Świeża instalacji czystego gamemodu XyzzyRP\n\nhttp://github.com/lpiob/MTA-XyzzyRP/",true)
 
     guiLabelSetHorizontalAlign(g_l_welcometext,"left",true)
     guiLabelSetVerticalAlign(g_l_welcometext,"center")
