@@ -1,6 +1,3 @@
-Trwa przygotowywanie kodu do wgrania do repozytorium. Jak ten komunikat zniknie, w repozytorium znajdzie się kompletna wersja, gotowa do pobrania.
-
-
 MTA-XyzzyRP
 ===========
 
@@ -52,6 +49,7 @@ W repozytorium znajduje się:
 W repozytorium nie ma:
 - Kodu integrującego IPBoard lub inne oprogramowanie forum z autoryzacją używaną na serwerze
 - Podmianek skinów i pojazdów
+- Paneli do tworzenia postaci i rejestracji kont - zostanie to dodane wkrótce
 
 
 Gdzie uruchomić serwer
@@ -68,6 +66,8 @@ Podczas wyboru hostingu należy upewnić się, czy:
 - dostęp do bazy danych możliwy jest także z dowolnego hosta w internecie
 
 (wymienione wyżej hostingi spełniają te wymogi)
+
+Przygotowaliśmy krótką instrukcję instalacji krok-po-kroku całego gamemodu na hosting ServerProject. Można ją przeczytać tu: https://github.com/lpiob/MTA-XyzzyRP/wiki/Instalacja-XyzzyRP-na-ServerProject.pl
 
 Oprócz hostingu na serwer MTA wymagany jest też hosting na utrzymanie strony internetowej, a przynajmniej kodu pozwalającego na rejestrację graczy, gdyż ta nie jest wbudowana w serwer. Do tego wystarczy dowolony nowoczesny hosting z zainstalowanym PHP oraż możliwością wykonywania połączeń do bazy danych umieszczonej na ww. hostingu.
 
