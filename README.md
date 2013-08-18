@@ -43,7 +43,6 @@ Zawartość repozytorium
 W repozytorium znajduje się:
 - Kod LUA serwera
 - Struktura bazy danych
-- Kod PHP realizujący rejestrację kont i postaci
 - Dodatkowe wymagane moduły
 
 W repozytorium nie ma:
