@@ -11,10 +11,10 @@ Autorzy
 
 - Łukasz "W/Wielebny" Biegaj <wielebny@lss-rp.pl>
 - Wujek <wujek@lss-rp.pl>
-- Eryk "RootKiller" Dwornicki <rootkiller.programmer@gmail.com>
 - Karer <karer.programmer@gmail.com>
 - RacheT <rachet@pylife.pl>
 - AFX <afx@pylife.pl>
+- Eryk "RootKiller" Dwornicki <rootkiller.programmer@gmail.com>
 
 Licencja
 ========================================================================
