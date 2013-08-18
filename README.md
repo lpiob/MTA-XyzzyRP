@@ -13,7 +13,6 @@ Autorzy
 - Wujek <wujek@lss-rp.pl>
 - Karer <karer.programmer@gmail.com>
 - Przemysław "RacheT" Kędziorek <rachet@pylife.pl>
-- AFX <afx@pylife.pl>
 - Eryk "RootKiller" Dwornicki <rootkiller.programmer@gmail.com>
 
 Licencja
