@@ -92,6 +92,8 @@ Aby uruchomić serwer należy:
 
 8. Zainstalować i uruchomić rejestrację kont na stronie.
 
+Domyślne konto testowe w grze: login tester, hasło tester, postać Brian_Looner
+
 
 Informacje techniczne
 ========================================================================
