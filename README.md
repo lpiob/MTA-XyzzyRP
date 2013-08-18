@@ -7,7 +7,7 @@ Autorzy
 ========================================================================
 
 - Łukasz "W/Wielebny" Biegaj <wielebny@lss-rp.pl>
-- Wujek <wujek@lss-rp.pl>
+- WUBE <wube@lss-rp.pl>
 - Karer <karer.programmer@gmail.com>
 - Przemysław "RacheT" Kędziorek <rachet@pylife.pl>
 - Eryk "RootKiller" Dwornicki <rootkiller.programmer@gmail.com>
