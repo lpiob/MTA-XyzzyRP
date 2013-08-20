@@ -10,6 +10,8 @@ lss-admin: różne funkcje dla adminów
 ]]--
 
 
+-- @todo Uzupełnić te funkcję o weryfikację uprawnień
+
 addCommandHandler("xdevmodex",function()
 	setDevelopmentMode(true)
 end)
