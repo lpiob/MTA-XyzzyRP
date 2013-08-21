@@ -1,0 +1,9 @@
+RewriteEngine On
+
+#php_flag display_errors off
+#php_flag log_errors off
+
+RewriteRule ^postacie/([0-9]+)$	/main.php?m=postac&cid=$1	[L,QSA]
+RewriteRule ^postacie/([0-9]+),(.*)$	/main.php?m=postac&cid=$1	[L,QSA]
+RewriteRule ^([a-zA-Z0-9\-]+)$		/main.php?m=$1	[L,QSA]
+RewriteRule ^([a-zA-Z0-9\-]+)/([a-zA-Z0-9\-]+)$		/main.php?m=$1&m2=$2	[L,QSA]
