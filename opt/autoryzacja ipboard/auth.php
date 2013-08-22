@@ -9,9 +9,7 @@
  * @author      IP.Board
  * @author      Eider <eider@fullserver.eu>
  * @author      Lukasz Biegaj <wielebny@lss-rp.pl>
- * @license     http://www.invisionpower.com/company/standards.php#license
  * @package     IP.Board
- * @link        http://www.invisionpower.com
  *
  */
 
