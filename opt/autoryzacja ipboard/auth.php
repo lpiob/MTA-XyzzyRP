@@ -3,7 +3,7 @@
  * <pre>
  * Invision Power Services
  * IP.Board v3.4.x
- * Login handler abstraction : SA-MP FullServer account handler
+ * Login handler abstraction : XyzzyRP account handler
  * </pre>
  *
  * @author      IP.Board
