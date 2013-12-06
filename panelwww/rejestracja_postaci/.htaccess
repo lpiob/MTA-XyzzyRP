@@ -3,7 +3,29 @@ RewriteEngine On
 #php_flag display_errors off
 #php_flag log_errors off
 
+
+RewriteRule ^unban$	http://lss-rp.pl/forum/71-banicja/	[L,R=301]
+RewriteRule ^crp$	http://lss-rp.pl/	[L,R=301]
+#RewriteRule ^rekrutacja	http://forum.lss-rp.pl/viewtopic.php?f=12&t=11269	[L,R=301]
+#Redirect 301 l/wybory	http://forum.lss-rp.pl/viewtopic.php?f=12&p=14655&sid=786574170e2c94f69caeea116eb83ac1#p14655
+#RewriteRule ^l/wybory$		http://forum.lss-rp.pl/viewtopic.php?f=12&t=4341&p=27229#p26061
+
+RewriteRule ^regulamin.pdf$ /main.php?m=regulamin [L,QSA]
+RewriteRule ^payment/$		/main.php?m=payment	[L,QSA]
+RewriteRule ^payment/process$	/main.php?m=payment-process	[L,QSA]
+RewriteRule ^przywroc/([a-fA-F0-9]+)	/main.php?m=przywroc&kod=$1	[L,QSA]
+
+RewriteRule ^frakcje/([0-9]+),(.*)$	/main.php?m=frakcja&fid=$1	[L,QSA]
 RewriteRule ^postacie/([0-9]+)$	/main.php?m=postac&cid=$1	[L,QSA]
 RewriteRule ^postacie/([0-9]+),(.*)$	/main.php?m=postac&cid=$1	[L,QSA]
 RewriteRule ^([a-zA-Z0-9\-]+)$		/main.php?m=$1	[L,QSA]
 RewriteRule ^([a-zA-Z0-9\-]+)/([a-zA-Z0-9\-]+)$		/main.php?m=$1&m2=$2	[L,QSA]
+#RewriteRule ^rejestracja$		/main.php?m=rejestracja	[L,QSA]
+#RewriteRule ^start$				/main.php?m=start	[L,QSA]
+#RewriteRule ^postacie$			/main.php?m=postacie	[L,QSA]
+
+
+
+RewriteCond %{HTTP_HOST} !^panel.lss-rp\.pl$    [NC]
+RewriteRule ^(.*) http://panel.lss-rp.pl/$1 [L,R=301]
+
