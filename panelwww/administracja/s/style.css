@@ -1,0 +1,70 @@
+* { margin: 0; padding: 0;}
+body { margin: 0; padding: 0; font-size: 0.85em;}
+
+ul#nav { display: block; background: #909090; list-style-type: none; margin-bottom: 1em;}
+ul#nav>li { display: inline-block; padding: 0.2em 0.5em;}
+ul#nav>li>a { color: white; text-decoration: none; font-weight: bold;}
+ul#nav>li>a:HOVER { text-decoration: underline; color: black; }
+
+.dataTables_wrapper { width: 95%; margin: 1em auto; }
+
+table.full {
+    clear: both;
+    width: 100%;
+    border-spacing: 0;
+}
+table.full th,table.full td { text-align: left; padding: 0.1em 0.2em; vertical-align: top; border-top: 1px solid #ddd;}
+table.full>tbody>tr>td.dll { border-left: 3px double black; }
+table.full>tbody>tr>td.minuty { text-align: right; }
+table.full>tbody>tr>td.ip { font-family: courier, lucida console, monospace; text-align: right; padding-right: 1em; }
+table.full>tbody>tr>td.klik { background: url(/s/i/details_open.png) no-repeat 50% 50%; min-width: 20px; min-height: 20px; cursor: pointer;}
+table.full>tbody>tr>td.serial { font-family: monospace; font-size: 11px; }
+table.full>tbody>tr>td div.notes { font-family: monospace; font-size: 11px; font-size: smaller; }
+table.full>tbody>tr.level1>td { color: #000060; }
+table.full>tbody>tr.level3>td { color: #601010 }
+table.full>tbody>tr.level4>td,
+table.full>tbody>tr.level5>td { color: #301010; }
+table.full>tbody>tr.zaliczone>td { color: #00AA00; }
+
+#ipinfo { position: fixed; 
+    background: #c0c0c0;
+    border-size: 1px 2px 2px 1px;
+    border-color: #999;
+    border-style: solid;
+    -moz-border-radius: 0.5em; -webkit-border-radius: 0.5em;  -o-border-radius: 0.5em; border-radius: 0.5em; 
+    padding: 1em;
+    color: black;
+    top: 15px;
+    right: 15px;
+    font-size: larger;
+    }
+    #ipinfo>* { display: block;}
+    #ipinfo>.zmienny { color: green; font-weight: bold; }
+    #ipinfo>.xbl { color: red; font-weight: bold; }    
+
+fieldset.crit {
+    border: none;
+    background: #f0f0f0;
+    margin: 2em;
+    padding: 1em;
+    height: auto; overflow: hidden;
+}
+fieldset.crit>legend { background: #f0f0f0; padding: 0.5em; }
+fieldset.crit>p { float: left; margin-right: 2em;}
+
+table#bany>tbody>tr.akcje>td { padding: 0.5em 2em; background: #f0f0f0; border-bottom: 4px solid white; -moz-border-radius: 0 0 1em 1em; -webkit-border-radius: 0 0 1em 1em; -o-border-radius: 0 0 1em 1em; border-radius: 0 0 1em 1em; }
+table#bany>tbody>tr.nieaktywny { color: #999; }
+
+
+/* strona logowania */
+
+body#auth {
+    background: #f0f0f0;
+    font-family: Tahoma, sans-serif;
+}
+
+body#auth fieldset { background: white; border: none;-moz-border-radius: 1em;  -webkit-border-radius: 1em; -o-border-radius: 1em; border-radius: 1em;  
+    padding: 2em; display: inline-block; margin: 8em 8em;}
+body#auth fieldset>p { margin: 1em 0; }
+
+
