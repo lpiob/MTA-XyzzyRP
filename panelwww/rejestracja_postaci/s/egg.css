@@ -1,0 +1,163 @@
+/* Egg Plugin Pack */
+
+
+
+
+
+/* General */
+
+
+
+
+/* Accordion */
+.egg_accordion{
+	margin:auto;
+	overflow:hidden;
+}
+
+.egg_accordionSlide{
+	float:left;
+	overflow:hidden;
+	position:relative;
+	padding:0;
+	margin:0;
+	background-color:black;
+}
+
+.egg_accordionSlide img{
+
+}
+
+.egg_accordionSlide a img, .egg_accordionSlide a div img{border:none;}
+
+
+
+/* Slideshow */
+.egg_slideshow{
+	overflow:hidden;
+	width:500px;
+	height:300px;
+	position:relative;
+	background-color:white;
+}
+
+.egg_slideshow_runner{
+	position:absolute;
+	left:0px;
+	top:0px;
+	height:300px;
+	overflow:hidden;
+}
+
+.egg_slideshow .egg_slide{
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:500px;
+	height:300px;
+	overflow:hidden;
+}
+
+.egg_slideshow .egg_slide a img.egg_slide_image{
+	width:500px;
+}
+
+.egg_slideshow .egg_slide .egg_slide_extract{
+	position:absolute;
+	left:15px;
+	top:15px;
+	padding:5px;
+	z-index:999;
+	background-color:#444444;
+	color:white;
+	font-family:tahoma;
+	font-size:12px;
+}
+
+.egg_slideshow .egg_slide .egg_slide_extract a{
+	color:white;
+}
+
+.egg_slide-arrow-right{
+	width:7px;
+	height:13px;
+	background-image:url('arrow-right.png');
+	cursor:pointer;
+	position:absolute;
+	right:5px;
+	z-index:999;
+}
+
+.egg_slide-arrow-left{
+	width:7px;
+	height:13px;
+	background-image:url('arrow-left.png');
+	cursor:pointer;
+	position:absolute;
+	left:5px;
+	z-index:999;
+}
+
+.egg_slideshow_block{
+	float:left;
+	width:7px;
+	height:7px;
+	background-color:white;
+	margin-left:3px;
+	margin-right:3px;
+	
+	-moz-box-shadow: 1px 1px 3px #aaa;
+	-webkit-box-shadow: 1px 1px 3px #aaa;
+	box-shadow: 1px 1px 3px #aaa;
+}
+
+.egg_slideshow_block:hover{
+	background-color:#cccccc !important;
+}
+
+.egg_slideshow_block_selected{
+	background-color:#777777 !important;
+}
+
+.egg_slideshow_block_container{
+	position:absolute;
+	bottom:15px;
+	height:10px;
+	left:0px;
+}
+
+.egg_ess_right{float:right;width:100px;text-align:right;}
+
+
+
+/* EggImageDropdown */
+
+ .egg_imagedropdown{
+     position:relative;
+}
+
+ .egg_imagedropdown_header{
+     background-image: url('dropdown_arrow.png');
+     background-position: right center;
+     background-repeat:no-repeat;
+     cursor:pointer;
+}
+
+.egg_imagedropdown_header img{
+     cursor:pointer;
+}
+
+.egg_imagedropdown_dropdown{
+    padding: 5px;
+    position:absolute;
+    overflow-x:hidden;
+    overflow-y:scroll;
+}
+
+.egg_imagedropdown_dropdown img{
+    margin-right:3px;
+    cursor:pointer;
+    float:left;
+}
+
+

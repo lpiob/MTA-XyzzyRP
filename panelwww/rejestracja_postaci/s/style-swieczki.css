@@ -1,0 +1,114 @@
+body { background: #e0dfde; margin:0; padding: 0;
+	font-family: sans-serif;
+	}
+
+#top {
+     background-attachment: scroll;
+     background-color: #FAEBC2;
+     background-image: url("/i/krajobraz2.jpg");
+     background-position: center center;
+     background-size: cover;
+     padding-bottom: 8em;
+     padding-top: 5em;
+
+}
+
+#top > .pasek {
+     background: none repeat scroll 0% 0% black;
+     color: white;
+     opacity: 0.7;
+        padding: 2em; 
+}
+#top>.pasek>p {
+    text-align: center;
+}
+
+#top > img {
+     position: absolute;
+     top: 3em;
+}
+
+#topfade {
+    position:relative;
+    top:-100px;
+    background: url(/i/bgfade.png);
+    height: 100px;
+
+}
+/* main content */
+#mc {
+	width: 75%;
+	clear: both;
+	margin: 0 auto;
+	height: auto; overflow: hidden;
+	margin-bottom: 2em;
+	padding-bottom: 2em;
+}
+
+
+h2 {
+	font-family: "Trebuchet MS", sans-serif;
+	border-bottom: 1px solid #999;
+}
+
+#mc>.screeny {
+	height: auto;
+	overflow: hidden;
+}
+#mc>.swieczki {
+	height: auto;
+	overflow: hidden;
+}
+
+#stopka {
+	clear: both;
+	margin-top: 2em;
+	border-top: 1px solid #999;
+	font-size: x-small;
+	text-align: center;
+}
+
+.screeny>ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.screeny>ul>li {
+	margin: 1em;
+	text-align: center;
+	float: left;
+	padding: 0;
+	display: inline-block;
+}
+
+.swieczki fieldset {
+    border: none;
+    background: #f0f0f0;
+    border-radius: 0.2em;
+    padding: 1em;
+}
+.swieczki fieldset label {
+    display: block;
+    margin-bottom: 0.8em;
+    font-size: smaller;
+}
+.swieczki fieldset input {
+    border: 1px solid #999;
+}
+
+.swieczki > ul {
+     list-style-type: none;
+     margin: 1em;
+     padding: 0pt;
+}
+
+.swieczki > ul > li {
+    width: 128px;
+    margin: 0.2em;
+    min-height: 64px;
+    padding-top: 48px;
+    background: url(/i/candle.png) no-repeat top center ;
+    font-weight: bold;
+    display: inline-block;
+	text-align: center;
+}

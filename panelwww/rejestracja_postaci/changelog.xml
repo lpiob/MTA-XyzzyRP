@@ -1,0 +1,100 @@
+<rss version="2.0">
+<channel>
+	<title>LSS-RP Changelog</title>
+	<link>http://lss-rp.pl/</link>
+	<description>Ostatnie zmiany w LSS-RP</description>
+  	<item>
+	<link>http://lss-rp.pl/</link>
+	<title>Dodana została możliwość przemalowywania wozów na 2 kolory do warsztatów I, III, V. Jednocześnie zablokowaliśmy lakiernię w warsztacie II, IV.
+
+Montaż tuningu zostawiliśmy tylko warsztatom II, IV.</title>
+	<pubDate>Thu, 04 Apr 2013 16:41:42 +0200</pubDate>
+	<guid></guid>
+	</item>
+  	<item>
+	<link>http://lss-rp.pl/</link>
+	<title>Dodano możliwość zmiany stanu czatu OOC bliskiego dystansu /b off</title>
+	<pubDate>Tue, 02 Apr 2013 19:44:49 +0200</pubDate>
+	<guid></guid>
+	</item>
+  	<item>
+	<link>http://lss-rp.pl/</link>
+	<title>Departament Turystyczny zyskał możliwość organizowania wycieczek na 'bezludną wyspę'.</title>
+	<pubDate>Thu, 21 Mar 2013 20:09:14 +0100</pubDate>
+	<guid></guid>
+	</item>
+  	<item>
+	<link>http://lss-rp.pl/</link>
+	<title>Pod frakcje publiczne (alarmowe) została podpięta unikalna syrena pod klawiszem '4'</title>
+	<pubDate>Tue, 19 Mar 2013 17:24:57 +0100</pubDate>
+	<guid></guid>
+	</item>
+  	<item>
+	<link>http://lss-rp.pl/</link>
+	<title>Wgrane zostały oraz oskryptowane dwa nowe biznesy.</title>
+	<pubDate>Tue, 19 Mar 2013 16:36:39 +0100</pubDate>
+	<guid></guid>
+	</item>
+  	<item>
+	<link>http://lss-rp.pl/</link>
+	<title>Wprowadzona została nowa frakcja publiczna &quot;Departament Turystyki&quot;.</title>
+	<pubDate>Fri, 15 Mar 2013 21:05:03 +0100</pubDate>
+	<guid></guid>
+	</item>
+  	<item>
+	<link>http://lss-rp.pl/</link>
+	<title>Do wozu służbowego marki 'Journey' została zamontowana unikalna melodia dostępna pod klawisze '4'.</title>
+	<pubDate>Thu, 14 Mar 2013 16:56:42 +0100</pubDate>
+	<guid></guid>
+	</item>
+  	<item>
+	<link>http://lss-rp.pl/</link>
+	<title>Wszelkie biznesy gastronomiczne - sklepy (markety), restauracje, knajpy otrzymały skrypt frakcyjny. W rezultacie każdy właściciel biznesu może starać się o zakup firmowego pojazdu do handlu żywnością w terenie.</title>
+	<pubDate>Thu, 14 Mar 2013 14:46:00 +0100</pubDate>
+	<guid></guid>
+	</item>
+  	<item>
+	<link>http://lss-rp.pl/</link>
+	<title>Dodatkowy przedmiot w ekwipunku - heronina.
+Przedmiot pigułka zmienił zastosowanie i figuruje teraz jako amtefamina</title>
+	<pubDate>Wed, 13 Mar 2013 19:10:01 +0100</pubDate>
+	<guid></guid>
+	</item>
+  	<item>
+	<link>http://lss-rp.pl/</link>
+	<title>Pachołki zostały podmienione na inny obiekt. W rezultacie nie będą się już bugować.</title>
+	<pubDate>Wed, 13 Mar 2013 19:09:15 +0100</pubDate>
+	<guid></guid>
+	</item>
+  	<item>
+	<link>http://lss-rp.pl/</link>
+	<title>Na serwerze zostało przeprowadzone ponowne czyszczenie broni, tym razem szczelniejsze :-).</title>
+	<pubDate>Tue, 26 Feb 2013 08:34:38 +0100</pubDate>
+	<guid></guid>
+	</item>
+  	<item>
+	<link>http://lss-rp.pl/</link>
+	<title>Dodatkowa broń w ekwipunku - shotgun</title>
+	<pubDate>Sat, 23 Feb 2013 04:13:36 +0100</pubDate>
+	<guid></guid>
+	</item>
+  	<item>
+	<link>http://lss-rp.pl/</link>
+	<title>Rozbudowaliśmy Grove Street.</title>
+	<pubDate>Sat, 23 Feb 2013 02:32:24 +0100</pubDate>
+	<guid></guid>
+	</item>
+  	<item>
+	<link>http://lss-rp.pl/</link>
+	<title>Dodana została góra przy Blueberry</title>
+	<pubDate>Sat, 23 Feb 2013 02:31:43 +0100</pubDate>
+	<guid></guid>
+	</item>
+  	<item>
+	<link>http://lss-rp.pl/</link>
+	<title>Błąd ze znikająca bronią został naprawiony.</title>
+	<pubDate>Tue, 19 Feb 2013 18:02:54 +0100</pubDate>
+	<guid></guid>
+	</item>
+  </channel>
+</rss>

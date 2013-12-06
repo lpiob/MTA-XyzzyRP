@@ -1,0 +1,545 @@
+
+* {
+margin: 0;
+padding: 0;
+}
+
+html {
+/* Always show a scrollbar for short pages - stops the jump when the scrollbar appears. non-IE browsers */
+   height: 101%;
+}
+
+body {
+background: #fff url("http://forum.lss-rp.pl/styles/we_clearblue/theme/images/background.png") repeat-x;
+font-family: Tahoma, Arial, Helvetica, sans-serif;
+color: #828282;
+font-size: 10px;
+}
+
+
+h1 {
+/* Forum name */
+font-family: Georgia, "Times New Roman", serif;
+color: #FFFFFF;
+font-weight: bold;
+font-size: 2em;
+}
+
+h2 {
+/* Forum header titles */
+font-family: Georgia, "Times New Roman", serif;
+font-weight: normal;
+color: #3f3f3f;
+font-size: 26px;
+margin-bottom: 10px;
+}
+
+h3 {
+/* Sub-headers (also used as post headers, but defined later) */
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	border-bottom: 1px solid #CCCCCC;
+	margin-bottom: 3px;
+	padding-bottom: 2px;
+	font-size: 11px;
+	color: #989898;
+	margin-top: 20px;
+}
+
+h4 {
+	/* Forum and topic list titles */
+	font-family: "Trebuchet MS", Verdana, Helvetica, Arial, Sans-serif;
+	font-size: 14px;
+}
+
+p {
+	line-height: 1.3em;
+	font-size: 13px;
+	margin-bottom: 1.5em;
+}
+
+img {
+	border-width: 0;
+}
+
+hr {
+	/* Also see tweaks.css */
+	border: 0 none #FFFFFF;
+	border-top: 1px solid #CCCCCC;
+	height: 1px;
+	margin: 5px 0;
+	display: block;
+	clear: both;
+}
+
+hr.dashed {
+	border-top: 1px dashed #CCCCCC;
+	margin: 10px 0;
+}
+
+hr.divider {
+	display: none;
+}
+
+p.right {
+	text-align: right;
+}
+
+
+.mcc>.blad_krytyczny {
+	margin: 2em 2em 4em;
+	padding: 1em 4em;
+}
+.mcc>.blad_krytyczny a { 
+  color: white;
+  text-decoration:underline;
+}
+
+.mcc>.blad_krytyczny a:HOVER { 
+  color: white;
+  text-decoration:underline;
+}
+
+
+
+
+.hidden { display: none; }
+
+
+form em.error {
+display: block;
+position: relative;
+z-index: 20;
+display: inline;
+background: red;
+color: white !important;
+padding: 4px 8px;
+font-weight: bold;
+border-radius: 0.5em;
+opacity: 0.7;
+top: 1px;
+}
+
+
+ol#payment {
+  margin-left: 1em;
+  font-size: 14px;
+}
+ol#payment>li {
+clear: both;
+border-top: 1px solid #ddd;
+padding-bottom: 2em;
+padding-top: 1em;
+}
+ol#payment>li:first-child { border-top: none; margin-top: 0px; }
+ol#payment>li>h2 { color: black; }
+ol#payment>li:first-child>h2 { color: #727272; }
+ol#payment>li:first-child>h2>b { color: black; }
+ol#payment p {
+  margin-top: 1em;
+  margin-bottom: 0px;
+}
+ol#payment h2 { 
+  font-family: Verdana,sans-serif;
+  font-size: 14pt;
+}
+
+ol#payment h3 {
+  border: none !important;
+}
+ul#payment_method { list-style-type: none; margin: 0; padding: 0; }
+ul#payment_method>li>label { color: black; font-weight: bold; }
+div#dayrange>p { float: left; width: 30%;}
+div#dayrange select { float: left; margin: 0.7em 1em 0.7em 0.7em;  }
+ol#payment h3 { color: navy;
+font-size: 22pt;
+font-family: Trebuchet MS, Arial, sans-serif;
+margin: 0;
+padding: 0; font-weight: bold; }
+ol#payment button { display: block; }
+input#confirmation_code {   border: 1px solid #CCCCCC;
+    font-weight: bold;
+    padding: 0.1em 0.3em;
+    text-align: center;
+
+}
+
+
+
+
+
+
+/* Structure
+---------------------------------------- */
+#wrapper, #footer-inner {
+}
+
+#simple-wrapper {
+	background: #fff;
+	padding: 10px 15px;
+}
+
+#account {
+	background: url("http://forum.lss-rp.pl/styles/we_clearblue/theme/images/account.png") repeat-x;
+	height: 38px;
+	line-height: 38px;
+}
+
+#illustration {
+	background: url("http://forum.lss-rp.pl/styles/we_clearblue/theme/images/topbg.jpg") center right no-repeat #ffffdb;
+	height: 145px;
+	margin 0 auto;
+}
+
+#container {
+	margin: 20px 20px;
+}
+
+#footer {
+	padding: 18px 0;
+	position: absolute;
+}
+
+/* Navigation
+--------------------------------------------- */
+#account, #main-navigation {
+	padding: 0 22px;
+}
+
+#account li {
+	display: inline-block;
+	font-size: 11px;
+}
+
+#account li + li {
+	margin-left: 15px;
+}
+
+#account, #account li a, #primary-navigation li a {
+	color: #fbfbfb;
+}
+
+#main-navigation {
+	background: url("http://forum.lss-rp.pl/styles/we_clearblue/theme/images/navigation.png") repeat-x;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	height: 45px;
+	line-height: 45px;
+	margin-top:-6px;
+}
+
+#primary-navigation li {
+	border-right: 1px solid #102435;
+	padding-right: 14px;
+	float: left;
+	display: block;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+#primary-navigation li:last-child {
+	border-right: none;
+}
+
+#primary-navigation li + li {
+	border-left: 1px solid #1c3e5c;
+	padding-left: 14px;
+}
+
+.icons {
+	padding: 16px 0;
+}
+
+.icons li + li {
+	margin-left: 5px;
+}
+
+
+/* Site name and description
+--------------------------------------------- */
+#site-description {
+margin-top: 30px;
+margin-left: 75px;
+position: absolute;
+}
+
+#site-description h1 {
+font-size: 48px;
+font-weight: normal;
+color: #103143;
+}
+
+#site-description p {
+margin-left: 40px;
+line-height: 24px;
+font-family: Georgia, "Times New Roman", serif;
+font-size: 16px;
+color: #535353;
+}
+
+/* Site name and description
+--------------------------------------------- */
+#site-description h1 a {
+color: #103143;
+}
+
+
+/* Horizontal lists
+----------------------------------------*/
+ul.linklist {
+display: block;
+margin: 0;
+}
+
+ul.linklist li {
+display: block;
+list-style-type: none;
+float: left;
+width: auto;
+margin-right: 5px;
+font-size: 1.1em;
+line-height: 2.2em;
+}
+
+ul.linklist li.rightside, p.rightside {
+float: right;
+margin-right: 0;
+margin-left: 5px;
+text-align: right;
+}
+
+ul.navlinks {
+padding-bottom: 1px;
+margin-bottom: 1px;
+border-bottom: 1px solid #FFFFFF;
+font-weight: bold;
+}
+
+ul.leftside {
+float: left;
+margin-left: 0;
+margin-right: 5px;
+text-align: left;
+}
+
+ul.rightside {
+float: right;
+margin-left: 5px;
+margin-right: -5px;
+text-align: right;
+}
+
+/* Links adjustment to correctly display an order of rtl/ltr mixed content */
+a {
+	direction: ltr;
+	unicode-bidi: embed;
+}
+
+a:link				{ color: #898989; text-decoration: none; }
+a:visited			{ color: #898989; text-decoration: none; }
+a:hover, a:focus	{ color: #d3d3d3; text-decoration: underline; }
+a:active			{ color: #d2d2d2; text-decoration: none; }
+
+.mcc { font-size: 13px; }
+.mcc h1 { color: #105289; }
+.mcc h1 {
+     color: #105289;
+}
+
+.mcc fieldset {
+    background: #fafafa;
+    border: none;
+    padding: 1em;
+    border-radius: 5px;
+}
+
+.mcc fieldset p { height: auto; overflow: hidden; }
+.mcc fieldset label { float: left; width: 15%; text-align: right;}
+.mcc fieldset p label+input,.mcc fieldset p label+select { margin-left: 1em; }
+.mcc fieldset input { border: 1px solid #999; }
+.mcc fieldset button { margin-left: 16em; }
+
+.mcc .error  {
+    border: 2px solid red;
+    margin: 1em; 
+    padding: 1em;
+    font-weight: bold;
+    color: black;
+	background: white;
+}
+.mcc .error ul { 
+   margin-left: 2em;
+}
+
+.mcc .info  {
+	background: white;
+    border: 2px solid navy;
+    margin: 1em; 
+    padding: 1em;
+    font-weight: bold;
+    color: black;
+}
+.mcc .info ul { 
+   margin-left: 2em;
+}
+
+
+
+
+.mcc a { color: red; }
+.mcc a:HOVER { color: #900000; }
+
+
+.mcc .postacie {
+    height: auto;
+    overflow:hidden;
+	margin: 4em 0;
+}
+.mcc .postacie>div {
+    float: left;
+    width: 45%;
+    padding: 1em;
+    border: 3px solid #ddd;
+    margin-right: 1em;
+    margin-top: 1em;
+    border-radius: 5px;
+}
+.mcc .postacie>div.dead {
+    width: 21.25%;
+}
+.mcc .postacie>div>img {
+    float: left;
+    margin-right: 1em;
+}
+.mcc .psum {
+    text-align: left;
+    font-size: 14pt;
+    margin: 1em;
+}
+.mcc .psum b { color: black; font-size: 18pt; }
+.mcc .wyborskina {
+	height: auto; overflow: hidden;
+}
+.mcc div.podglad-skina { 
+    float: right;
+	width: 45%;
+	text-align: center;
+}
+.mcc div.podglad-skina img { 
+	border: 5px solid #ddd;
+	border-radius: 5px;
+}
+.mcc .listaskinow {
+    float: left;
+	width: 45%;
+}
+.mcc .listaskinow img {
+    border: 2px solid #ddd;
+}
+.mcc .listaskinow img:HOVER {
+    border: 2px solid #999;
+    cursor: pointer;
+}
+
+
+.mcc .postacie > div > p {
+    float:left;
+}
+.mcc .postacie >div.alive>p>span { display: block; font-size: 16px; margin: 4px; height: 32px;  }
+.mcc .postacie >div.dead>p>span { display: block; font-size: 16px; margin: 0px; height: 32px;  }
+.mcc .postacie >div.alive>p>span.stamina { min-height: 32px; padding-left: 40px; background: url(/i/icon_stamina.png) center left no-repeat; }
+.mcc .postacie >div.alive>p>span.energy { min-height: 32px; padding-left: 40px; background: url(/i/icon_energy.png) center left no-repeat; }
+.mcc .postacie >div.alive>p>span.playtime { min-height: 32px; padding-left: 40px; background: url(/i/icon_right.png) center left no-repeat; }
+.mcc .postacie>div>p>span>b { color: black; font-size: larger;}
+.mcc .postacie h2 { margin: 0px; }
+.mcc .postacie h2 a { color: black; }
+
+ul.rightside li.onlineplayers b { background: red; 
+padding: 0.1em 0.3em;
+color: white;
+border-radius: 0.5em;}
+
+ul.rightside li.premium {
+   color: yellow;
+    text-shadow: 0 0 5px gold;
+}
+
+.premiumdesc {
+   background: none repeat scroll 0 0 WhiteSmoke;
+    border: 1px solid #999999;
+    border-radius: 1em 1em 1em 1em;
+    font-size: 13pt;
+    margin: 1em 0;
+    padding: 1em;
+}
+.premiumdesc ol {
+ margin-bottom: 1em;
+    margin-left: 2em;
+}
+
+.greyscale,.greyscale img {
+    filter: url(/i/filters.svg#grayscale); /* Firefox 3.5+ */
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(1); /* Webkit Nightlies & Google Chrome Canary */
+}
+
+
+
+table.zestawienie { width: 100%; margin: 2em 0; border-top: 1px solid #ccc; border-spacing: 0; }
+table.zestawienie td, table.zestawienie th { padding: 0.2em; vertical-align: top; text-align: left; }
+table.zestawienie>thead th { text-align: left; font-weight: bold; border-bottom: 3px double #999; color: white; background: #666; font-size: larger;}
+table.zestawienie>tbody>tr>td { border-top: 1px solid #ddd; }
+table.zestawienie>tbody>tr:HOVER>td { background: #f0f0f0; }
+table.zestawienie a { color: black; }
+table.zestawienie>tbody>tr>th { color: black; font-size: large; }
+
+.mcc>div.postac { height: auto; overflow: hidden; }
+.mcc>div.postac>img { float: right; }
+
+div.manage {
+  border: 3px solid red;
+  padding: 1em;
+  margin: 1em;
+  clear: both;
+}
+
+div.manage fieldset { border: 1px solid #ddd; }
+
+
+.activity {
+
+  margin-left: 3em;
+  border-spacing: 0;
+}
+.activity td,.activity th { padding: 0.2em 1em; }
+.activity thead th, .activity thead td { border-bottom: 1px solid #ddd; }
+
+
+#map { height: 300px; }
+
+
+#tdomyc { height: 400px; overflow: auto; width: 48%; float: left; }
+table#tdomy tr>td:first-child { padding-left: 20px; min-height: 16px; }
+
+table#tdomy { border-spacing: 0px 4px; }
+table#tdomy tr.wolny td { background: #e0ffe0; }
+table#tdomy tr.zajety>td:first-child { background: url(/i/mapicons/Icon_32.gif) no-repeat 0px 50% !important; } 
+table#tdomy tr.wolny>td:first-child { background: #e0ffe0 url(/i/mapicons/Icon_31.gif) no-repeat 0px 50% !important; }
+table#tdomy tr.hover td { background: gold !important; }
+table#tdomy tr.hover>td:first-child { background-color: gold !important; }
+
+#mapadomow { width: 48%; float: right; height: 400px;}
+
+#header {
+	padding: 33px;
+	background: #15375C url(http://forum.lss-rp.pl/styles/absolution/theme/images/logo-text-bg.png) no-repeat top left;
+}
+#header h1 {
+	font-family: "Harabara", Arial, Helvetica, sans-serif;
+	font-size: 36px;
+
+}
+#header ul { list-tyle-type: none; }
+#header ul li { display: inline; color: white; }

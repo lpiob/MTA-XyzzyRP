@@ -1,0 +1,5 @@
+RewriteEngine On
+
+
+
+RewriteRule lss-gtao.jpg$	lss-gtao.php
