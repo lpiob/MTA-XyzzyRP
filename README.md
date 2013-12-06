@@ -56,7 +56,7 @@ Gdzie uruchomić serwer
 
 Oprogramowanie to nie wymaga żadnego specjalnego serwera dedykowanego. Aby go uruchomić, wystarczy zwykły hosting współdzielony. W rzeczy samej polecamy skorzystanie z takiego hostingu w firmach:
 
-- ServerProject - http://serverproject.pl/ - utrzymywali LSS-RP przez większość czasu
+- ServerProject - http://serverproject.pl/ - utrzymywali i utrzymują LSS-RP
 - OG-Servers - http://og-servers.net/
 - ServHost - http://servhost.pl/
 
