@@ -7,16 +7,6 @@
 ]]--
 
 
-
-local licence=[[
-
-==============================================================================
-LSS-RP (c) RootKiller <rootkiller.programmer@gmail.com>
-Wszelkie prawa zastrzezone. Nie masz praw uzywac tego kodu bez mojej zgody.
-
-2012-
-
-]]
 local sx,sy = guiGetScreenSize()
 local death = {}
 
