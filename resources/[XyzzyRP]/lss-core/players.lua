@@ -2,6 +2,7 @@
 @author Lukasz Biegaj <wielebny@lss-rp.pl>
 @author Karer <karer.programmer@gmail.com>
 @author WUBE <wube@lss-rp.pl>
+@author Rootkiller <rootkiller.programmer@gmail.com>
 @copyright 2011-2013 Lukasz Biegaj <wielebny@lss-rp.pl>
 @license GPLv2
 ]]--
