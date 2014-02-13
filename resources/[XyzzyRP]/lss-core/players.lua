@@ -30,22 +30,26 @@ function savePlayerData(plr)
 		exports.DB2:zapytanie("UPDATE lss_users SET gp=? WHERE id=? LIMIT 1", gp, uid)
 	end
 
-    
-    if (getElementData(plr,"kary:blokada_aj")) then return end -- w aj nie zapisujemy lokalizacji
-    
-    local x,y,z=getElementPosition(plr)
-    local _,_,rz=getElementRotation(plr)
-    local interior=getElementInterior(plr)
-    local dimension=getElementDimension(plr)
     local hp=getElementHealth(plr)
     local ar=getPedArmor(plr)
     local money=getPlayerMoney(plr)
-	local opis=getElementData(plr,"opis") or ""
-	opis=exports.DB:esc(opis)
+    local opis=getElementData(plr,"opis") or ""
+    opis=exports.DB:esc(opis)
     if (money<0) then money=0 end
-    
-    local query=string.format("UPDATE lss_characters SET lastpos='%.2f,%.2f,%.2f,%d,%d,%d',hp=%d,ar=%d,money=%d,playtime=playtime+1,lastseen=NOW(),satiation=%d,ab_spray=%d,opis='%s' WHERE id=%d LIMIT 1", x,y,z,rz,interior,dimension, hp, ar, money, tonumber(character.satiation) or 75, tonumber(character.ab_spray) or 0, opis, character.id)
-    exports.DB:zapytanie(query)
+
+    local query = ""
+    if (getElementData(plr,"kary:blokada_aj")) then 
+        -- Zapisujemy statystyki gracza bez pozycji podczas tego gdy jest w aj (Pozwala zniwelować lukę umożliwiającą "generowanie" gotówki)
+        query=string.format("UPDATE lss_characters SET hp=%d,ar=%d,money=%d,playtime=playtime+1,lastseen=NOW(),satiation=%d,ab_spray=%d,opis='%s' WHERE id=%d LIMIT 1", hp, ar, money, tonumber(character.satiation) or 75, tonumber(character.ab_spray) or 0, opis, character.id)
+    else
+        -- Zapisujemy pełne statystyki gracza włącznie z pozycją.
+        local x,y,z=getElementPosition(plr)
+        local _,_,rz=getElementRotation(plr)
+        local interior=getElementInterior(plr)
+        local dimension=getElementDimension(plr)   
+        query=string.format("UPDATE lss_characters SET lastpos='%.2f,%.2f,%.2f,%d,%d,%d',hp=%d,ar=%d,money=%d,playtime=playtime+1,lastseen=NOW(),satiation=%d,ab_spray=%d,opis='%s' WHERE id=%d LIMIT 1", x,y,z,rz,interior,dimension, hp, ar, money, tonumber(character.satiation) or 75, tonumber(character.ab_spray) or 0, opis, character.id)
+    end
+    exports.DB:zapytanie(query)   
 end
 
 addEventHandler("onPlayerQuit", root, function()
