@@ -2,7 +2,7 @@
 karer - rozne
 
 @author Karer <karer.programmer@gmail.com>
-@license GPLv2
+@license Dual GPLv2/MIT
 ]]--
 
 

@@ -4,7 +4,7 @@ Tworzenie obiektow mahiruany do zbierania przez graczy.
 @author Lukasz Biegaj <wielebny@lss-rp.pl>
 @author WUBE <wube@lss-rp.pl>
 @copyright 2011-2013 Lukasz Biegaj <wielebny@lss-rp.pl>
-@license GPLv2
+@license Dual GPLv2/MIT
 ]]--
 
 function menu_zbierz(args)

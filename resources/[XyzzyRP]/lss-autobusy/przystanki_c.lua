@@ -4,7 +4,7 @@ lss-autobusy
 @author Lukasz Biegaj <wielebny@lss-rp.pl>
 @author Karer <karer.programmer@gmail.com>
 @copyright 2011-2013 Lukasz Biegaj <wielebny@lss-rp.pl>
-@license GPLv2
+@license Dual GPLv2/MIT
 ]]--
 
 

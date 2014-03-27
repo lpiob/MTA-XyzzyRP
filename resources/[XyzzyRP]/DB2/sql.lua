@@ -4,7 +4,7 @@ Obsluga baz danych, interfejs do bazy MySQL realizowany za pomoca wbudowanych w 
 @author Lukasz Biegaj <wielebny@lss-rp.pl>
 @author WUBE <wube@lss-rp.pl>
 @copyright 2011-2013 Lukasz Biegaj <wielebny@lss-rp.pl>
-@license GPLv2
+@license Dual GPLv2/MIT
 @package MTA-XyzzyRP
 @link https://github.com/lpiob/MTA-XyzzyRP GitHub
 ]]--

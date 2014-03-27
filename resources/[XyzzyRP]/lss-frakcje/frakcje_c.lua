@@ -3,7 +3,7 @@
 @author Karer <karer.programmer@gmail.com>
 @author WUBE <wube@lss-rp.pl>
 @copyright 2011-2013 Lukasz Biegaj <wielebny@lss-rp.pl>
-@license GPLv2
+@license Dual GPLv2/MIT
 ]]--
 
 frakcje_win = guiCreateWindow(0.7672,0.2937,0.2016,0.4354,"Frakcja",true)
