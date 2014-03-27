@@ -15,7 +15,10 @@ Autorzy
 Licencja
 ========================================================================
 
-Kod dystrybuowany jest na licencji GPLv2. Polskie tłumaczenie licencji: http://gnu.org.pl/text/licencja-gnu.html 
+Kod dystrybuowany jest na dwóch licencjach: GPLv2 oraz MIT. 
+
+Polskie tłumaczenie licencji GPLv2: http://gnu.org.pl/text/licencja-gnu.html
+Polskie tlumaczenie licencji MIT: http://blaszyk-jarosinski.pl/wp-content/uploads/2008/05/licencja-mit-tlumaczenie.pdf
 
 Wszystkie pliki .map dystrybuowane są na licencji CC-BY-ND. Streszczenie: http://creativecommons.org/licenses/by-nd/3.0/pl/
 
@@ -36,6 +39,11 @@ Wydaliśmy ten kod aby:
 3. Aby pobudzić scenę serwerów w MTA, ukrócić wykorzystywanie nielegalnego, kradzionego kodu krążącego po sieci.
 
 4. Aby ściągnąć więcej graczy do MTA.
+
+Dlaczego kod udostępniono dodatkowo na licencji MIT
+========================================================================
+
+Aby jeszce bardziej zastymulować rozwój społeczności i zwiększyć adopcję tego kodu. Z checią zobaczymy ten kod w działaniu na jak największej ilości serwerów.
 
 Zawartość repozytorium
 ========================================================================
@@ -171,14 +179,11 @@ Często zadawane pytania
 
 ### Chciałbym się dowiedzieć czy mogę wraz ze znajomym użyć całego kodu do stworzenia nowego serwera, oraz jeżeli tak czy możemy wprowadzić w nim parę nowych zmian/ulepszeń.
 
-Tak, możecie na podstawie tego utworzyć własny serwer, pamiętajcie jednak, że nie możecie zmienić licencji z GPL na inną, chyba że otrzymaliście go w innej licencji.
+Tak, możecie na podstawie tego utworzyć własny serwer, pamiętajcie jednak, że musicie przestrzegać założeń licencji.
 
-Przed rozpoczęciem modyfikacji należy zapoznać się i zaakceptować treść licencji GPLv2 - polskie tłumaczenie można znaleźć tu: http://gnu.org.pl/text/licencja-gnu.html 
+Jeśli wybierzesz licencję GPLv2, to musisz upublicznić wykonane przez siebie zmiany w kodzie.
+Jeśli wybierzesz licencję MIT, to musisz jedynie zachować informację o prawach autorskich oraz oryginalnych autorach użytego kodu. Wzmianka 'Zawiera kod XyzzyRP z http://github.com/lpiob/MTA-XyzzyRP/' gdzieś w oknie informacji o serwerze będzie wystarczająca.
 
 ### Czy można wykorzystywać fragmenty tego kodu?
 
-Tak, pod warunkiem, że opublikujesz cały swój kod na licencji GPL, lub otrzymasz ten kod na innej licencji.
-
-### Jak zdobyć kod na innej licencji?
-
-Poprzez kontakt ze mną - wielebny@lss-rp.pl
+Tak, możesz skorzystać z dowolnego fragmentu kodu.
