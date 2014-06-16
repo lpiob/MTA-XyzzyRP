@@ -1,10 +1,10 @@
 <?
 
-session_name("LSS-RP");
+session_name("rp");
 session_start();
 
-Header("Access-Control-Allow-Origin: http://forum.lss-rp.pl");
-$CFG_page_name="LSS-RP";
+Header("Access-Control-Allow-Origin: http://rp.xaa.pl/");
+$CFG_page_name="rp";
 require_once("p/libs/xmlrpc.inc");
 require_once("p/libs/phpbbauth.php");
 ini_set('display_errors', '0');
@@ -21,7 +21,7 @@ $szablon=new Szablon;
 //$szablon->dodaj_js('/s/js/jquery.dataTables.min.js');
 //$szablon->dodaj_js('/s/js/statystyki.js');
 
-$szablon->add_bc('LSS-RP','/');
+$szablon->add_bc('rp','/');
 
 
 
@@ -30,14 +30,14 @@ require_once("p/libs/adodb5/adodb.inc.php");
 
 $RDB=NewADOConnection("mysql");
 // TU WPROWADZ DANE DO BAZY DANYCH SERWERA
-$RDB->Connect("mysql-1.serverproject.pl", "db_3426", "xxxxxxxxxxxx", "db_3426");
+$RDB->Connect("mysql-1.serverproject.pl", "db_6120", "f75bb07f4603", "db_6120");
 $RDB->Execute("set names utf8");
 
-require_once("p/libs/LSS.class.php");
-$LSS=new LSS();
+require_once("p/libs/rp.class.php");
+$rp=new rp();
 
 $szablon->assign('RDB',$RDB);
-$szablon->assign('LSS',$LSS);
+$szablon->assign('rp',$rp);
 
 //$szablon->setCacheLifetime(3600*3);
 
@@ -154,7 +154,7 @@ switch($modul){
 
 		if ($_REQUEST['m2']>0) {
 //			if ($_SERVER['REMOTE_ADDR']!='83.10.174.174') die("Podstrona w trakcie przygotowywania");
-			$dom=$RDB->GetRow("select d.id,d.descr,d.koszt,(IFNULL(d.ownerid,0)>0 AND d.paidTo>=DATE(NOW())) zajety,d.paidTo,d.drzwi,d.ownerid,u.login,concat(c.imie,' ',c.nazwisko) ownernick FROM lss_domy d LEFT JOIN lss_characters c ON c.id=d.ownerid LEFT JOIN lss_users u ON c.userid=u.id WHERE d.active=1 AND d.id=?",Array(intval($_REQUEST['m2'])));
+			$dom=$RDB->GetRow("select d.id,d.descr,d.koszt,(IFNULL(d.ownerid,0)>0 AND d.paidTo>=DATE(NOW())) zajety,d.paidTo,d.drzwi,d.ownerid,u.login,concat(c.imie,' ',c.nazwisko) ownernick FROM rp_domy d LEFT JOIN rp_characters c ON c.id=d.ownerid LEFT JOIN rp_users u ON c.userid=u.id WHERE d.active=1 AND d.id=?",Array(intval($_REQUEST['m2'])));
 			$dom['dzielnica']=getZoneName($dom['drzwi'][0], $dom['drzwi'][1], $dom['drzwi'][2]);
 
 			$szablon->add_bc(intval($dom['id']).". ".$dom['descr'], "/domy/".intval($dom['id']));
@@ -166,7 +166,7 @@ switch($modul){
 			break;
 		}
 
-		$domy=$RDB->GetAll("select d.id,d.descr,d.koszt,(IFNULL(d.ownerid,0)>0 AND d.paidTo>=DATE(NOW())) zajety,d.drzwi,d.ownerid,concat(c.imie,' ',c.nazwisko) ownernick FROM lss_domy d LEFT JOIN lss_characters c ON c.id=d.ownerid WHERE d.active=1;");
+		$domy=$RDB->GetAll("select d.id,d.descr,d.koszt,(IFNULL(d.ownerid,0)>0 AND d.paidTo>=DATE(NOW())) zajety,d.drzwi,d.ownerid,concat(c.imie,' ',c.nazwisko) ownernick FROM rp_domy d LEFT JOIN rp_characters c ON c.id=d.ownerid WHERE d.active=1;");
 
 		foreach ($domy as &$d) {
 			$d['drzwi']=split(",",$d['drzwi']);
