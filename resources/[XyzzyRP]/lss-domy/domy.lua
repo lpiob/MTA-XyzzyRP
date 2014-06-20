@@ -1,8 +1,8 @@
 --[[
 Domy do wynajecia
 
-@author Lukasz Biegaj <wielebny@lss-rp.pl>
-@copyright 2010-2013 Lukasz Biegaj <wielebny@lss-rp.pl>
+@author Lukasz Biegaj <wielebny@bestplay.pl>
+@copyright 2010-2013 Lukasz Biegaj <wielebny@bestplay.pl>
 @license Dual GPLv2/MIT
 ]]--
 

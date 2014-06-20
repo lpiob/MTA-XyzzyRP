@@ -6,7 +6,7 @@ Gamemod RP do gry Multi Theft Auto, napisany głównie w języku LUA, w oparciu 
 Autorzy
 ========================================================================
 
-- Łukasz "W/Wielebny" Biegaj <wielebny@lss-rp.pl>
+- Łukasz "W/Wielebny" Biegaj <wielebny@bestplay.pl>
 - WUBE <wube@lss-rp.pl>
 - Karer <karer.programmer@gmail.com>
 - Przemysław "RacheT" Kędziorek <rachet@pylife.pl>

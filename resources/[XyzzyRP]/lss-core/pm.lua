@@ -3,8 +3,8 @@
 Obsługa pmów, z wychwytaniem framgentów nicków itd. Używać wraz z id_graczy.lua
 Oryginalnie napisany dla serwera BestPlay.
 
-@author Lukasz Biegaj <wielebny@lss-rp.pl>
-@copyright 2010-2013 Lukasz Biegaj <wielebny@lss-rp.pl>
+@author Lukasz Biegaj <wielebny@bestplay.pl>
+@copyright 2010-2013 Lukasz Biegaj <wielebny@bestplay.pl>
 @license Dual GPLv2/MIT
 ]]--
 
