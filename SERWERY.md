@@ -11,5 +11,13 @@ prace.
 
 
 
+## [Polski Realny Serwer](178.19.106.171:22106)
+
+Korzysta z wielu funkcji przeniesionych z XyzzyRP, niektóre prace.
+Gamemode bardzo pomógł podczas tworzenia pozostałych zasobów
+serwera Polski Realny Serwer.
+
+
+
 
 Jeśli korzystasz z tego kodu i chesz się tym pochwalić, zmodyfikuj ten plik i dopisz swój serwer.
