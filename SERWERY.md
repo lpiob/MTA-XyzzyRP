@@ -11,11 +11,19 @@ prace.
 
 
 
-## [Polski Realny Serwer](178.19.106.171:22106)
+## [Polski Realny Serwer](mtasa://178.19.106.171:22106)
 
 Korzysta z wielu funkcji przeniesionych z XyzzyRP, niektóre prace.
 Gamemode bardzo pomógł podczas tworzenia pozostałych zasobów
 serwera Polski Realny Serwer.
+
+
+
+## [Los Angeles Stories - Role Play](http://las-rp.pl/)
+
+Polski serwer RolePlay wykorzystujący znaczną część skryptów gamemodu
+XyzzyRP, który z czasem jest zastępowany autorskim kodem.
+
 
 
 
