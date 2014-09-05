@@ -44,14 +44,14 @@ function cmd_admins(plr)
 	  end
 	end
   end
-  outputChatBox("Admini:", plr, 100,0,0)
+  outputChatBox("RCONi:", plr, 100,0,0)
   if (#admini>0) then
     outputChatBox("  " .. table.concat(admini,", "), plr)
   else
 	outputChatBox("  brak", plr)
   end
 
-  outputChatBox("Support:", plr, 100,100,255)
+  outputChatBox("Moderatorzy:", plr, 100,100,255)
   if (#supporterzy>0) then
     outputChatBox("  " .. table.concat(supporterzy,", "), plr)
   else
