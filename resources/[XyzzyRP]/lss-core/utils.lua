@@ -28,8 +28,12 @@ function split(str, pat)
 end
 
 
-function stripColors(text)
-	return string.gsub(text,"#[0-9A-Fa-f][0-9A-Fa-f][0-9A-Fa-f][0-9A-Fa-f][0-9A-Fa-f][0-9A-Fa-f]","")
+local function stripColors(text)
+    local cnt=1
+    while (cnt>0) do
+      text,cnt=string.gsub(text,"#[0-9A-Fa-f][0-9A-Fa-f][0-9A-Fa-f][0-9A-Fa-f][0-9A-Fa-f][0-9A-Fa-f]","")
+    end
+    return text
 end
 
 function shuffle(t)
