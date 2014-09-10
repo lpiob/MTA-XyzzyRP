@@ -28,7 +28,7 @@ function split(str, pat)
 end
 
 
-local function stripColors(text)
+function stripColors(text)
     local cnt=1
     while (cnt>0) do
       text,cnt=string.gsub(text,"#[0-9A-Fa-f][0-9A-Fa-f][0-9A-Fa-f][0-9A-Fa-f][0-9A-Fa-f][0-9A-Fa-f]","")
