@@ -215,8 +215,7 @@ function eq_change(name,oldvalue)
 
     local character=getElementData(source,"character")
     if (not character or not character.id) then return end	-- gracz nie posiada wybranej postaci
---    outputChatBox("2 "..character.id .. exports.DB:esc(table.concat(eq,",")))
-    outputChatBox("eqs " .. table.concat(eq,","))
+
     local query=string.format("UPDATE lss_characters SET eq='%s' WHERE id=%d LIMIT 1", exports.DB:esc(table.concat(eq,",")), character.id)
     exports.DB:zapytanie(query)
 
