@@ -47,6 +47,8 @@ end)
 
 
 addCommandHandler("smoke", function(player,cmd,id)
+	if getElementData(player, "level") or 0 > 1 then
 	local x,y,z = getElementPosition(player)
 	createObject(tonumber(id),x,y,z)
+	end
 end)
