@@ -22,8 +22,9 @@ function startup()
 	local t1=guiCreateTab("XyzzyRP", tPanel)
 --	guiCreateStaticImage ( 0.02, 0.04, 0.94, 0.4, "img/lss.png", true, t1 )
 
-    -- pozostawienie ponizszej linii jest wymagane w ramach udzielonej licencji
-	guiCreateLabel( 0.02, 0.70, 0.94, 0.20, "http://github.com/lpiob/MTA-XyzzyRP/ licencja GPLv2", true, t1)
+        -- pozostawienie ponizszej linii jest wymagane w ramach udzielonej licencji - jeśli wybrałeś GPLv2
+        -- pozostawienie poniższej linii jest w dobrym smaku - jeśli wybrałeś MIT
+	guiCreateLabel( 0.02, 0.70, 0.94, 0.20, "http://github.com/lpiob/MTA-XyzzyRP/ licencja GPLv2/MIT", true, t1)
 
 
 	for k, v in ipairs(files) do
