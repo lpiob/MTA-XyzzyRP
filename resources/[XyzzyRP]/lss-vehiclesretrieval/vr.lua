@@ -1,4 +1,11 @@
 --[[
+vehicles retrieval - mechanizm wylawiajacy pojazdy z wody
+
+@todo isElementInWater nie zawsze dziala dobrze po stronie serwera.
+Klienci wiedzący o aucie w wodzie powinni informować o tym serwer.
+
+@todo zamiast shuffle uzyć math.random - będzie znacznie szybsze
+
 @author Lukasz Biegaj <wielebny@bestplay.pl>
 @author Karer <karer.programmer@gmail.com>
 @author WUBE <wube@lss-rp.pl>
@@ -9,13 +16,7 @@
 ]]--
 
 
-
--- vehicles retrieval
--- mechanizm wylawiajacy pojazdy z wody
-
--- 2508.15,-2629.45,13.65,91.2
-
---local cs=createColSphere(2625.45,-2231.66,13.55,7)
+-- colshape w ktorym beda pojawiac sie pojazdy
 local cs=createColSphere(2747.16,-2277.38,20.82, 4)
 
 function shuffle(t)
@@ -32,7 +33,7 @@ function shuffle(t)
 end
 
 local function vr()
-
+	-- jesli jakis pojazd jest w punkcie wydawania, to nic nie robimy
 	if (#getElementsWithinColShape(cs,"vehicle")>0) then
 		return
 	end
@@ -41,7 +42,7 @@ local function vr()
 
 	if (#pojazdy<1) then return end
 
-
+	-- tworzymy liste pojazdow w wodzie
 	local wybrane={}
 	for _,pojazd in ipairs(pojazdy) do
 		if isElementInWater(pojazd) and not getVehicleController(pojazd) then
@@ -52,21 +53,17 @@ local function vr()
 		end
 	end
 	if (#wybrane<1) then return end
---	for i,v in ipairs(wybrane) do
---		local dbid=getElementData(v,"dbid")
---		outputDebugString("Pojazd " .. getElementModel(v) .. (isElementInWater(v) and "woda" or "nie") .. " dbid " .. dbid)
---	end
+
 	outputDebugString("Pojazdow w wodzie/pod mapa: " .. #wybrane)
 
+	-- tasujemy tą listę
 	shuffle(wybrane)
+	
+	-- przenosimy losowy pojazd w wybrane miejsce
 	local pojazd=wybrane[1]
---	local x,y,z=getElementPosition(pojazd)
---	setElementPosition(pojazd, 2625.45,-2231.66,15.55)
 	setElementPosition(pojazd, 2747.16,-2277.38,20.82)
 	setElementFrozen(pojazd,false)
---	local rx,ry,rz=getElementRotation(pojazd)
---	setElementRotation(pojazd, rx,ry,0)
-
 end
 
+-- uruchamiamy powyższy mechanizm co 35s
 setTimer(vr, 35000, 0)
