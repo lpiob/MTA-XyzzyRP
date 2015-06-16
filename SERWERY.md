@@ -26,6 +26,13 @@ XyzzyRP, który z czasem jest zastępowany autorskim kodem.
 
 
 
+## [Venturas-Gaming](http://vgaming.esy.es/)
+
+Polski serwer RPG używający większości skryptów od XyzzyRP, 
+między innymi integracja bazy danych, wiele komend, system frakcji, system pojazdów oraz większość podstawowych skryptów.
+XyzzyRP wspomógł w tworzeniu serwera oraz w tworzeniu autorskich skryptów vGaming.
+
+
 
 
 Jeśli korzystasz z tego kodu i chesz się tym pochwalić, zmodyfikuj ten plik i dopisz swój serwer.
