@@ -168,8 +168,6 @@ end
 --setTimer(drzewaSpool, 120000,0)
 setTimer(drzewaSpool, 41000,0)
 
-addCommandHandler("drzewaspool", drzewaSpool)
-
 -- triggerServerEvent("scieteDrzewo", scinane_drzewo)
 addEvent("scieteDrzewo", true)
 addEventHandler("scieteDrzewo", resourceRoot, function()
