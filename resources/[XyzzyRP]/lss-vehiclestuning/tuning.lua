@@ -276,9 +276,3 @@ setElementData(v, "vehicle:folia", false)
 		end
 	end
 end
-
-
-addCommandHandler("tuning", function(player,cmd,id)
-	reloadOneVehicleTuning(tonumber(id))
--- outputDebugString(getElementData(getPedOccupiedVehicle(player), "dbid"))
-end)
