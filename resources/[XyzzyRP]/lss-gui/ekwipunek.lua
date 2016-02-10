@@ -2290,20 +2290,6 @@ local function czyTaksowka(p)
 	return false
 end
 
-addCommandHandler("cleareq", function()
-	for i=1,28 do
-		eq_removeByIndex(i)
-	end
-	eq_sync()
-	eq_redraw()
-end, true, false)
-
-addCommandHandler("clearslot", function(cmd,slot)
-	eq_removeByIndex(tonumber(slot))
-	eq_sync()
-	eq_redraw()
-end, true, false)
-
 local contextMenu={element=nil,btns={}}
 
 function destroyContextMenu()
