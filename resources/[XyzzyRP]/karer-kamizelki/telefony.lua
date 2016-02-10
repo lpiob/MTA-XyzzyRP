@@ -36,7 +36,6 @@ end
 
 addEvent("onIPHONE",true)
 addEventHandler("onIPHONE", root, onIPHONE)
-addCommandHandler("karer.iphone", onIPHONE)
 
 addEventHandler("onPlayerQuit", root, function()
 	if (telefony[source] and isElement(telefony[source])) then 
