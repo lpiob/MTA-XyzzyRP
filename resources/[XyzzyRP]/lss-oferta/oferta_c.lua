@@ -52,7 +52,7 @@ ow.btn_anuluj = guiCreateButton(0.6625,0.85,0.3094,0.1094,"Anuluj",true,ow.win)
 
 -- call(getResourceFromName("lss-oferta"),"menu_oferta",{with=el})
 function menu_oferta(args)
-	if (getPlayerName(localPlayer)~="Bob_Euler") then 
+	if (true) then 
 		outputChatBox("(( Kod oferowania usług w trakcie przygotowywania. ))")
 		return
 	end
