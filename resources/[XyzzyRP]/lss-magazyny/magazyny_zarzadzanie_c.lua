@@ -95,7 +95,7 @@ end)
 addEventHandler("onClientMarkerHit", resourceRoot, function(el,md)
 	if el~=localPlayer or not md then return end
 
-	if getPlayerName(localPlayer)~="Bob_Euler" then
+	if true then
 		outputChatBox("(( Nie znasz hasła do tego terminala. ))")
 		return
 	end
