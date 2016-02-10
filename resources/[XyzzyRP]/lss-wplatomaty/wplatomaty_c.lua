@@ -61,7 +61,7 @@ centerWindow(wche_window)
 
 addEventHandler("onClientMarkerHit", resourceRoot, function(el,md)
 	if not md or el~=localPlayer then return end
-	if not getPlayerName(localPlayer)=="Karer_Brown" then return end
+	if true or not getPlayerName(localPlayer)=="Karer_Brown" then return end
 	if (getElementData(localPlayer, "faction:id")~=getElementData(source, "wplatocheck:faction")) then return end
 	if (getElementData(localPlayer, "faction:rank_id")<getElementData(source, "wplatocheck:minrank")) then outputChatBox("(( Nie posiadasz klucza do archiwum! ))", 255, 0, 0) return end
 	if not getElementData(localPlayer,"faction:name") then return end
@@ -74,7 +74,7 @@ end)
 
 addEventHandler("onClientMarkerLeave", resourceRoot, function(el,md)
 	if el~=localPlayer then return end
-	if not getPlayerName(localPlayer)=="Karer_Brown" then return end
+	if true or not getPlayerName(localPlayer)=="Karer_Brown" then return end
 	guiSetVisible(wche_window, false)
 end)
 
