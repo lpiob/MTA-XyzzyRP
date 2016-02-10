@@ -11,28 +11,19 @@ lss-admin: różne funkcje dla admina
 
 
 addCommandHandler("reloadskinyg", function(plr,cmd)
-  local uid=getElementData(plr,"auth:uid") or 0
-  if uid~=1748 then return end -- biedroneczka
-
 	restartResource(getResourceFromName("lss-skiny-co"))
 	outputChatBox("Przeladowano zasob lss-skiny-co", plr)
-end,false,false)
+end,true,false)
 
 addCommandHandler("reloadskinyp", function(plr,cmd)
-  local uid=getElementData(plr,"auth:uid") or 0
-  if uid~=1748 then return end -- biedroneczka
-
 	restartResource(getResourceFromName("lss-skiny-premium"))
 	outputChatBox("Przeladowano zasob lss-skiny-premium", plr)
-end,false,false)
-
+end,true,false)
 
 addCommandHandler("reloadbudynki", function(plr,cmd)
-  local uid=getElementData(plr,"auth:uid") or 0
-  if uid~=1748 then return end -- biedroneczka
 	restartResource(getResourceFromName("lss-budynki"))
 	outputChatBox("Przeladowano zasob lss-budynki", plr)
-end,false,false)
+end,true,false)
 
 --[[
 addCommandHandler("xzzdoQuakezzx", function(plr,cmd)
@@ -158,84 +149,84 @@ end,true,false)
 
 addCommandHandler("nocleg",function(plr,cmd)
     setElementPosition(plr,3520.95,3520.81,201.73)
-	setElementRotation(plr,0,0,0)
+    setElementRotation(plr,0,0,0)
     setElementInterior(plr,0)
     setElementDimension(plr,0)
 end,true,false)
 
 addCommandHandler("wm1",function(plr,cmd)
     setElementPosition(plr,1849.40,-1799.31,13.63)
-	setElementRotation(plr,0,0,0)
+    setElementRotation(plr,0,0,0)
     setElementInterior(plr,0)
     setElementDimension(plr,0)
 end,true,false)
 
 addCommandHandler("wm2",function(plr,cmd)
     setElementPosition(plr,628.42,-131.53,25.41)
-	setElementRotation(plr,0,0,0)
+    setElementRotation(plr,0,0,0)
     setElementInterior(plr,0)
     setElementDimension(plr,0)
 end,true,false)
 
 addCommandHandler("wm3",function(plr,cmd)
     setElementPosition(plr,2308.97,-144.85,26.49)
-	setElementRotation(plr,0,0,180)
+    setElementRotation(plr,0,0,180)
     setElementInterior(plr,0)
     setElementDimension(plr,0)
 end,true,false)
 
 addCommandHandler("wm4",function(plr,cmd)
     setElementPosition(plr,1207.01,256.58,19.62)
-	setElementRotation(plr,0,0,63)
+    setElementRotation(plr,0,0,63)
     setElementInterior(plr,0)
     setElementDimension(plr,0)
 end,true,false)
 
 addCommandHandler("wm5",function(plr,cmd)
     setElementPosition(plr,93.58,-165.01,1.63)
-	setElementRotation(plr,0,0,180)
+    setElementRotation(plr,0,0,180)
     setElementInterior(plr,0)
     setElementDimension(plr,0)
 end,true,false)
 
 addCommandHandler("port",function(plr,cmd)
     setElementPosition(plr,2475.56,-2544.23,13.66)
-	setElementRotation(plr,0,0,180)
+    setElementRotation(plr,0,0,180)
     setElementInterior(plr,0)
     setElementDimension(plr,0)
 end,true,false)
 
 addCommandHandler("palamino",function(plr,cmd)
     setElementPosition(plr,2386.31,-1.82,26.48)
-	setElementRotation(plr,0,0,180)
+    setElementRotation(plr,0,0,180)
     setElementInterior(plr,0)
     setElementDimension(plr,0)
 end,true,false)
 
 addCommandHandler("blueberry",function(plr,cmd)
     setElementPosition(plr,140.43,-113.11,1.58)
-	setElementRotation(plr,0,0,180)
+    setElementRotation(plr,0,0,180)
     setElementInterior(plr,0)
     setElementDimension(plr,0)
 end,true,false)
 
 addCommandHandler("montgomery",function(plr,cmd)
     setElementPosition(plr,1285.30,259.89,19.55)
-	setElementRotation(plr,0,0,180)
+    setElementRotation(plr,0,0,180)
     setElementInterior(plr,0)
     setElementDimension(plr,0)
 end,true,false)
 
 addCommandHandler("sm",function(plr,cmd)
     setElementPosition(plr,729.59,-570.26,16.34)
-	setElementRotation(plr,0,0,180)
+    setElementRotation(plr,0,0,180)
     setElementInterior(plr,0)
     setElementDimension(plr,0)
 end,true,false)
 
 addCommandHandler("um",function(plr,cmd)
     setElementPosition(plr,1479.69,-1708.54,13.36)
-	setElementRotation(plr,0,0,180)
+    setElementRotation(plr,0,0,180)
     setElementInterior(plr,0)
     setElementDimension(plr,0)
 end,true,false)
@@ -514,9 +505,6 @@ addCommandHandler( "thru", cmd_thru, true, false )
 
 
 function cmd_dajmi(plr,cmd,itemid,count,subtype)
-  local uid=getElementData(localPlayer, "auth:uid") or 0
-  if uid==85 then return end
-
   if not itemid then
 		outputChatBox("Uzyj: /dajmi <id przedmiotu> [ilosc] [podtyp]", plr)
 		outputChatBox("Pelna lista przedmiotow na forum w dziale administracji", plr)
