@@ -2331,7 +2331,7 @@ function showContextMenu(el,x,y)
 
 	if (getElementType(el)=="object") then
 
-	  if (getPlayerName(localPlayer)=="Karer_Brown" and (getElementModel(el)==1727 or getElementModel(el)==1364)) then
+	  if false and (getPlayerName(localPlayer)=="Karer_Brown" and (getElementModel(el)==1727 or getElementModel(el)==1364)) then
 
 			i=i+1
 			contextMenu.btns[i]={}
