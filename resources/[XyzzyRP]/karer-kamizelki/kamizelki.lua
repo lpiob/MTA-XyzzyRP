@@ -37,7 +37,6 @@ end
 
 addEvent("onKamizelkaPD",true)
 addEventHandler("onKamizelkaPD", root, onKamizelkaPD)
-addCommandHandler("karer.kamizelkapd", onKamizelkaPD)
 
 addEventHandler("onPlayerQuit", root, function()
 	if (kamizelkiPD[source] and isElement(kamizelkiPD[source])) then 
