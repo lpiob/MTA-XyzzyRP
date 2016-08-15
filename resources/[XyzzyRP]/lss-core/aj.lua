@@ -78,7 +78,7 @@ function aj_process()
 	    exports.DB:zapytanie(query)
 	    if (aj<=0) then
 		outputChatBox("Twój AJ się skończył, możesz opuścić więzienie.", v, 255,0,0,true)
-		removeElementData(v,"kary_blokada_aj")
+		removeElementData(v,"kary:blokada_aj")
 	    end
 	end
 --	end
