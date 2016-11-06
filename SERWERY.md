@@ -19,11 +19,4 @@ serwera Polski Realny Serwer.
 
 
 
-## [Los Angeles Stories - Role Play](http://las-rp.pl/)
-
-Polski serwer RolePlay wykorzystujący znaczną część skryptów gamemodu
-XyzzyRP, który z czasem jest zastępowany autorskim kodem.
-
-
-
 Jeśli korzystasz z tego kodu i chesz się tym pochwalić, zmodyfikuj ten plik i dopisz swój serwer.
