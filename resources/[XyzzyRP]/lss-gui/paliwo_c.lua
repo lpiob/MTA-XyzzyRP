@@ -6,6 +6,9 @@
 @license Dual GPLv2/MIT
 @package MTA-XyzzyRP
 @link https://github.com/lpiob/MTA-XyzzyRP GitHub
+
+@todo 	zużycie pasma generowane przez ten skrypt rośnie wykładniczo w stosunku do ilości graczy na serwerze.
+	Skrypt wymaga optymalizacji dla większych ilości graczy.
 ]]--
 
 
