@@ -12,8 +12,6 @@ local ITEMID_zeton=3
 local legal="Cards images are (c) CC-BY-SA by David Bellot http://www.eludication.org/playingcards.html"
 
 local talia_cala={
---back-blue-75-2.png
---back-red-75-2.png
 --  {	nazwa pliku, wartosc karty (1 dla asa - ale mozliwa wartosc to rowniez 11), blue }
     {"karty/clubs-10-75.png", 10, true},
     {"karty/clubs-2-75.png", 2, true},
@@ -54,8 +52,6 @@ local talia_cala={
     {"karty/hearts-j-75.png", 10},
     {"karty/hearts-q-75.png", 10},
     {"karty/hearts-k-75.png", 10},    
---joker-b-75.png
---joker-r-75.png
     {"karty/spades-10-75.png", 10,true},
     {"karty/spades-2-75.png", 2,true},
     {"karty/spades-3-75.png", 3,true},
@@ -94,7 +90,9 @@ guiSetVisible(gui_karta, false)
 guiSetVisible(gui_pass, false)
 
 function blackjack_init()
-    talia_gry=talia_cala
+	for k,v in ipairs(talia_cala) do
+    	table.insert(talia_gry, v)
+	end
     shuffle(talia_gry)
     karty_widoczne=false
 
@@ -245,20 +243,19 @@ function blackjack_pass()
 	karty_widoczne=true
         guiSetVisible(gui_karta, false)
         guiSetVisible(gui_pass, false)
-	triggerEvent("onCaptionedEvent", root, "Przegrałeś/aś!", 6)
-	setTimer(blackjack_finish, 4000, 1)
-	return
+		triggerEvent("onCaptionedEvent", root, "Przegrałeś/aś!", 6)
+		setTimer(blackjack_finish, 4000, 1)
+		return
     else
---	while (suma_krupier<=suma_gracz and #karty_krupiera<7) do
-	while (suma_krupier<21 and #karty_krupiera<7) do
+		while (suma_krupier<21 and #karty_krupiera<7) do
 		-- krupier dobiera karte
-		local karta
+			local karta
 	        karta=table.remove(talia_gry,1)
 	        table.insert(karty_krupiera,karta)
-		suma_krupier=blackjack_calculateValue(karty_krupiera)
-	end
-	blackjack_verify()
-	return
+			suma_krupier=blackjack_calculateValue(karty_krupiera)
+		end
+		blackjack_verify()
+		return
     end
 end
 
@@ -278,8 +275,8 @@ function menu_blackjack(argumenty)
 	if (guiGetVisible(gui_karta) or guiGetVisible(gui_pass) or isElementFrozen(localPlayer)) then return end
     -- todo kojarzenie krupiera, sprawdzanie odleglosci, sprawdzanie czy stol nie jest zajety
     if (not exports["lss-gui"]:eq_takeItem(ITEMID_zeton, 100)) then
-	triggerEvent("onCaptionedEvent", root, "Potrzebujesz 100 żetonów, żeby zagrać w Black Jacka.",3)
-	return
+		triggerEvent("onCaptionedEvent", root, "Potrzebujesz 100 żetonów, żeby zagrać w Black Jacka.",3)
+		return
     end
     blackjack_init()
 end
