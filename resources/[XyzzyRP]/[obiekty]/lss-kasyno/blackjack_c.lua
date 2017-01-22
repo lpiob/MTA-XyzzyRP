@@ -2,7 +2,7 @@
 Kasyno - blackjack
 
 @author Lukasz Biegaj <wielebny@bestplay.pl>
-@copyright 2011-2013 Lukasz Biegaj <wielebny@bestplay.pl>
+@author R3fr3Sh <https://github.com/R3fr3Sh>
 @license Dual GPLv2/MIT
 ]]--
 
