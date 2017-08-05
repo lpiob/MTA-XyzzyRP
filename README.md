@@ -26,6 +26,7 @@ W repozytorium znajdują się również fragmenty kodu z community, dystrybuowan
 
 Istnieje możliwość otrzymania tego kodu na innej licencji. Jeśli jesteś tym zainteresowany, skontaktuj się z nami.
 
+Warunkiem wykorzystania tego kodu jest NIE TWORZENIE serwera o nazwie LSS-RP. Wykorzystaj go swobodnie, ale swoje dzieło nazwij oryginalnie.
 
 Dlaczego ten kod został wydany
 ========================================================================
