@@ -17,6 +17,9 @@ Korzysta z wielu funkcji przeniesionych z XyzzyRP, niektóre prace.
 Gamemode bardzo pomógł podczas tworzenia pozostałych zasobów
 serwera Polski Realny Serwer.
 
-
+## [Master Real Life](mtasa://178.33.54.31:20800)
+Korzysta z podstawy XyzzyRP, 
+lecz posiada wiele autorskich skryptów stworzonych
+przez twórców serwera.
 
 Jeśli korzystasz z tego kodu i chesz się tym pochwalić, zmodyfikuj ten plik i dopisz swój serwer.
