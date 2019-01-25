@@ -8,7 +8,7 @@
 
 
 
-﻿local lastChange = 0
+local lastChange = 0
 
 local laser = {}
 
