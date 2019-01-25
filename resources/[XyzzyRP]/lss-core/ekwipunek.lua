@@ -234,7 +234,7 @@ addEventHandler("onPlayerRequestEQSync", root, function()
 	
 	if (eq ~= nil) then	
 		eqs = split(eq.eq,",")
-        outputChatBox("EQ " .. eq.eq)
+                --outputChatBox("EQ " .. eq.eq)
 		setElementData(source,"EQ", eqs)
 		setElementData(source,"EQ:synced", true)
 	end
