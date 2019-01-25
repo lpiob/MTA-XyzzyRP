@@ -1289,11 +1289,17 @@ function eq_btnclick(button,state)
           return
         end
         if (last_ctrl_clicked_btn and last_ctrl_clicked_btn~=btnidx and getTickCount()-last_clicked_time<6000) then
-          outputDebugString("zzz")
-          outputDebugString("zamieniamy "..btnidx .. " z " .. last_ctrl_clicked_btn)
-          -- zamieniamy itemy miejscami
-
-          EQ[btnidx].itemid, EQ[btnidx].count, EQ[btnidx].subtype,           EQ[last_ctrl_clicked_btn].itemid, EQ[last_ctrl_clicked_btn].count, EQ[last_ctrl_clicked_btn].subtype =           EQ[last_ctrl_clicked_btn].itemid, EQ[last_ctrl_clicked_btn].count, EQ[last_ctrl_clicked_btn].subtype,          EQ[btnidx].itemid, EQ[btnidx].count, EQ[btnidx].subtype
+          -- pobranie danych przedmiotu ostatniego klikniętego slotu
+	  local itemid, count, subtype = EQ[last_ctrl_clicked_btn].itemid, EQ[last_ctrl_clicked_btn].count, EQ[last_ctrl_clicked_btn].subtype
+          -- ustawienie ostatniemu kilkniętemu slotowi danych z docelowego slota
+	  EQ[last_ctrl_clicked_btn].itemid = EQ[btnidx].itemid
+	  EQ[last_ctrl_clicked_btn].count = EQ[btnidx].count
+	  EQ[last_ctrl_clicked_btn].subtype = EQ[btnidx].subtype
+          -- ustawienie docelowemu slotowi danych z ostatnio klikniętego slota
+	  EQ[btnidx].itemid = itemid
+	  EQ[btnidx].count = count
+	  EQ[btnidx].subtype = subtype
+			
           eq_fillMetaInfo(EQ[btnidx])
           eq_fillMetaInfo(EQ[last_ctrl_clicked_btn])
           last_ctrl_clicked_btn=nil
