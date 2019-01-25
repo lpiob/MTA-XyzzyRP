@@ -18,26 +18,39 @@ end)
 
 addEvent("onZatrudnienieRequest", true)
 addEventHandler("onZatrudnienieRequest", root, function(fid, imie, nazwisko)
-    if (not fid or not imie or not nazwisko) then return end
-    imie=exports.DB:esc(imie)
-    nazwisko=exports.DB:esc(nazwisko)
-    local query=string.format("SELECT id FROM lss_characters WHERE imie='%s' AND nazwisko='%s' LIMIT 1", imie, nazwisko)
-    local dane=exports.DB:pobierzWyniki(query)
-    if (dane and dane.id) then
-	-- mamy gracza, sprawdzamy czy nie pracuje on juz w tej frakcji
-	query=string.format("SELECT 1 FROM lss_character_factions WHERE faction_id=%d AND character_id=%d", fid, dane.id)
-	if (exports.DB:pobierzWyniki(query)) then
-	    triggerClientEvent(source, "onZatrudnienieReply", resourceRoot, false, "Ta osoba jest już zatrudniona.")
-	    return
+	if (not fid or not imie or not nazwisko) then return end
+	local myFaction = getElementData(client, "faction:id")
+	if tonumber(myFaction) ~= tonumber(fid) then
+		outputDebugString("GRACZ O NICKU "..getPlayerName(client).." PRÓBOWAŁ DODAĆ KOGOŚ DO FRAKCJI, KTÓRA NIE JEST JEGO - PRAWDOPODOBNIE PRÓBA ZBUGOWANIA")
+		return
 	end
-	-- dopisujemy gracza do frakcji z najniższą rangą
-	query=string.format("INSERT INTO lss_character_factions SET character_id=%d,faction_id=%d,rank=1", dane.id, fid)
-	exports.DB:zapytanie(query)
-        triggerClientEvent(source, "onZatrudnienieReply", resourceRoot, true)
-    else
-        triggerClientEvent(source, "onZatrudnienieReply", resourceRoot, false, "Nie odnaleziono podanej osoby.")
-    end
-
+	local character = getElementData(client, "character")
+	if not character or not character.id then
+		return
+	end
+	local query = exports["DB2"]:pobierzWyniki("SELECT character_id FROM lss_character_factions WHERE faction_id = ? AND character_id = ? AND rank > 2 LIMIT 1", fid, character.id)
+	if not query or not query.character_id then
+		outputDebugString("GRACZ O NICKU "..getPlayerName(client).." PRÓBOWAŁ DODAĆ KOGOŚ DO FRAKCJI, KTÓRA NIE JEST JEGO - PRAWDOPODOBNIE PRÓBA ZBUGOWANIA")
+		return
+	end
+	imie=exports.DB:esc(imie)
+	nazwisko=exports.DB:esc(nazwisko)
+	local query=string.format("SELECT id FROM lss_characters WHERE imie='%s' AND nazwisko='%s' LIMIT 1", imie, nazwisko)
+	local dane=exports.DB:pobierzWyniki(query)
+	if (dane and dane.id) then
+		-- mamy gracza, sprawdzamy czy nie pracuje on juz w tej frakcji
+		query=string.format("SELECT 1 FROM lss_character_factions WHERE faction_id=%d AND character_id=%d", fid, dane.id)
+		if (exports.DB:pobierzWyniki(query)) then
+			triggerClientEvent(source, "onZatrudnienieReply", resourceRoot, false, "Ta osoba jest już zatrudniona.")
+			return
+		end
+		-- dopisujemy gracza do frakcji z najniższą rangą
+		query=string.format("INSERT INTO lss_character_factions SET character_id=%d,faction_id=%d,rank=1", dane.id, fid)
+		exports.DB:zapytanie(query)
+		triggerClientEvent(source, "onZatrudnienieReply", resourceRoot, true)
+	else
+		triggerClientEvent(source, "onZatrudnienieReply", resourceRoot, false, "Nie odnaleziono podanej osoby.")
+	end   
 end)
 
 addEvent("onZwolnienieRequest", true)
