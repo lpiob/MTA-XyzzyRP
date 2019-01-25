@@ -1309,12 +1309,16 @@ function eq_btnclick(button,state)
 
 	if (getKeyState("lctrl") and getKeyState("lshift")) then
 		if (not last_clicked_btn or last_clicked_btn~=btnidx) then
-			outputChatBox("Kliknij znowu (trzymająć lshift i lctrl) aby wyrzucić ten przedmiot z ekwipunku.",255,0,0,true)
+			outputChatBox("Kliknij znowu (trzymając lshift i lctrl) aby wyrzucić ten przedmiot z ekwipunku.",255,0,0,true)
 			last_clicked_btn=btnidx
 			return
 		end
 --		last_clicked_btn=nil
 --		outputChatBox   ("Wyrzucasz przedmiot.")
+		if EQ[btnidx].count%1 ~= 0 then
+		  outputChatBox("Nie możesz wyrzucić zbugowanego przedmiotu.",255,0,0,true)
+		  return	
+		end
 		triggerServerEvent("onItemDrop", localPlayer, EQ[btnidx].itemid, EQ[btnidx].subtype, EQ[btnidx].name)
 		eq_takeItem(EQ[btnidx].itemid, 1, EQ[btnidx].subtype)
         triggerServerEvent("broadcastCaptionedEvent", localPlayer, getPlayerName(localPlayer) .. " wyrzuca coś.", 3,15, true)
