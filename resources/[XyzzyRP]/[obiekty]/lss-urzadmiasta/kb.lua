@@ -133,7 +133,7 @@ addEventHandler("doPlayerBuyBuilding", resourceRoot, function(plr, numer,koszt)
   query=string.format("INSERT INTO lss_budynki_owners SET budynek_id=%d,character_id=%d", numer, c.id)
   exports.DB:zapytanie(query)
 
-  exports["lss-budynki"]:zaladujBudynek(bid)
+  exports["lss-budynki"]:zaladujBudynek(numer)
   takePlayerMoney(plr, koszt)
   triggerEvent("broadcastCaptionedEvent", plr, "Urzędnik odbiera pieniądze.", 5, 5, true)
   outputChatBox("Urzędnik mówi: gratuluje zakupu.", plr)
