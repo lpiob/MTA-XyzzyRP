@@ -11,6 +11,7 @@ Autorzy
 - Karer <karer.programmer@gmail.com>
 - Przemysław "RacheT" Kędziorek <rachet@pylife.pl>
 - Eryk "RootKiller" Dwornicki <rootkiller.programmer@gmail.com>
+- MrDadosz <https://github.com/MrDadosz>
 
 Licencja
 ========================================================================
