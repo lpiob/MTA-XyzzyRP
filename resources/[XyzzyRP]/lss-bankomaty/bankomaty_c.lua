@@ -195,7 +195,7 @@ addEventHandler("onClientPlayerSpawn", localPlayer, closeATMWin)
 addEventHandler("onClientGUIClick", bw.btn_wplac, function()
 	local kwota=tonumber(guiGetText(bw.edt1))
 
-	if not kwota or kwota<=0 then
+	if not kwota or kwota<=0 or kwota%1 ~= 0 then
 --		triggerEvent("onAnnouncement3", root, "Nieprawidłowa kwota wpłaty.", 4)
 		outputChatBox("Nieprawidłowa kwota wpłaty!", 255,0,0)
 		return
@@ -229,7 +229,7 @@ end, false)
 addEventHandler("onClientGUIClick", bw.btn_wyplac, function()
     if not tonumber(guiGetText(bw.edt2)) then return end
 	local kwota=tonumber(guiGetText(bw.edt2))
-	if not kwota or kwota<=0 then
+	if not kwota or kwota<=0 or kwota%1 ~= 0 then
 --		triggerEvent("onAnnouncement3", root, "Nieprawidłowa kwota wypłaty.", 4)
 		outputChatBox("Nieprawidłowa kwota wpłaty!", 255,0,0)
 		return
