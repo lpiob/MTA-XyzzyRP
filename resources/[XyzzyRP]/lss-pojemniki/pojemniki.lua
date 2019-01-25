@@ -169,13 +169,13 @@ addEventHandler("onContainerTransmit", root, function(p1, p2, poj)
   end
   -- przenosimy rzeczy z kontenera do eq gracza
   for i,v in ipairs(p2) do
-		if (v.itemid==-1 and v.count>0) then		-- gotowka
+		if (v.itemid==-1 and v.count>0 and v.count%1==0) then		-- gotowka
 		  if not insertItemToContainer(poj.id, v.itemid, -v.count, v.subtype, "Gotówka") then
 			outputChatBox("Wybrany przedmiot nie jest już dostępny", source, 255,0,0,true)
 			return
 		  end
 		  givePlayerMoney(source,v.count)
-		elseif (v.itemid>0 and v.count>0) then
+		elseif (v.itemid>0 and v.count>0 and v.count%1==0) then
 		  if not insertItemToContainer(poj.id, v.itemid, -v.count, v.subtype, v.name) then
 			outputChatBox("Wybrany przedmiot nie jest już dostępny", source, 255,0,0,true)
 			return
