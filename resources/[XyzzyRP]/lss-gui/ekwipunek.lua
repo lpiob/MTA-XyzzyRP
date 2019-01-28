@@ -1268,6 +1268,34 @@ function oipumEffect()
 	end
 end
 
+addEvent("switchClientItem", true)
+addEventHandler("switchClientItem", resourceRoot, function(last_ctrl_clicked_btn_temp, btnidx)
+	-- pobranie danych przedmiotu ostatniego klikniętego slotu
+	local itemid, count, subtype = EQ[last_ctrl_clicked_btn_temp].itemid, EQ[last_ctrl_clicked_btn_temp].count, EQ[last_ctrl_clicked_btn_temp].subtype
+	-- ustawienie ostatniemu kilkniętemu slotowi danych z docelowego slota
+	EQ[last_ctrl_clicked_btn_temp].itemid = EQ[btnidx].itemid
+	EQ[last_ctrl_clicked_btn_temp].count = EQ[btnidx].count
+	EQ[last_ctrl_clicked_btn_temp].subtype = EQ[btnidx].subtype
+	-- ustawienie docelowemu slotowi danych z ostatnio klikniętego slota
+	EQ[btnidx].itemid = itemid
+	EQ[btnidx].count = count
+	EQ[btnidx].subtype = subtype
+		
+	eq_fillMetaInfo(EQ[btnidx])
+	eq_fillMetaInfo(EQ[last_ctrl_clicked_btn_temp])
+	last_ctrl_clicked_btn=nil
+	eq_sync()
+	eq_redraw()
+	last_clicked_time=getTickCount()
+end)
+
+addEvent("dropClientItem", true)
+addEventHandler("dropClientItem", resourceRoot, function(btnidx)
+	triggerServerEvent("onItemDrop", localPlayer, EQ[btnidx].itemid, EQ[btnidx].subtype, EQ[btnidx].name)
+	eq_takeItem(EQ[btnidx].itemid, 1, EQ[btnidx].subtype)
+	triggerServerEvent("broadcastCaptionedEvent", localPlayer, getPlayerName(localPlayer) .. " wyrzuca coś.", 3,15, true)
+end)
+
 function eq_btnclick(button,state)
 	if (getElementHealth(localPlayer)==0) then return end
 	if (isPedDoingGangDriveby(localPlayer)) then panel_hide() return end
@@ -1289,17 +1317,8 @@ function eq_btnclick(button,state)
           return
         end
         if (last_ctrl_clicked_btn and last_ctrl_clicked_btn~=btnidx and getTickCount()-last_clicked_time<6000) then
-          outputDebugString("zzz")
-          outputDebugString("zamieniamy "..btnidx .. " z " .. last_ctrl_clicked_btn)
-          -- zamieniamy itemy miejscami
-
-          EQ[btnidx].itemid, EQ[btnidx].count, EQ[btnidx].subtype,           EQ[last_ctrl_clicked_btn].itemid, EQ[last_ctrl_clicked_btn].count, EQ[last_ctrl_clicked_btn].subtype =           EQ[last_ctrl_clicked_btn].itemid, EQ[last_ctrl_clicked_btn].count, EQ[last_ctrl_clicked_btn].subtype,          EQ[btnidx].itemid, EQ[btnidx].count, EQ[btnidx].subtype
-          eq_fillMetaInfo(EQ[btnidx])
-          eq_fillMetaInfo(EQ[last_ctrl_clicked_btn])
-          last_ctrl_clicked_btn=nil
-          eq_sync()
-          eq_redraw()
-          last_clicked_time=getTickCount()
+          -- przekierowanie przez serwer, aby nie dało bugować się przedmiotów po chwilowym odłączeniu internetu
+		  triggerServerEvent("switchServerItem", resourceRoot, last_ctrl_clicked_btn, btnidx)
         end
         return
     end
@@ -1309,15 +1328,15 @@ function eq_btnclick(button,state)
 
 	if (getKeyState("lctrl") and getKeyState("lshift")) then
 		if (not last_clicked_btn or last_clicked_btn~=btnidx) then
-			outputChatBox("Kliknij znowu (trzymająć lshift i lctrl) aby wyrzucić ten przedmiot z ekwipunku.",255,0,0,true)
+			outputChatBox("Kliknij znowu (trzymając lshift i lctrl) aby wyrzucić ten przedmiot z ekwipunku.",255,0,0,true)
 			last_clicked_btn=btnidx
 			return
 		end
---		last_clicked_btn=nil
---		outputChatBox   ("Wyrzucasz przedmiot.")
-		triggerServerEvent("onItemDrop", localPlayer, EQ[btnidx].itemid, EQ[btnidx].subtype, EQ[btnidx].name)
-		eq_takeItem(EQ[btnidx].itemid, 1, EQ[btnidx].subtype)
-        triggerServerEvent("broadcastCaptionedEvent", localPlayer, getPlayerName(localPlayer) .. " wyrzuca coś.", 3,15, true)
+		if EQ[btnidx].count%1 ~= 0 then
+		  outputChatBox("Nie możesz wyrzucić zbugowanego przedmiotu.",255,0,0,true)
+		  return	
+		end
+		triggerServerEvent("dropServerItem", resourceRoot, btnidx)
         return
     end
 
