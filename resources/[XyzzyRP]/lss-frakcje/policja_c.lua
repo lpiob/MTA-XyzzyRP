@@ -26,9 +26,6 @@ local function follow()
 	  return
 	end
 
---	setElementInterior(localPlayer, getElementInterior(dokogo))
---	setElementDimension(localPlayer, getElementDimension(dokogo))
-
 	if (getPedOccupiedVehicle(dokogo) and not getPedOccupiedVehicle(localPlayer)) or (getPedOccupiedVehicle(dokogo) and getPedOccupiedVehicle(localPlayer) and getPedOccupiedVehicle(dokogo) ~= getPedOccupiedVehicle(localPlayer)) then -- zakuwający jest w aucie a zakuwany nie / zawukający jest w aucie a zakuwany jest w innym
       if not checkLagTimer() then return end
 	  triggerServerEvent("onKajdankiWejsciePojazd", resourceRoot)
@@ -50,8 +47,6 @@ local function follow()
 	end
 	kat=(kat+180)%360
 
---	rx,ry,rz=getElementRotation(localPlayer)
---	setElementRotation(localPlayer, rx,ry,kat)
 	setPedRotation(localPlayer, kat)
 	local dist=getDistanceBetweenPoints3D(x,y,z,x2,y2,z2)
 	if (dist<1) then
@@ -75,12 +70,6 @@ local function follow()
 end
 
 
-
-
-
-
-----
-
 function menu_zakuj(args)
   local x,y,z=getElementPosition(localPlayer)
   local x2,y2,z2=getElementPosition(args.with)
@@ -102,12 +91,8 @@ addEventHandler("onKajdankiRozkuj", resourceRoot, function()
   triggerServerEvent("setPedAnimation", localPlayer)
 end)
 
--------------------------------
 
 local obecnie=getElementData(localPlayer, "kajdanki")
 if (obecnie and isElement(obecnie)) then
   addEventHandler("onClientPreRender", root, follow)
 end
-
-
-
