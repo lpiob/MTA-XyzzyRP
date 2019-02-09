@@ -125,6 +125,6 @@ addEventHandler("onClientGUIClick", kb2.btn_kup, function()
 	return
   end
   triggerServerEvent("doPlayerBuyBuilding", resourceRoot, localPlayer, ogladany_budynek.id, ogladany_budynek.koszt)
+  guiSetVisible(kb1.win, false)
   guiSetVisible(kb2.win, false)
-  guiSetvisible(kb2.win, false)
 end, false)
