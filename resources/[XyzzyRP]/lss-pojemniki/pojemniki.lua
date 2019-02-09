@@ -159,10 +159,10 @@ addEventHandler("onContainerTransmit", root, function(p1, p2, poj)
   -- sprawdzanie zawartosci kontenera po stronie serwera narazie sobie darujemy TODO
   -- zabieramy graczowi przedmioty i wrzucamy je do kontenera
   for i,v in ipairs(p1) do
-		if (v.itemid==-1 and v.count>0) then		-- gotowka
+		if (v.itemid==-1 and v.count>0 and v.count%1==0) then		-- gotowka
 		  takePlayerMoney(source,v.count)
 		  insertItemToContainer(poj.id, v.itemid, v.count, v.subtype, "Gotówka")
-		elseif (v.itemid>0 and v.count>0) then
+		elseif (v.itemid>0 and v.count>0 and v.count%1==0) then
 		  exports["lss-core"]:eq_takeItem(source,v.itemid, v.count, v.subtype)
 		  insertItemToContainer(poj.id, v.itemid, v.count, v.subtype, v.name)
 		end
