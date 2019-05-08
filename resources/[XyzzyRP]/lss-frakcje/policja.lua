@@ -34,14 +34,14 @@ addEventHandler("onKajdankiZakuj", resourceRoot, function(kto,kogo)
   triggerClientEvent(kogo, "onKajdankiRozkuj", resourceRoot)
   changeBinds(kogo, true)
   if isElement(kto) then
-    outputChatBox(getPlayerName(kto) .. " zdejmuje z Ciebie kajdanki.")
+    outputChatBox(getPlayerName(kto) .. " zdejmuje z Ciebie kajdanki.", kogo)
   end
   return
   end
   setElementData(kogo, "kajdanki", kto)
   triggerClientEvent(kogo, "onKajdankiZakuj", resourceRoot)
   changeBinds(kogo, false)
-  outputChatBox(getPlayerName(kto) .. " zakuwa Cię w kajdanki.")
+  outputChatBox(getPlayerName(kto) .. " zakuwa Cię w kajdanki.", kogo)
 end)
 
 addEvent("onKajdankiZmiana", true)
