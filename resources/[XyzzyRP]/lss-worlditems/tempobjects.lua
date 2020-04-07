@@ -33,6 +33,7 @@ local function removeOldObjects()
 		local ra=getElementData(v,"removeAfter")
 		if ra and getTickCount()/1000>ra then
 			destroyElement(getElementData(v, "item:text"))
+			destroyElement(getElementData(v, "colshape"))
 			destroyElement(v)
 		end
 	end
@@ -245,6 +246,7 @@ addEventHandler("onItemDrop", getRootElement(), function(id, subtype, nazwa, not
 	setElementData(object, "item:subtype", subtype)
 	setElementData(object, "item:ilosc", 1)
 	setElementData(object, "item:nazwa", nazwa)
+	setElementData(object, "colshape", shape)
 	if not notRemoveAfter then
 		setElementData(object,'removeAfter', math.floor((getTickCount()+(ttl or 60*1000*15))/1000),false)
 	end
@@ -282,6 +284,7 @@ addEventHandler("onItemPickup", getRootElement(), function(obj)
 		triggerEvent("broadcastCaptionedEvent", source, getPlayerName(source) .. " podnosi coś.", 5, 15, true)
 		setTimer(function(obj, plr)
 			destroyElement(getElementData(obj, "item:text"))
+			destroyElement(getElementData(obj, "colshape"))
 			destroyElement(obj)
 			setPedAnimation(plr)
 		end, 2900, 1, obj, source)
