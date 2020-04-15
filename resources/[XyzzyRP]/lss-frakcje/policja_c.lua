@@ -40,6 +40,9 @@ local function follow()
 --	rx,ry,rz=getElementRotation(localPlayer)
 --	setElementRotation(localPlayer, rx,ry,kat)
 	setPedRotation(localPlayer, kat)
+	if getPedAnimation(localPlayer) then
+		setPedAnimation(localPlayer)
+	end
 	local dist=getDistanceBetweenPoints3D(x,y,z,x2,y2,z2)
 	if (dist<1) then
 		setControlState("forwards", false)
