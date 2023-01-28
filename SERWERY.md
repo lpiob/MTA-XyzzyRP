@@ -1,9 +1,9 @@
 # Serwery korzystające z kodu XyzzyRP
 
 
-## [Play Your Life](http://pylife.pl/)
+## Play Your Life
 
-Największy polski serwer RPG. Korzysta z wielu szkieletowych funkcji 
+Zamknięty już były njwiększy polski serwer RPG. Korzystał z wielu szkieletowych funkcji 
 przeniesionych z kodu XyzzyRP bądz z serwera BestPlay. Bezpośrednio
 z XyzzyRP wykorzystane zostały takie elementy jak system pojazdów,
 komendy administracyjne, integracja z bazą danych (DB2), niektóre
