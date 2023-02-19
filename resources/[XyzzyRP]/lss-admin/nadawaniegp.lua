@@ -65,6 +65,19 @@ addEventHandler("doNadajGP", resourceRoot, function(id_postaci,powod,ilosc)
 			end
 		end
 	end
+	if (auid or 0)~=2 then
+--	do -- sprawdzenie czy supporter nie przekroczyl limitu tygodniowego punktow GP
+		local lmt=exports.DB2:pobierzWyniki("select IFNULL(sum(amount),0) suma from lss_achievements_history where given_by=? AND timediff(now(),ts)<'168:00:00';", auid)
+		if lmt and lmt.suma then
+			if tonumber(lmt.suma)>=GP_PER_S_WEEK then
+				outputChatBox("Wydałeś/as już maksymalną ilość punktów GP na tydzień.", client)
+				return
+			elseif tonumber(lmt.suma)+ilosc>GP_PER_S_WEEK then
+				outputChatBox("Nie masz dostępnych aż tylu punktów GP, obecnie możesz dać maksymalnie "..(GP_PER_S_WEEK-tonumber(lmt.suma)), client)
+				return
+			end
+		end
+	end
 	if tonumber(playerdata.id)==tonumber(auid) and auid~=2 then
 		outputChatBox("Nie mozesz dac punktów sobie.", client)
 		return
