@@ -2,28 +2,38 @@
 @author Lukasz Biegaj <wielebny@bestplay.pl>
 @author Karer <karer.programmer@gmail.com>
 @author WUBE <wube@lss-rp.pl>
+@author MrDadosz <mrdadosz@gmail.com>
 @copyright 2011-2013 Lukasz Biegaj <wielebny@bestplay.pl>
 @license Dual GPLv2/MIT
 @package MTA-XyzzyRP
 @link https://github.com/lpiob/MTA-XyzzyRP GitHub
 ]]--
+local lagTimer
+
+local function checkLagTimer()
+  if isTimer(lagTimer) then
+	return false
+  end
+  lagTimer = setTimer(function() end, 1000, 1)
+  return true
+end
 
 local function follow()
 	local dokogo=getElementData(localPlayer,"kajdanki")
 	if (not dokogo or not isElement(dokogo)) then
-	  setElementData(localPlayer,"kajdanki", nil)
-	  removeEventHandler("onClientPreRender", root, follow)
-	  triggerServerEvent("setPedAnimation", localPlayer)
+      triggerEvent("onKajdankiRozkuj", localPlayer)
+	  triggerServerEvent("onKajdankiZakuj", resourceRoot, nil, localPlayer)
 	  return
 	end
 
---	setElementInterior(localPlayer, getElementInterior(dokogo))
---	setElementDimension(localPlayer, getElementDimension(dokogo))
-
-	if (getPedOccupiedVehicle(dokogo) or getElementInterior(dokogo)~=getElementInterior(localPlayer) or getElementDimension(dokogo)~=getElementDimension(localPlayer)) then
-	  setElementData(localPlayer,"kajdanki", nil)
-	  removeEventHandler("onClientPreRender", root, follow)
-	  triggerServerEvent("setPedAnimation", localPlayer)
+	if (getPedOccupiedVehicle(dokogo) and not getPedOccupiedVehicle(localPlayer)) or (getPedOccupiedVehicle(dokogo) and getPedOccupiedVehicle(localPlayer) and getPedOccupiedVehicle(dokogo) ~= getPedOccupiedVehicle(localPlayer)) then -- zakuwający jest w aucie a zakuwany nie / zawukający jest w aucie a zakuwany jest w innym
+      if not checkLagTimer() then return end
+	  triggerServerEvent("onKajdankiWejsciePojazd", resourceRoot)
+	elseif (not getPedOccupiedVehicle(dokogo) and getPedOccupiedVehicle(localPlayer)) then -- zakuwający wyszedł z pojazdu
+      triggerServerEvent("onKajdankiWyjsciePojazd", resourceRoot)
+	elseif getElementInterior(dokogo)~=getElementInterior(localPlayer) or getElementDimension(dokogo)~=getElementDimension(localPlayer) then
+	  if not checkLagTimer() then return end
+	  triggerServerEvent("onKajdankiZmiana", resourceRoot)
 	  return
 	end
 
@@ -37,8 +47,6 @@ local function follow()
 	end
 	kat=(kat+180)%360
 
---	rx,ry,rz=getElementRotation(localPlayer)
---	setElementRotation(localPlayer, rx,ry,kat)
 	setPedRotation(localPlayer, kat)
 	local dist=getDistanceBetweenPoints3D(x,y,z,x2,y2,z2)
 	if (dist<1) then
@@ -62,12 +70,6 @@ local function follow()
 end
 
 
-
-
-
-
-----
-
 function menu_zakuj(args)
   local x,y,z=getElementPosition(localPlayer)
   local x2,y2,z2=getElementPosition(args.with)
@@ -79,27 +81,18 @@ function menu_zakuj(args)
 end
 
 addEvent("onKajdankiZakuj", true)
-addEventHandler("onKajdankiZakuj", resourceRoot, function(kto)
-  local obecnie=getElementData(localPlayer, "kajdanki")
-  if (obecnie and obecnie==kto) then
-	  setElementData(localPlayer,"kajdanki", nil)
-	  removeEventHandler("onClientPreRender", root, follow)
-	  triggerServerEvent("setPedAnimation", localPlayer)
-	  outputChatBox(getPlayerName(kto) .. " zdejmuje z Ciebie kajdanki.")
-	return
-  end
-  outputChatBox(getPlayerName(kto) .. " zakuwa Cię w kajdanki.")
-  setElementData(localPlayer,"kajdanki", kto)
+addEventHandler("onKajdankiZakuj", resourceRoot, function()
   addEventHandler("onClientPreRender", root, follow)
 end)
 
--------------------------------
+addEvent("onKajdankiRozkuj", true)
+addEventHandler("onKajdankiRozkuj", resourceRoot, function()
+  removeEventHandler("onClientPreRender", root, follow)
+  triggerServerEvent("setPedAnimation", localPlayer)
+end)
+
 
 local obecnie=getElementData(localPlayer, "kajdanki")
 if (obecnie and isElement(obecnie)) then
   addEventHandler("onClientPreRender", root, follow)
-
 end
-
-
-
