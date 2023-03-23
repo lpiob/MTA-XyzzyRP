@@ -18,7 +18,15 @@ function findRotation(x1,y1,x2,y2)
  
 end
 
+addEvent("switchServerItem", true)
+addEventHandler("switchServerItem", resourceRoot, function(last_ctrl_clicked_btn, btnidx)
+	triggerClientEvent(client, "switchClientItem", resourceRoot, last_ctrl_clicked_btn, btnidx)
+end)
 
+addEvent("dropServerItem", true)
+addEventHandler("dropServerItem", resourceRoot, function(btnidx)
+	triggerClientEvent(client, "dropClientItem", resourceRoot, btnidx)
+end)
 
 addEvent("setPedFightingStyler", true)
 addEventHandler("setPedFightingStyler", getRootElement(), function(i)
