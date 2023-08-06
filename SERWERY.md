@@ -27,6 +27,9 @@ Serwer korzystający z XyzzyRP przerobionego na serwer RPG.
 ## [New Real Life](mtasa://193.70.126.129:20000)
 Serwer korzystający z XyzzyRP przerobionego na serwer RPG.
 
+## [Play Your Life V3](https://pylifemta.pl/)
 
+Fanowska reaktywacja serwera PYL. 
+Korzysta z wielu funkcji przeniesionych z kodu XyzzyRP takie jak System pogody, komendy administracyjne, osiągnięcia, scoreboard, bankomaty i wiele więcej.
 
 Jeśli korzystasz z tego kodu i chesz się tym pochwalić, zmodyfikuj ten plik i dopisz swój serwer.
